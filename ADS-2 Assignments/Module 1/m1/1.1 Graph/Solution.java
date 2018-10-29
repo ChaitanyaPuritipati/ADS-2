@@ -26,6 +26,7 @@ class AdjacencyMatrix implements Graph {
 	}
 	public void addEdge(int v, int w) {
 		adjmatrix[v][w] = 1;
+		adjmatrix[w][v] = 1;
 		edgenum++;
 	}
 	public boolean hasEdge(int v, int w) {
