@@ -25,9 +25,9 @@ class AdjacencyList implements Graph {
 		return this.edgenum;
 	}
 	public void addEdge(int v, int w) {
-		if (v == w) {
-			return;
-		}
+		// if (v == w) {
+		// 	return;
+		// }
 		bags[v].add(w);
 		bags[w].add(v);
 		edgenum++;
