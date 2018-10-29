@@ -29,8 +29,8 @@ class AdjacencyList implements Graph {
 		edgenum++;
 	}
 	public boolean hasEdge(int v, int w) {
+		System.out.println(bags[v].size() + " size");
 		for (Integer eachval : bags[v]) {
-			System.out.println(eachval);
 			if (eachval == w) {
 				return true;
 			}
