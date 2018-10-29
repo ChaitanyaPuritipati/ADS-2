@@ -127,7 +127,7 @@ class Solution {
 
 			for (int j = 0; j < vertexnum; j++) {
 				String str = "";
-				if(listobj.adj(j) == null) {
+				if (listobj.E() == 0) {
 					break;
 				}
 				str = str + schsobj.get(j) + ": ";
