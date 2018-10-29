@@ -13,6 +13,9 @@ class AdjacencyList implements Graph {
 	AdjacencyList(int vertex) {
 		this.vertexval = vertex;
 		bags = (Bag<Integer>[]) new Bag[vertex];
+		for (int l = 0; l < vertex; l++) {
+			bags[l] = new Bag();
+		}
 		this.edgenum = 0;
 	}
 	public int V() {
@@ -22,12 +25,11 @@ class AdjacencyList implements Graph {
 		return this.edgenum;
 	}
 	public void addEdge(int v, int w) {
-		// if (v == w || hasEdge(v, w)) {
-		// 	return;
-		// }
-		System.out.println(bags[v]);
+		if (v == w || hasEdge(v, w)) {
+			return;
+		}
 		bags[v].add(w);
-		System.out.println(bags[v].size() + " size");
+		bags[w].add(v);
 		edgenum++;
 	}
 	public boolean hasEdge(int v, int w) {
