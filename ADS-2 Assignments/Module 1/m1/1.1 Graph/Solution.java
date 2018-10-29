@@ -30,6 +30,7 @@ class AdjacencyList implements Graph {
 	}
 	public boolean hasEdge(int v, int w) {
 		for (Integer eachval : bags[v]) {
+			System.out.println(eachval);
 			if (eachval == w) {
 				return true;
 			}

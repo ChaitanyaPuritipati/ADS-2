@@ -19,7 +19,7 @@ Your Output:
 Exception in thread "main" java.lang.NullPointerException
 	at AdjacencyList.hasEdge(Solution.java:32)
 	at AdjacencyList.addEdge(Solution.java:25)
-	at Solution.main(Solution.java:120)
+	at Solution.main(Solution.java:121)
 ----------------------------------------
 
 ########## Testcase 1: Passed ##########
@@ -100,7 +100,7 @@ Your Output:
 Exception in thread "main" java.lang.NullPointerException
 	at AdjacencyList.hasEdge(Solution.java:32)
 	at AdjacencyList.addEdge(Solution.java:25)
-	at Solution.main(Solution.java:120)
+	at Solution.main(Solution.java:121)
 ----------------------------------------
 
 ########## Testcase 3: Passed ##########
@@ -192,8 +192,8 @@ Your Output:
 1 vertices, 0 edges
 No edges
 Exception in thread "main" java.lang.NullPointerException
-	at AdjacencyList.adj(Solution.java:41)
-	at Solution.main(Solution.java:126)
+	at AdjacencyList.adj(Solution.java:42)
+	at Solution.main(Solution.java:127)
 ----------------------------------------
 
 ########## Testcase 5: Passed ##########
