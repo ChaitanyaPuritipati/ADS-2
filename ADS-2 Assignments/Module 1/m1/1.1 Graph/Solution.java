@@ -80,7 +80,7 @@ class AdjacencyList implements Graph {
     }
     /**
      * { function for number of edges }.
-     *
+     *Complexity: O(1)
      * @return     { description_of_the_return_value }
      */
     public int numberofEdges() {
@@ -88,7 +88,7 @@ class AdjacencyList implements Graph {
     }
     /**
      * Adds an edge.
-     *
+     *Complexity: O(1)
      * @param      v     { parameter_description }
      * @param      w     { parameter_description }
      */
@@ -102,7 +102,7 @@ class AdjacencyList implements Graph {
     }
     /**
      * Determines if it has edge.
-     *
+     *Complexity: O(degree(v))
      * @param      v     { parameter_description }
      * @param      w     { parameter_description }
      *
@@ -118,7 +118,7 @@ class AdjacencyList implements Graph {
     }
     /**
      * { function for Iterator }.
-     *
+     *O(degree(v))
      * @param      v     { parameter_description }
      *
      * @return     { description_of_the_return_value }
@@ -132,7 +132,7 @@ class AdjacencyList implements Graph {
     }
     /**
      * Returns a string representation of the object.
-     *
+     *Complexity: O(1)
      * @return     String representation of the object.
      */
     public String toString() {
@@ -175,7 +175,7 @@ class AdjacencyMatrix implements Graph {
     }
     /**
      * { function for number of vertices }.
-     *
+     *Complexity: O(1)
      * @return     { description_of_the_return_value }
      */
     public int numberofVertices() {
@@ -183,7 +183,7 @@ class AdjacencyMatrix implements Graph {
     }
     /**
      * { function for number of edges }.
-     *
+     *Complexity: O(1)
      * @return     { description_of_the_return_value }
      */
     public int numberofEdges() {
@@ -191,7 +191,7 @@ class AdjacencyMatrix implements Graph {
     }
     /**
      * Adds an edge.
-     *
+     *Complexity: O(1)
      * @param      v     { parameter_description }
      * @param      w     { parameter_description }
      */
@@ -205,7 +205,7 @@ class AdjacencyMatrix implements Graph {
     }
     /**
      * Determines if it has edge.
-     *
+     *Complexity: O(1)
      * @param      v     { parameter_description }
      * @param      w     { parameter_description }
      *
@@ -226,7 +226,7 @@ class AdjacencyMatrix implements Graph {
     }
     /**
      * Returns a string representation of the object.
-     *
+     *Complexity: O(N)
      * @return     String representation of the object.
      */
     public String toString() {
