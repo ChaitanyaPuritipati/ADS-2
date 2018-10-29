@@ -26,6 +26,7 @@ class AdjacencyList implements Graph {
 		// 	return;
 		// }
 		System.out.println(bags[v]);
+		bags[v].add(w);
 		System.out.println(bags[v].size() + " size");
 		edgenum++;
 	}

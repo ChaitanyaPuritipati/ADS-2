@@ -19,7 +19,7 @@ Your Output:
 null
 Exception in thread "main" java.lang.NullPointerException
 	at AdjacencyList.addEdge(Solution.java:29)
-	at Solution.main(Solution.java:121)
+	at Solution.main(Solution.java:122)
 ----------------------------------------
 
 ########## Testcase 1: Passed ##########
@@ -100,7 +100,7 @@ Your Output:
 null
 Exception in thread "main" java.lang.NullPointerException
 	at AdjacencyList.addEdge(Solution.java:29)
-	at Solution.main(Solution.java:121)
+	at Solution.main(Solution.java:122)
 ----------------------------------------
 
 ########## Testcase 3: Passed ##########
@@ -192,7 +192,7 @@ Your Output:
 null
 Exception in thread "main" java.lang.NullPointerException
 	at AdjacencyList.addEdge(Solution.java:29)
-	at Solution.main(Solution.java:121)
+	at Solution.main(Solution.java:122)
 ----------------------------------------
 
 ########## Testcase 5: Passed ##########
