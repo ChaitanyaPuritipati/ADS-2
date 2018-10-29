@@ -110,12 +110,6 @@ class Solution {
 		int vertexnum = Integer.parseInt(scan.nextLine());
 		int edgenum = Integer.parseInt(scan.nextLine());
 		String[] placenames = scan.nextLine().split(",");
-		// SeparateChainingHashST<Integer, String> schsobj = new SeparateChainingHashST<>();
-		// int count = 0;
-		// for (String eachname : placenames) {
-		// 	schsobj.put(count, eachname);
-		// 	count++;
-		// }
 		switch (lineone) {
 		case "List":
 			AdjacencyList listobj = new AdjacencyList(vertexnum);
