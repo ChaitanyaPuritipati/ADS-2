@@ -68,7 +68,8 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 1\m1\1.1 Graph\Solution.java:49:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 1\m1\1.1 Graph\Solution.java:50:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 1\m1\1.1 Graph\Solution.java:50:33: Parameter args should be final. [FinalParameters]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 1\m1\1.1 Graph\Solution.java:55: switch without "default" clause. [MissingSwitchDefault]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 1\m1\1.1 Graph\Solution.java:60: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 1\m1\1.1 Graph\Solution.java:56: switch without "default" clause. [MissingSwitchDefault]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 1\m1\1.1 Graph\Solution.java:61: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 1\m1\1.1 Graph\Solution.java:64: Line is longer than 80 characters (found 106). [LineLength]
 Audit done.
-Checkstyle ends with 40 errors.
+Checkstyle ends with 41 errors.

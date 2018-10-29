@@ -35,8 +35,8 @@ class AdjacencyMatrix implements Graph {
 		return null;
 	}
 	public String toString() {
-		String str = "";
 		for (int i = 0; i < vertexval; i++) {
+			String str = "";
 			for (int j = 0; j < vertexval - 1; j++) {
 				str = str + adjmatrix[i][j] + " ";
 			}
@@ -52,12 +52,17 @@ class Solution {
 		String lineone = scan.nextLine();
 		int vertexnum = Integer.parseInt(scan.nextLine());
 		int edgenum = Integer.parseInt(scan.nextLine());
+		String[] placenames = scan.nextLine().split(",");
 		switch (lineone) {
 		case "List":
 			// AdjacencyList listobj = new AdjacencyList();
 			break;
 		case "Matrix":
 			AdjacencyMatrix matrixobj = new AdjacencyMatrix(vertexnum);
+			for (int i = 0; i < edgenum; i++) {
+				String[] edges = scan.nextLine().split(" ");
+				matrixobj.addEdge(Integer.parseInt(edges[0]), Integer.parseInt(edges[1]));
+			}
 			matrixobj.toString();
 			break;
 		}
