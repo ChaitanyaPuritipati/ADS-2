@@ -25,12 +25,12 @@ class AdjacencyList implements Graph {
 		return this.edgenum;
 	}
 	public void addEdge(int v, int w) {
+		edgenum++;
+		if (v == w || hasEdge(v, w)) {
+			edgenum--;
+		}
 		bags[v].add(w);
 		bags[w].add(v);
-		if (v == w || hasEdge(v, w)) {
-			return;
-		}
-		edgenum++;
 	}
 	public boolean hasEdge(int v, int w) {
 		for (Integer eachval : bags[v]) {
