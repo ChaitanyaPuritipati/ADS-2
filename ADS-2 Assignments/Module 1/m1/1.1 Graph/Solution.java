@@ -22,9 +22,9 @@ class AdjacencyList implements Graph {
 		return this.edgenum;
 	}
 	public void addEdge(int v, int w) {
-		if (v == w || hasEdge(v, w)) {
-			return;
-		}
+		// if (v == w || hasEdge(v, w)) {
+		// 	return;
+		// }
 		bags[v].add(w);
 		edgenum++;
 	}
