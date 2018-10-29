@@ -101,7 +101,8 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 1\m1\1.1 Graph\Solution.java:113: Line is longer than 80 characters (found 97). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 1\m1\1.1 Graph\Solution.java:119: switch without "default" clause. [MissingSwitchDefault]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 1\m1\1.1 Graph\Solution.java:124: Line is longer than 80 characters (found 104). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 1\m1\1.1 Graph\Solution.java:137: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 1\m1\1.1 Graph\Solution.java:140: Line is longer than 80 characters (found 106). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 1\m1\1.1 Graph\Solution.java:130:35: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 1\m1\1.1 Graph\Solution.java:141: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 1\m1\1.1 Graph\Solution.java:144: Line is longer than 80 characters (found 106). [LineLength]
 Audit done.
-Checkstyle ends with 67 errors.
+Checkstyle ends with 68 errors.

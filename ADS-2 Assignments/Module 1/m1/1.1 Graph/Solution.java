@@ -124,8 +124,12 @@ class Solution {
 				listobj.addEdge(Integer.parseInt(edges[0]), Integer.parseInt(edges[1]));
 			}
 			listobj.toString();
+
 			for (int j = 0; j < vertexnum; j++) {
 				String str = "";
+				if(listobj.adj(j) == null) {
+					break;
+				}
 				str = str + schsobj.get(j) + ": ";
 				for (Integer each : listobj.adj(j)) {
 					str = str + schsobj.get(each) + " ";
