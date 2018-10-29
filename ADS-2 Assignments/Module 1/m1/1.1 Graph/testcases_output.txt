@@ -16,11 +16,12 @@ Gujarat: Delhi Haryana
 Haryana: Gujarat Delhi
 
 Your Output: 
-5hello
+0
+5   hello
 13
 Exception in thread "main" java.lang.NullPointerException
-	at AdjacencyList.addEdge(Solution.java:30)
-	at Solution.main(Solution.java:124)
+	at AdjacencyList.addEdge(Solution.java:31)
+	at Solution.main(Solution.java:125)
 ----------------------------------------
 
 ########## Testcase 1: Passed ##########
@@ -98,11 +99,12 @@ Uttarakhand: Assam
 West Bengal: Uttar Pradesh Bihar
 
 Your Output: 
-5hello
+0
+5   hello
 36
 Exception in thread "main" java.lang.NullPointerException
-	at AdjacencyList.addEdge(Solution.java:30)
-	at Solution.main(Solution.java:124)
+	at AdjacencyList.addEdge(Solution.java:31)
+	at Solution.main(Solution.java:125)
 ----------------------------------------
 
 ########## Testcase 3: Passed ##########
@@ -191,11 +193,12 @@ Expected Output:
 No edges
 
 Your Output: 
-0hello
+0
+0   hello
 1
 Exception in thread "main" java.lang.NullPointerException
-	at AdjacencyList.addEdge(Solution.java:30)
-	at Solution.main(Solution.java:124)
+	at AdjacencyList.addEdge(Solution.java:31)
+	at Solution.main(Solution.java:125)
 ----------------------------------------
 
 ########## Testcase 5: Passed ##########
