@@ -58,7 +58,6 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 1\m1\1.1 Graph\Solution.java:12:9: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 1\m1\1.1 Graph\Solution.java:13:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 1\m1\1.1 Graph\Solution.java:13:23: Parameter vertex should be final. [FinalParameters]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 1\m1\1.1 Graph\Solution.java:15:40: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 1\m1\1.1 Graph\Solution.java:18:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 1\m1\1.1 Graph\Solution.java:18:20: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 1\m1\1.1 Graph\Solution.java:21:9: Missing a Javadoc comment. [JavadocMethod]
@@ -105,4 +104,4 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 1\m1\1.1 Graph\Solution.java:134: Line is longer than 80 characters (found 83). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 1\m1\1.1 Graph\Solution.java:137: Line is longer than 80 characters (found 106). [LineLength]
 Audit done.
-Checkstyle ends with 68 errors.
+Checkstyle ends with 67 errors.
