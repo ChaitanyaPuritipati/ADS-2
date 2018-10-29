@@ -72,7 +72,7 @@ class AdjacencyList implements Graph {
     }
     /**
      * { function for number of vertices }.
-     *
+     * Complexity: O(1)
      * @return     { description_of_the_return_value }
      */
     public int numberofVertices() {
