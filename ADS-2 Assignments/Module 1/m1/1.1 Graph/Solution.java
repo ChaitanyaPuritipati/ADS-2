@@ -36,12 +36,12 @@ class AdjacencyMatrix implements Graph {
 		return null;
 	}
 	public String toString() {
+		System.out.println(vertexval + " vertices, " + edgenum + " edges");
 		for (int i = 0; i < vertexval; i++) {
 			String str = "";
-			for (int j = 0; j < vertexval - 1; j++) {
+			for (int j = 0; j < vertexval; j++) {
 				str = str + adjmatrix[i][j] + " ";
 			}
-			str = str + adjmatrix[i][vertexval - 1];
 			System.out.println(str);
 		}
 		return null;
