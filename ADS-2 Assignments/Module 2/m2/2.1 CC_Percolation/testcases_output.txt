@@ -3,9 +3,135 @@ Expected Output:
 false
 
 Your Output: 
+2   ----  5
+2   ----  6
+2   ----  7
+2   ----  8
+2   ----  9
+2   ----  10
+2   ----  11
+2   ----  15
+2   ----  16
+2   ----  17
+2   ----  18
+2   ----  19
+2   ----  20
+2   ----  21
+3   ----  3
+3   ----  4
+3   ----  5
+3   ----  6
+3   ----  7
+3   ----  8
+3   ----  9
+3   ----  10
+3   ----  11
+3   ----  12
+3   ----  13
+3   ----  14
+3   ----  15
+3   ----  16
+3   ----  17
+3   ----  18
+3   ----  19
+3   ----  20
+3   ----  21
+3   ----  22
+3   ----  23
+4   ----  3
+4   ----  4
+4   ----  5
+4   ----  6
+4   ----  7
+4   ----  8
+4   ----  9
+4   ----  10
+4   ----  11
+4   ----  12
+4   ----  13
+4   ----  14
+4   ----  15
+4   ----  16
+4   ----  17
+4   ----  18
+4   ----  19
+4   ----  20
+4   ----  21
+4   ----  22
+4   ----  23
+5   ----  2
+5   ----  3
+5   ----  4
+5   ----  5
+5   ----  6
+5   ----  7
+5   ----  8
+5   ----  9
+5   ----  10
+5   ----  11
+5   ----  12
+5   ----  13
+5   ----  14
+5   ----  15
+5   ----  16
+5   ----  17
+5   ----  18
+5   ----  19
+5   ----  20
+5   ----  21
+5   ----  22
+5   ----  23
+5   ----  24
+6   ----  2
+6   ----  3
+6   ----  4
+6   ----  5
+6   ----  6
+6   ----  7
+6   ----  8
+6   ----  9
+6   ----  10
+6   ----  11
+6   ----  12
+6   ----  13
+6   ----  14
+6   ----  15
+6   ----  16
+6   ----  17
+6   ----  18
+6   ----  19
+6   ----  20
+6   ----  21
+6   ----  22
+6   ----  23
+6   ----  24
+7   ----  2
+7   ----  3
+7   ----  4
+7   ----  5
+7   ----  6
+7   ----  7
+7   ----  8
+7   ----  9
+7   ----  10
+7   ----  11
+7   ----  12
+7   ----  13
+7   ----  14
+7   ----  15
+7   ----  16
+7   ----  17
+7   ----  18
+7   ----  19
+7   ----  20
+7   ----  21
+7   ----  22
+7   ----  23
+7   ----  24
+7   ----  25
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 25
-	at AdjacencyList.addEdge(Solution.java:55)
-	at Solution.main(Solution.java:115)
+	at AdjacencyList.addEdge(Solution.java:56)
+	at Solution.main(Solution.java:116)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -13,9 +139,13 @@ Expected Output:
 false
 
 Your Output: 
+1   ----  6
+5   ----  4
+1   ----  2
+10   ----  13
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 13
-	at AdjacencyList.addEdge(Solution.java:55)
-	at Solution.main(Solution.java:115)
+	at AdjacencyList.addEdge(Solution.java:56)
+	at Solution.main(Solution.java:116)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -23,9 +153,10 @@ Expected Output:
 true
 
 Your Output: 
+1   ----  1
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at AdjacencyList.adj(Solution.java:83)
-	at Solution.main(Solution.java:117)
+	at AdjacencyList.adj(Solution.java:84)
+	at Solution.main(Solution.java:118)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -34,8 +165,8 @@ false
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at AdjacencyList.adj(Solution.java:83)
-	at Solution.main(Solution.java:117)
+	at AdjacencyList.adj(Solution.java:84)
+	at Solution.main(Solution.java:118)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -43,9 +174,12 @@ Expected Output:
 true
 
 Your Output: 
+1   ----  1
+2   ----  2
+1   ----  2
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
-	at AdjacencyList.addEdge(Solution.java:55)
-	at Solution.main(Solution.java:115)
+	at AdjacencyList.addEdge(Solution.java:56)
+	at Solution.main(Solution.java:116)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -53,7 +187,8 @@ Expected Output:
 false
 
 Your Output: 
-
+1   ----  1
+2   ----  2
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -61,9 +196,10 @@ Expected Output:
 true
 
 Your Output: 
+1   ----  3
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
-	at AdjacencyList.addEdge(Solution.java:55)
-	at Solution.main(Solution.java:115)
+	at AdjacencyList.addEdge(Solution.java:56)
+	at Solution.main(Solution.java:116)
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -71,10 +207,11 @@ Expected Output:
 true
 
 Your Output: 
+4   ----  1
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
-	at AdjacencyList.hasEdge(Solution.java:67)
-	at AdjacencyList.addEdge(Solution.java:51)
-	at Solution.main(Solution.java:115)
+	at AdjacencyList.hasEdge(Solution.java:68)
+	at AdjacencyList.addEdge(Solution.java:52)
+	at Solution.main(Solution.java:116)
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -82,9 +219,13 @@ Expected Output:
 true
 
 Your Output: 
+1   ----  1
+1   ----  2
+1   ----  4
+1   ----  5
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
-	at AdjacencyList.addEdge(Solution.java:55)
-	at Solution.main(Solution.java:115)
+	at AdjacencyList.addEdge(Solution.java:56)
+	at Solution.main(Solution.java:116)
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -92,9 +233,10 @@ Expected Output:
 true
 
 Your Output: 
+1   ----  6
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 6
-	at AdjacencyList.addEdge(Solution.java:55)
-	at Solution.main(Solution.java:115)
+	at AdjacencyList.addEdge(Solution.java:56)
+	at Solution.main(Solution.java:116)
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -102,10 +244,12 @@ Expected Output:
 true
 
 Your Output: 
+6   ----  1
+7   ----  1
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
-	at AdjacencyList.hasEdge(Solution.java:67)
-	at AdjacencyList.addEdge(Solution.java:51)
-	at Solution.main(Solution.java:115)
+	at AdjacencyList.hasEdge(Solution.java:68)
+	at AdjacencyList.addEdge(Solution.java:52)
+	at Solution.main(Solution.java:116)
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -113,9 +257,20 @@ Expected Output:
 true
 
 Your Output: 
+1   ----  3
+2   ----  6
+3   ----  3
+4   ----  6
+3   ----  2
+5   ----  6
+2   ----  5
+7   ----  5
+4   ----  7
+3   ----  1
+7   ----  8
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
-	at AdjacencyList.addEdge(Solution.java:55)
-	at Solution.main(Solution.java:115)
+	at AdjacencyList.addEdge(Solution.java:56)
+	at Solution.main(Solution.java:116)
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -123,9 +278,20 @@ Expected Output:
 true
 
 Your Output: 
+1   ----  3
+2   ----  6
+3   ----  3
+4   ----  6
+3   ----  2
+5   ----  6
+2   ----  5
+7   ----  5
+4   ----  7
+3   ----  1
+7   ----  8
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
-	at AdjacencyList.addEdge(Solution.java:55)
-	at Solution.main(Solution.java:115)
+	at AdjacencyList.addEdge(Solution.java:56)
+	at Solution.main(Solution.java:116)
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -133,9 +299,15 @@ Expected Output:
 false
 
 Your Output: 
+1   ----  6
+5   ----  4
+1   ----  6
+5   ----  4
+1   ----  2
+10   ----  13
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 13
-	at AdjacencyList.addEdge(Solution.java:55)
-	at Solution.main(Solution.java:115)
+	at AdjacencyList.addEdge(Solution.java:56)
+	at Solution.main(Solution.java:116)
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
@@ -143,10 +315,11 @@ Expected Output:
 true
 
 Your Output: 
+10   ----  2
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
-	at AdjacencyList.hasEdge(Solution.java:67)
-	at AdjacencyList.addEdge(Solution.java:51)
-	at Solution.main(Solution.java:115)
+	at AdjacencyList.hasEdge(Solution.java:68)
+	at AdjacencyList.addEdge(Solution.java:52)
+	at Solution.main(Solution.java:116)
 ----------------------------------------
 
 ########## Testcase 15: Failed ##########
@@ -154,6 +327,153 @@ Expected Output:
 false
 
 Your Output: 
+1   ----  7
+1   ----  34
+1   ----  14
+1   ----  45
+1   ----  21
+1   ----  22
+1   ----  22
+1   ----  49
+2   ----  19
+2   ----  25
+2   ----  33
+3   ----  4
+3   ----  17
+3   ----  27
+3   ----  36
+3   ----  42
+4   ----  17
+4   ----  17
+4   ----  27
+5   ----  43
+6   ----  13
+6   ----  13
+6   ----  28
+6   ----  28
+7   ----  41
+7   ----  44
+8   ----  19
+8   ----  48
+9   ----  9
+9   ----  11
+9   ----  30
+9   ----  46
+10   ----  1
+10   ----  7
+10   ----  28
+10   ----  28
+10   ----  28
+10   ----  29
+10   ----  29
+10   ----  34
+10   ----  41
+11   ----  21
+11   ----  30
+12   ----  9
+12   ----  11
+12   ----  21
+12   ----  21
+12   ----  26
+13   ----  22
+13   ----  23
+13   ----  47
+14   ----  8
+14   ----  21
+14   ----  48
+15   ----  8
+15   ----  34
+15   ----  49
+16   ----  9
+17   ----  20
+17   ----  24
+17   ----  38
+18   ----  6
+18   ----  28
+18   ----  32
+18   ----  42
+19   ----  15
+19   ----  40
+20   ----  3
+20   ----  35
+20   ----  38
+20   ----  46
+22   ----  6
+23   ----  11
+23   ----  21
+23   ----  22
+24   ----  4
+24   ----  5
+24   ----  38
+24   ----  43
+25   ----  2
+25   ----  34
+26   ----  9
+26   ----  12
+26   ----  16
+27   ----  5
+27   ----  24
+27   ----  32
+27   ----  31
+27   ----  42
+28   ----  22
+28   ----  29
+28   ----  39
+28   ----  44
+29   ----  22
+29   ----  49
+30   ----  23
+30   ----  37
+31   ----  18
+31   ----  32
+32   ----  5
+32   ----  6
+32   ----  13
+32   ----  37
+32   ----  47
+33   ----  2
+33   ----  8
+33   ----  19
+34   ----  2
+34   ----  19
+34   ----  40
+35   ----  9
+35   ----  37
+35   ----  46
+36   ----  20
+36   ----  42
+37   ----  5
+37   ----  9
+37   ----  35
+37   ----  47
+37   ----  47
+38   ----  35
+38   ----  37
+38   ----  38
+39   ----  18
+39   ----  42
+40   ----  15
+41   ----  28
+41   ----  44
+42   ----  31
+43   ----  37
+43   ----  38
+44   ----  39
+45   ----  8
+45   ----  14
+45   ----  14
+45   ----  15
+45   ----  49
+46   ----  16
+47   ----  23
+47   ----  30
+48   ----  12
+48   ----  21
+48   ----  33
+48   ----  33
+49   ----  34
+49   ----  22
+49   ----  49
 10
 49
 22
@@ -169,9 +489,26 @@ Expected Output:
 true
 
 Your Output: 
+7   ----  11
+18   ----  11
+12   ----  5
+9   ----  5
+5   ----  9
+1   ----  1
+12   ----  1
+5   ----  4
+16   ----  19
+3   ----  13
+9   ----  14
+12   ----  4
+4   ----  11
+3   ----  3
+2   ----  2
+5   ----  17
+5   ----  20
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 20
-	at AdjacencyList.addEdge(Solution.java:55)
-	at Solution.main(Solution.java:115)
+	at AdjacencyList.addEdge(Solution.java:56)
+	at Solution.main(Solution.java:116)
 ----------------------------------------
 
 ########## Testcase 17: Failed ##########
@@ -179,9 +516,11 @@ Expected Output:
 true
 
 Your Output: 
+14   ----  25
+22   ----  50
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 50
-	at AdjacencyList.addEdge(Solution.java:55)
-	at Solution.main(Solution.java:115)
+	at AdjacencyList.addEdge(Solution.java:56)
+	at Solution.main(Solution.java:116)
 ----------------------------------------
 
 ########## Testcase 18: Failed ##########
@@ -189,10 +528,385 @@ Expected Output:
 true
 
 Your Output: 
+53   ----  21
+52   ----  38
+27   ----  20
+28   ----  27
+12   ----  29
+12   ----  37
+36   ----  26
+28   ----  19
+22   ----  28
+37   ----  26
+18   ----  31
+19   ----  33
+57   ----  21
+50   ----  38
+36   ----  31
+58   ----  18
+32   ----  39
+17   ----  24
+41   ----  23
+38   ----  30
+27   ----  21
+44   ----  35
+45   ----  27
+32   ----  36
+41   ----  41
+42   ----  40
+51   ----  43
+18   ----  32
+45   ----  26
+44   ----  24
+28   ----  22
+52   ----  22
+53   ----  18
+42   ----  24
+43   ----  21
+57   ----  33
+11   ----  29
+41   ----  43
+37   ----  36
+44   ----  26
+55   ----  18
+52   ----  35
+45   ----  30
+50   ----  41
+28   ----  45
+18   ----  24
+53   ----  38
+53   ----  39
+37   ----  27
+38   ----  26
+38   ----  17
+41   ----  27
+40   ----  38
+33   ----  33
+17   ----  32
+22   ----  32
+49   ----  25
+21   ----  32
+54   ----  31
+8   ----  34
+54   ----  32
+41   ----  15
+33   ----  26
+16   ----  24
+32   ----  34
+28   ----  32
+12   ----  36
+44   ----  21
+38   ----  29
+14   ----  32
+25   ----  22
+55   ----  31
+14   ----  25
+38   ----  25
+50   ----  21
+7   ----  34
+49   ----  38
+7   ----  33
+9   ----  33
+41   ----  17
+13   ----  27
+38   ----  43
+19   ----  34
+12   ----  30
+28   ----  25
+55   ----  43
+21   ----  35
+43   ----  18
+40   ----  37
+49   ----  28
+41   ----  40
+37   ----  32
+27   ----  28
+42   ----  22
+14   ----  27
+56   ----  41
+25   ----  44
+39   ----  16
+27   ----  32
+44   ----  31
+16   ----  30
+42   ----  26
+52   ----  26
+43   ----  38
+55   ----  32
+31   ----  22
+54   ----  44
+11   ----  31
+47   ----  18
+10   ----  31
+50   ----  18
+49   ----  18
+36   ----  23
+57   ----  24
+57   ----  23
+49   ----  41
+57   ----  39
+44   ----  30
+49   ----  26
+54   ----  37
+55   ----  20
+41   ----  25
+18   ----  26
+13   ----  33
+38   ----  34
+52   ----  34
+56   ----  18
+32   ----  37
+36   ----  24
+32   ----  21
+42   ----  21
+36   ----  27
+20   ----  25
+30   ----  43
+14   ----  33
+19   ----  30
+38   ----  32
+49   ----  29
+55   ----  38
+49   ----  43
+28   ----  23
+55   ----  42
+25   ----  32
+53   ----  26
+30   ----  44
+13   ----  29
+41   ----  20
+41   ----  26
+50   ----  30
+54   ----  43
+43   ----  30
+41   ----  19
+28   ----  28
+12   ----  27
+53   ----  30
+29   ----  20
+52   ----  23
+49   ----  22
+31   ----  36
+5   ----  34
+29   ----  29
+27   ----  35
+3   ----  34
+31   ----  23
+29   ----  21
+43   ----  32
+42   ----  37
+53   ----  37
+41   ----  14
+38   ----  16
+28   ----  29
+10   ----  33
+54   ----  38
+57   ----  44
+43   ----  26
+33   ----  30
+29   ----  26
+32   ----  23
+51   ----  34
+25   ----  23
+41   ----  28
+21   ----  31
+56   ----  25
+39   ----  19
+35   ----  23
+54   ----  21
+31   ----  34
+26   ----  43
+42   ----  30
+38   ----  20
+32   ----  41
+49   ----  21
+44   ----  23
+50   ----  42
+44   ----  18
+57   ----  38
+32   ----  25
+26   ----  20
+39   ----  42
+23   ----  29
+42   ----  25
+44   ----  29
+49   ----  23
+32   ----  29
+51   ----  30
+56   ----  40
+49   ----  30
+23   ----  35
+56   ----  39
+25   ----  40
+50   ----  39
+43   ----  31
+31   ----  35
+38   ----  28
+53   ----  31
+41   ----  21
+21   ----  34
+28   ----  26
+40   ----  14
+27   ----  34
+4   ----  34
+16   ----  26
+33   ----  28
+41   ----  39
+32   ----  31
+32   ----  33
+43   ----  20
+9   ----  32
+7   ----  35
+44   ----  36
+54   ----  26
+42   ----  17
+53   ----  33
+8   ----  35
+16   ----  31
+51   ----  44
+54   ----  42
+48   ----  18
+45   ----  18
+10   ----  30
+29   ----  23
+29   ----  44
+53   ----  42
+28   ----  44
+41   ----  18
+52   ----  41
+49   ----  42
+37   ----  25
+41   ----  36
+41   ----  38
+37   ----  23
+44   ----  28
+13   ----  35
+8   ----  33
+36   ----  32
+39   ----  43
+54   ----  30
+36   ----  25
+27   ----  38
+38   ----  18
+13   ----  32
+15   ----  25
+16   ----  25
+56   ----  44
+33   ----  27
+26   ----  22
+19   ----  31
+43   ----  27
+13   ----  28
+39   ----  15
+32   ----  40
+40   ----  40
+52   ----  31
+15   ----  31
+27   ----  37
+30   ----  45
+57   ----  22
+13   ----  34
+23   ----  33
+10   ----  39
+43   ----  23
+21   ----  33
+12   ----  35
+50   ----  26
+38   ----  23
+34   ----  24
+43   ----  36
+27   ----  30
+27   ----  19
+50   ----  34
+12   ----  31
+25   ----  39
+27   ----  29
+51   ----  31
+38   ----  22
+18   ----  25
+50   ----  22
+28   ----  34
+55   ----  44
+41   ----  34
+37   ----  28
+24   ----  29
+56   ----  34
+24   ----  34
+37   ----  30
+20   ----  26
+32   ----  30
+57   ----  41
+20   ----  32
+36   ----  29
+10   ----  38
+12   ----  32
+43   ----  37
+15   ----  30
+52   ----  44
+14   ----  26
+57   ----  31
+23   ----  27
+12   ----  28
+38   ----  31
+19   ----  25
+40   ----  15
+44   ----  33
+26   ----  32
+57   ----  43
+43   ----  25
+41   ----  42
+59   ----  18
+6   ----  35
+31   ----  44
+32   ----  22
+17   ----  25
+50   ----  40
+10   ----  32
+42   ----  42
+55   ----  22
+50   ----  35
+50   ----  23
+16   ----  32
+42   ----  18
+23   ----  28
+33   ----  29
+39   ----  17
+56   ----  22
+52   ----  42
+40   ----  42
+41   ----  22
+53   ----  43
+42   ----  23
+35   ----  25
+52   ----  30
+28   ----  30
+9   ----  31
+26   ----  23
+56   ----  23
+26   ----  31
+1   ----  34
+5   ----  35
+21   ----  26
+40   ----  18
+32   ----  35
+20   ----  34
+52   ----  25
+53   ----  40
+27   ----  33
+6   ----  33
+38   ----  19
+46   ----  18
+57   ----  40
+22   ----  33
+27   ----  22
+40   ----  17
+49   ----  39
+31   ----  43
+60   ----  17
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 60
-	at AdjacencyList.hasEdge(Solution.java:67)
-	at AdjacencyList.addEdge(Solution.java:51)
-	at Solution.main(Solution.java:115)
+	at AdjacencyList.hasEdge(Solution.java:68)
+	at AdjacencyList.addEdge(Solution.java:52)
+	at Solution.main(Solution.java:116)
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -200,9 +914,19 @@ Expected Output:
 true
 
 Your Output: 
+1   ----  43
+37   ----  19
+43   ----  12
+16   ----  11
+17   ----  37
+20   ----  11
+40   ----  39
+2   ----  15
+15   ----  6
+2   ----  47
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 47
-	at AdjacencyList.addEdge(Solution.java:55)
-	at Solution.main(Solution.java:115)
+	at AdjacencyList.addEdge(Solution.java:56)
+	at Solution.main(Solution.java:116)
 ----------------------------------------
 
 ########## Testcase 20: Failed ##########
@@ -210,9 +934,19 @@ Expected Output:
 true
 
 Your Output: 
+44   ----  1
+55   ----  38
+1   ----  47
+41   ----  50
+42   ----  36
+39   ----  7
+58   ----  28
+59   ----  41
+47   ----  43
+24   ----  60
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 60
-	at AdjacencyList.addEdge(Solution.java:55)
-	at Solution.main(Solution.java:115)
+	at AdjacencyList.addEdge(Solution.java:56)
+	at Solution.main(Solution.java:116)
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########
@@ -220,9 +954,16 @@ Expected Output:
 true
 
 Your Output: 
+5   ----  5
+9   ----  9
+12   ----  2
+12   ----  11
+5   ----  7
+11   ----  9
+12   ----  13
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 13
-	at AdjacencyList.addEdge(Solution.java:55)
-	at Solution.main(Solution.java:115)
+	at AdjacencyList.addEdge(Solution.java:56)
+	at Solution.main(Solution.java:116)
 ----------------------------------------
 
 ########## Testcase 22: Failed ##########
@@ -230,9 +971,15 @@ Expected Output:
 true
 
 Your Output: 
+61   ----  71
+97   ----  83
+93   ----  77
+96   ----  1
+55   ----  47
+70   ----  101
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 101
-	at AdjacencyList.addEdge(Solution.java:55)
-	at Solution.main(Solution.java:115)
+	at AdjacencyList.addEdge(Solution.java:56)
+	at Solution.main(Solution.java:116)
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -240,9 +987,51 @@ Expected Output:
 true
 
 Your Output: 
+79   ----  62
+77   ----  75
+29   ----  3
+48   ----  2
+93   ----  20
+3   ----  10
+91   ----  84
+52   ----  14
+1   ----  66
+70   ----  10
+42   ----  4
+77   ----  41
+34   ----  8
+74   ----  94
+63   ----  97
+65   ----  71
+65   ----  87
+83   ----  64
+73   ----  33
+56   ----  4
+1   ----  30
+1   ----  34
+80   ----  25
+67   ----  47
+76   ----  80
+91   ----  74
+10   ----  78
+62   ----  85
+60   ----  36
+17   ----  9
+72   ----  8
+29   ----  8
+60   ----  47
+3   ----  84
+84   ----  60
+22   ----  91
+78   ----  25
+4   ----  74
+66   ----  34
+81   ----  18
+45   ----  11
+98   ----  62
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 98
-	at AdjacencyList.hasEdge(Solution.java:67)
-	at AdjacencyList.addEdge(Solution.java:51)
-	at Solution.main(Solution.java:115)
+	at AdjacencyList.hasEdge(Solution.java:68)
+	at AdjacencyList.addEdge(Solution.java:52)
+	at Solution.main(Solution.java:116)
 ----------------------------------------
 

@@ -48,6 +48,7 @@ class AdjacencyList {
 	 * @param      w     { parameter_description }
 	 */
 	public void addEdge(final int v, final int w) {
+		System.out.println(v + "   ----  " + w);
 		if (v == w || hasEdge(v, w)) {
 			return;
 		}
