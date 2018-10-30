@@ -264,7 +264,11 @@ class Percolation {
     boolean isFull(final int row, final int col) {
         return grid[row][col] == 0;
     }
-
+    /**
+     * { number of open sites }.
+     *
+     * @return     { int type }.
+     */
     int numberofopensites() {
         return cnt;
     }
@@ -295,7 +299,8 @@ final class Solution {
      */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
-        int vertex = Integer.parseInt(scan.nextLine());
+        int vertex = Integer.parseInt(
+                         scan.nextLine());
         Percolation percoobj = new Percolation(vertex);
         while (scan.hasNext()) {
             String[] edges = scan.nextLine().split(" ");

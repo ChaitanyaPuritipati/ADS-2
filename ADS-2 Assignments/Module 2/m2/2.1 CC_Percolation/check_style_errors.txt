@@ -3,7 +3,6 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 2\m2\2.1 CC_Percolation\Solution.java:268:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 2\m2\2.1 CC_Percolation\Solution.java:302: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 2\m2\2.1 CC_Percolation\Solution.java:307: Line is longer than 80 characters (found 90). [LineLength]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 1 errors.
