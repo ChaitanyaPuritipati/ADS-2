@@ -48,7 +48,7 @@ class AdjacencyList {
 	 * @param      w     { parameter_description }
 	 */
 	public void addEdge(final int v, final int w) {
-		System.out.println(v + "   ----  " + w);
+		// System.out.println(v + "   ----  " + w);
 		if (v == w || hasEdge(v, w)) {
 			return;
 		}
@@ -110,7 +110,7 @@ class Solution {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int vertex = Integer.parseInt(scan.nextLine());
-		AdjacencyList adjlstobj = new AdjacencyList(vertex);
+		AdjacencyList adjlstobj = new AdjacencyList(vertex + 1);
 		while(scan.hasNext()) {
 			String[] edges = scan.nextLine().split(" ");
 			adjlstobj.addEdge(Integer.parseInt(edges[0]), Integer.parseInt(edges[1]));
