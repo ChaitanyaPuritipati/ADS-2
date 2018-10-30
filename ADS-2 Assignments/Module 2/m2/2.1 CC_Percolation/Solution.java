@@ -1,96 +1,102 @@
 import java.util.Scanner;
+/**
+ * Class for graph.
+ */
 class Graph {
-	/**
-	 * { variable for Bags array }.
-	 */
-	private Bag<Integer>[] bags;
-	/**
-	 * { variable for vertex value }.
-	 */
-	private int vertexval;
-	/**
-	 * { variable for edge num }.
-	 */
-	private int edgenum;
-	/**
-	 * Constructs the object.
-	 *
-	 * @param      vertex  The vertex
-	 */
-	Graph(final int vertex) {
-		this.vertexval = vertex;
-		bags = (Bag<Integer>[]) new Bag[vertex];
-		for (int l = 0; l < vertex; l++) {
-			bags[l] = new Bag();
-		}
-		this.edgenum = 0;
-	}
-	/**
-	 * { function for number of vertices }.
-	 * Complexity: O(1)
-	 * @return     { description_of_the_return_value }
-	 */
-	public int vertices() {
-		return this.vertexval;
-	}
-	/**
-	 * { function for number of edges }.
-	 *Complexity: O(1)
-	 * @return     { description_of_the_return_value }
-	 */
-	public int e() {
-		return this.edgenum;
-	}
-	/**
-	 * Adds an edge.
-	 *Complexity: O(1)
-	 * @param      v     { parameter_description }
-	 * @param      w     { parameter_description }
-	 */
-	public void addEdge(final int v, final int w) {
-		// System.out.println(v + "   ----  " + w);
-		if (v == w || hasEdge(v, w)) {
-			return;
-		}
-		bags[v].add(w);
-		bags[w].add(v);
-		edgenum++;
-	}
-	/**
-	 * Determines if it has edge.
-	 *Complexity: O(degree(v))
-	 * @param      v     { parameter_description }
-	 * @param      w     { parameter_description }
-	 *
-	 * @return     True if has edge, False otherwise.
-	 */
-	public boolean hasEdge(final int v, final int w) {
-		for (Integer eachval : bags[v]) {
-			if (eachval == w) {
-				return true;
-			}
-		}
-		return false;
-	}
-	/**
-	 * { function for Iterator }.
-	 *O(degree(v))
-	 * @param      v     { parameter_description }
-	 *
-	 * @return     { description_of_the_return_value }
-	 */
-	public Iterable<Integer> adj(final int v) {
-		Queue<Integer> queue = new Queue<>();
-		for (Integer eachval : bags[v]) {
-			queue.enqueue(eachval);
-		}
-		return queue;
-	}
+    /**
+     * { variable for Bags array }.
+     */
+    private Bag<Integer>[] bags;
+    /**
+     * { variable for vertex value }.
+     */
+    private int vertexval;
+    /**
+     * { variable for edge num }.
+     */
+    private int edgenum;
+    /**
+     * Constructs the object.
+     *
+     * @param      vertex  The vertex
+     */
+    Graph(final int vertex) {
+        this.vertexval = vertex;
+        bags = (Bag<Integer>[]) new Bag[vertex];
+        for (int l = 0; l < vertex; l++) {
+            bags[l] = new Bag();
+        }
+        this.edgenum = 0;
+    }
+    /**
+     * { function for number of vertices }.
+     * Complexity: O(1)
+     * @return     { description_of_the_return_value }
+     */
+    public int vertices() {
+        return this.vertexval;
+    }
+    /**
+     * { function for number of edges }.
+     *Complexity: O(1)
+     * @return     { description_of_the_return_value }
+     */
+    public int e() {
+        return this.edgenum;
+    }
+    /**
+     * Adds an edge.
+     *Complexity: O(1)
+     * @param      v     { parameter_description }
+     * @param      w     { parameter_description }
+     */
+    public void addEdge(final int v, final int w) {
+        // System.out.println(v + "   ----  " + w);
+        if (v == w || hasEdge(v, w)) {
+            return;
+        }
+        bags[v].add(w);
+        bags[w].add(v);
+        edgenum++;
+    }
+    /**
+     * Determines if it has edge.
+     *Complexity: O(degree(v))
+     * @param      v     { parameter_description }
+     * @param      w     { parameter_description }
+     *
+     * @return     True if has edge, False otherwise.
+     */
+    public boolean hasEdge(final int v, final int w) {
+        for (Integer eachval : bags[v]) {
+            if (eachval == w) {
+                return true;
+            }
+        }
+        return false;
+    }
+    /**
+     * { function for Iterator }.
+     *O(degree(v))
+     * @param      v     { int type }.
+     *
+     * @return     { Iterable }.
+     */
+    public Iterable<Integer> adj(final int v) {
+        Queue<Integer> queue = new Queue<>();
+        for (Integer eachval : bags[v]) {
+            queue.enqueue(eachval);
+        }
+        return queue;
+    }
 }
+/**
+ * Class for cc.
+ */
 class CC {
-	/**
-	 * { boolean array marked }.
-	 */
+    /**
+     * { boolean array marked }.
+     */
     private boolean[] marked;
     /**
      * { int[] id }.
@@ -162,9 +168,9 @@ class CC {
  * Class for percolation.
  */
 class Percolation {
-	/**
-	 * { cnt var of int type }.
-	 */
+    /**
+     * { cnt var of int type }.
+     */
     private int cnt;
     /**
      * { grid var of int[][] }.
@@ -275,26 +281,26 @@ class Percolation {
 /**
  * Class for solution.
  */
-class Solution {
-	/**
-	 * Constructs the object.
-	 */
-	Solution() {
-		//unused.
-	}
-	/**
-	 * { Main function }.
-	 *
-	 * @param      args  The arguments
-	 */
-	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		int vertex = Integer.parseInt(scan.nextLine());
-		Percolation percoobj = new Percolation(vertex);
-		while (scan.hasNext()) {
-			String[] edges = scan.nextLine().split(" ");
-			percoobj.open(Integer.parseInt(edges[0]) - 1, Integer.parseInt(edges[1]) - 1);
-		}
-		System.out.println(percoobj.percolates());
-	}
+final class Solution {
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
+        //unused.
+    }
+    /**
+     * { Main function }.
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int vertex = Integer.parseInt(scan.nextLine());
+        Percolation percoobj = new Percolation(vertex);
+        while (scan.hasNext()) {
+            String[] edges = scan.nextLine().split(" ");
+            percoobj.open(Integer.parseInt(edges[0]) - 1, Integer.parseInt(edges[1]) - 1);
+        }
+        System.out.println(percoobj.percolates());
+    }
 }
