@@ -4,7 +4,7 @@ false
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 25
-	at AdjacencyList.addEdge(Solution.java:56)
+	at AdjacencyList.addEdge(Solution.java:55)
 	at Solution.main(Solution.java:115)
 ----------------------------------------
 
@@ -14,7 +14,7 @@ false
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 13
-	at AdjacencyList.addEdge(Solution.java:56)
+	at AdjacencyList.addEdge(Solution.java:55)
 	at Solution.main(Solution.java:115)
 ----------------------------------------
 
@@ -24,8 +24,8 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at AdjacencyList.addEdge(Solution.java:55)
-	at Solution.main(Solution.java:115)
+	at AdjacencyList.adj(Solution.java:83)
+	at Solution.main(Solution.java:117)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -53,9 +53,7 @@ Expected Output:
 false
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
-	at AdjacencyList.addEdge(Solution.java:55)
-	at Solution.main(Solution.java:115)
+
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -64,7 +62,7 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
-	at AdjacencyList.addEdge(Solution.java:56)
+	at AdjacencyList.addEdge(Solution.java:55)
 	at Solution.main(Solution.java:115)
 ----------------------------------------
 
@@ -75,7 +73,7 @@ true
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
 	at AdjacencyList.hasEdge(Solution.java:67)
-	at AdjacencyList.addEdge(Solution.java:52)
+	at AdjacencyList.addEdge(Solution.java:51)
 	at Solution.main(Solution.java:115)
 ----------------------------------------
 
@@ -85,7 +83,7 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
-	at AdjacencyList.addEdge(Solution.java:56)
+	at AdjacencyList.addEdge(Solution.java:55)
 	at Solution.main(Solution.java:115)
 ----------------------------------------
 
@@ -95,7 +93,7 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 6
-	at AdjacencyList.addEdge(Solution.java:56)
+	at AdjacencyList.addEdge(Solution.java:55)
 	at Solution.main(Solution.java:115)
 ----------------------------------------
 
@@ -106,7 +104,7 @@ true
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
 	at AdjacencyList.hasEdge(Solution.java:67)
-	at AdjacencyList.addEdge(Solution.java:52)
+	at AdjacencyList.addEdge(Solution.java:51)
 	at Solution.main(Solution.java:115)
 ----------------------------------------
 
@@ -116,7 +114,7 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
-	at AdjacencyList.addEdge(Solution.java:56)
+	at AdjacencyList.addEdge(Solution.java:55)
 	at Solution.main(Solution.java:115)
 ----------------------------------------
 
@@ -126,7 +124,7 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
-	at AdjacencyList.addEdge(Solution.java:56)
+	at AdjacencyList.addEdge(Solution.java:55)
 	at Solution.main(Solution.java:115)
 ----------------------------------------
 
@@ -136,7 +134,7 @@ false
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 13
-	at AdjacencyList.addEdge(Solution.java:56)
+	at AdjacencyList.addEdge(Solution.java:55)
 	at Solution.main(Solution.java:115)
 ----------------------------------------
 
@@ -147,7 +145,7 @@ true
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
 	at AdjacencyList.hasEdge(Solution.java:67)
-	at AdjacencyList.addEdge(Solution.java:52)
+	at AdjacencyList.addEdge(Solution.java:51)
 	at Solution.main(Solution.java:115)
 ----------------------------------------
 
@@ -158,7 +156,6 @@ false
 Your Output: 
 10
 49
-22
 22
 21
 45
@@ -173,7 +170,7 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 20
-	at AdjacencyList.addEdge(Solution.java:56)
+	at AdjacencyList.addEdge(Solution.java:55)
 	at Solution.main(Solution.java:115)
 ----------------------------------------
 
@@ -183,7 +180,7 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 50
-	at AdjacencyList.addEdge(Solution.java:56)
+	at AdjacencyList.addEdge(Solution.java:55)
 	at Solution.main(Solution.java:115)
 ----------------------------------------
 
@@ -194,7 +191,7 @@ true
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 60
 	at AdjacencyList.hasEdge(Solution.java:67)
-	at AdjacencyList.addEdge(Solution.java:52)
+	at AdjacencyList.addEdge(Solution.java:51)
 	at Solution.main(Solution.java:115)
 ----------------------------------------
 
@@ -204,7 +201,7 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 47
-	at AdjacencyList.addEdge(Solution.java:56)
+	at AdjacencyList.addEdge(Solution.java:55)
 	at Solution.main(Solution.java:115)
 ----------------------------------------
 
@@ -214,7 +211,7 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 60
-	at AdjacencyList.addEdge(Solution.java:56)
+	at AdjacencyList.addEdge(Solution.java:55)
 	at Solution.main(Solution.java:115)
 ----------------------------------------
 
@@ -224,7 +221,7 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 13
-	at AdjacencyList.addEdge(Solution.java:56)
+	at AdjacencyList.addEdge(Solution.java:55)
 	at Solution.main(Solution.java:115)
 ----------------------------------------
 
@@ -234,7 +231,7 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 101
-	at AdjacencyList.addEdge(Solution.java:56)
+	at AdjacencyList.addEdge(Solution.java:55)
 	at Solution.main(Solution.java:115)
 ----------------------------------------
 
@@ -245,7 +242,7 @@ true
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 98
 	at AdjacencyList.hasEdge(Solution.java:67)
-	at AdjacencyList.addEdge(Solution.java:52)
+	at AdjacencyList.addEdge(Solution.java:51)
 	at Solution.main(Solution.java:115)
 ----------------------------------------
 

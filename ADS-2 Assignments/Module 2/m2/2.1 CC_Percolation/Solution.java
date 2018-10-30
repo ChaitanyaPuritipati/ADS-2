@@ -48,12 +48,12 @@ class AdjacencyList {
 	 * @param      w     { parameter_description }
 	 */
 	public void addEdge(final int v, final int w) {
-		edgenum++;
 		if (v == w || hasEdge(v, w)) {
-			edgenum--;
+			return;
 		}
 		bags[v].add(w);
 		bags[w].add(v);
+		edgenum++;
 	}
 	/**
 	 * Determines if it has edge.
