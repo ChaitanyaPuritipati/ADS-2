@@ -115,7 +115,7 @@ class CC {
      *
      * @param      g     { parameter_description }
      */
-    public CC(final Graph g) {
+    protected CC(final Graph g) {
         marked = new boolean[g.vertices()];
         id = new int[g.vertices()];
         size = new int[g.vertices()];
@@ -216,19 +216,19 @@ class Percolation {
             cd.addEdge((size * size) + 1, component(row, col));
         }
         if (row + 1 < size && grid[row][col] == 1) {
-                cd.addEdge(
-                    component(row + 1, col), component(row, col));
-            }
+            cd.addEdge(
+                component(row + 1, col), component(row, col));
+        }
         if (row - 1 >= 0 && grid[row - 1][col] == 1) {
-                cd.addEdge(
-                    component(row - 1, col), component(row, col));
+            cd.addEdge(
+                component(row - 1, col), component(row, col));
         }
         if (col - 1 >= 0 && grid[row][col - 1] == 1) {
-                cd.addEdge(component(row, col - 1), component(row, col));
+            cd.addEdge(component(row, col - 1), component(row, col));
         }
         if (col + 1 < size && grid[row][col + 1] == 1) {
-                cd.addEdge(
-                    component(row, col + 1), component(row, col));
+            cd.addEdge(
+                component(row, col + 1), component(row, col));
         }
     }
     /**
@@ -264,7 +264,7 @@ class Percolation {
     boolean isFull(final int row, final int col) {
         return grid[row][col] == 0;
     }
-    
+
     int numberofopensites() {
         return cnt;
     }
