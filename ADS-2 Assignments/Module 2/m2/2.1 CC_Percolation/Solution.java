@@ -146,12 +146,35 @@ class CC {
         return id(v) == id(w);
     }
 }
+/**
+ * Class for percolation.
+ */
 class Percolation {
+	/**
+	 * { cnt var of int type }.
+	 */
     private int cnt;
+    /**
+     * { grid var of int[][] }.
+     */
     private int[][] grid;
+    /**
+     * { size var of int type }.
+     */
     private int size;
+    /**
+     * { cd of graph type }.
+     */
     private Graph cd;
+    /**
+     * { cc }.
+     */
     private CC cc;
+    /**
+     * Constructs the object.
+     *
+     * @param      n     { parameter_description }
+     */
     Percolation(final int n) {
         grid = new int[n][n];
         cnt = 0;
@@ -159,6 +182,12 @@ class Percolation {
         cc = new CC(cd);
         this.size = n;
     }
+    /**
+     * { open function }.
+     *
+     * @param      row   The row
+     * @param      col   The col
+     */
     void open(final int row, final int col) {
         grid[row][col] = 1;
         cnt++;
@@ -184,15 +213,36 @@ class Percolation {
                     component(row, col + 1), component(row, col));
         }
     }
-   
+    /**
+     * { component function }.
+     *
+     * @param      i     { parameter_description }
+     * @param      j     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     int component(final int i, final int j) {
         return (i) * size + j;
     }
-    
+    /**
+     * Determines if open.
+     *
+     * @param      row   The row
+     * @param      col   The col
+     *
+     * @return     True if open, False otherwise.
+     */
     boolean isOpen(final int row, final int col) {
         return grid[row][col] == 1;
     }
-  
+    /**
+     * Determines if full.
+     *
+     * @param      row   The row
+     * @param      col   The col
+     *
+     * @return     True if full, False otherwise.
+     */
     boolean isFull(final int row, final int col) {
         return grid[row][col] == 0;
     }
@@ -200,16 +250,31 @@ class Percolation {
     int numberofopensites() {
         return cnt;
     }
-    
+    /**
+     * { Check for percolation }.
+     *
+     * @return     { boolean type }.
+     */
     boolean percolates() {
         cc = new CC(cd);
         return cc.connected(0, (size * size) + 1);
     }
 }
+/**
+ * Class for solution.
+ */
 class Solution {
+	/**
+	 * Constructs the object.
+	 */
 	Solution() {
 		//unused.
 	}
+	/**
+	 * { Main function }.
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int vertex = Integer.parseInt(scan.nextLine());
