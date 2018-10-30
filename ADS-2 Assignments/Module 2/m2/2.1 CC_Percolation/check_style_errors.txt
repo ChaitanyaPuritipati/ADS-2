@@ -3,6 +3,4 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 2\m2\2.1 CC_Percolation\Solution.java:307: Line is longer than 80 characters (found 90). [LineLength]
 Audit done.
-Checkstyle ends with 1 errors.

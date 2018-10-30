@@ -304,7 +304,10 @@ final class Solution {
         Percolation percoobj = new Percolation(vertex);
         while (scan.hasNext()) {
             String[] edges = scan.nextLine().split(" ");
-            percoobj.open(Integer.parseInt(edges[0]) - 1, Integer.parseInt(edges[1]) - 1);
+            percoobj.open(
+                Integer.parseInt(
+                    edges[0]) - 1, Integer.parseInt(
+                    edges[1]) - 1);
         }
         System.out.println(percoobj.percolates());
     }
