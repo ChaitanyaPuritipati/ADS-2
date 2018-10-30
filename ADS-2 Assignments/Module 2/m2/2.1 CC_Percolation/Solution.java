@@ -86,34 +86,29 @@ class Graph {
 		}
 		return queue;
 	}
-	// /**
-	//  * Returns a string representation of the object.
-	//  *Complexity: O(1)
-	//  * @return     String representation of the object.
-	//  */
-	// public String toString() {
-	// 	if (edgenum == 0) {
-	// 		System.out.println(vertexval + " vertices, "
-	// 		                   + edgenum + " edges");
-	// 		System.out.println("No edges");
-	// 		return null;
-	// 	}
-	// 	System.out.println(vertexval + " vertices, "
-	// 	                   + edgenum + " edges");
-	// 	return null;
-	// }
 }
 class CC {
-	
+	/**
+	 * { boolean array marked }.
+	 */
     private boolean[] marked;
-    
+    /**
+     * { int[] id }.
+     */
     private int[] id;
-    
+    /**
+     * { int[] size }.
+     */
     private int[] size;
-    
+    /**
+     * { int var count }.
+     */
     private int count;
-
-    
+    /**
+     * Constructs the object.
+     *
+     * @param      g     { parameter_description }
+     */
     public CC(final Graph g) {
         marked = new boolean[g.vertices()];
         id = new int[g.vertices()];
@@ -125,8 +120,12 @@ class CC {
             }
         }
     }
-
-   
+    /**
+     * { dfs function }.
+     *
+     * @param      g     { parameter_description }
+     * @param      v     { parameter_description }
+     */
     private void dfs(final Graph g, final int v) {
         marked[v] = true;
         id[v] = count;
@@ -137,11 +136,24 @@ class CC {
             }
         }
     }
-    
+    /**
+     * { id function }.
+     *
+     * @param      v     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int id(final int v) {
         return id[v];
     }
-    
+    /**
+     * { To check if connected }.
+     *
+     * @param      v     { parameter_description }
+     * @param      w     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     public boolean connected(final int v, final int w) {
         return id(v) == id(w);
     }
