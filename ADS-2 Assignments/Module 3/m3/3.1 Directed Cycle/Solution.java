@@ -28,8 +28,11 @@ class DirectedCycle {
         marked  = new boolean[testgraph.V()];
         onStack = new boolean[testgraph.V()];
         edgeTo  = new int[testgraph.V()];
-        for (int v = 0; v < testgraph.V(); v++)
-            if (!marked[v] && cycle == null) dfs(testgraph, v);
+        for (int v = 0; v < testgraph.V(); v++) {
+            if (!marked[v] && cycle == null) {
+                dfs(testgraph, v);
+            }
+        }
     }
     /**
      * { dfs function }.
@@ -45,8 +48,7 @@ class DirectedCycle {
             else if (!marked[w]) {
                 edgeTo[w] = v;
                 dfs(testgraph, w);
-            }
-            else if (onStack[w]) {
+            } else if (onStack[w]) {
                 cycle = new Stack<Integer>();
                 for (int x = v; x != w; x = edgeTo[x]) {
                     cycle.push(x);
@@ -86,12 +88,12 @@ final class Solution {
         int vertices = Integer.parseInt(scan.nextLine());
         int edges = Integer.parseInt(scan.nextLine());
         Digraph graphobj = new Digraph(vertices);
-        for(int i = 0; i < edges; i++) {
+        for (int i = 0; i < edges; i++) {
             String[] edgevals = scan.nextLine().split(" ");
-            graphobj.addEdge(Integer.parseInt(edgevals[0]), Integer.parseInt(edgevals[1])); 
+            graphobj.addEdge(Integer.parseInt(edgevals[0]), Integer.parseInt(edgevals[1]));
         }
         DirectedCycle directedcycleobj = new DirectedCycle(graphobj);
-        if(directedcycleobj.hasCycle()) {
+        if (directedcycleobj.hasCycle()) {
             System.out.println("Cycle exists.");
         } else {
             System.out.println("Cycle doesn't exists.");
