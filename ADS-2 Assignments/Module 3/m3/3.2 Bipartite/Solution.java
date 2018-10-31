@@ -97,7 +97,10 @@ final class Solution {
         Graph graphobj = new Graph(vertices);
         for (int i = 0; i < edges; i++) {
             String[] edgevals = scan.nextLine().split(" ");
-            graphobj.addEdge(Integer.parseInt(edgevals[0]), Integer.parseInt(edgevals[1]));
+            graphobj.addEdge(
+                Integer.parseInt(
+                    edgevals[0]), Integer.parseInt(
+                    edgevals[1]));
         }
         Bipartite bipobj = new Bipartite(graphobj);
         if (bipobj.isBipartite()) {
