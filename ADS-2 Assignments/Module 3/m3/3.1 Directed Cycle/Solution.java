@@ -24,7 +24,7 @@ class DirectedCycle {
      *
      * @param      G     { Graph }
      */
-    public DirectedCycle(Digraph G) {
+    DirectedCycle(final Digraph G) {
         marked  = new boolean[G.V()];
         onStack = new boolean[G.V()];
         edgeTo  = new int[G.V()];
@@ -37,7 +37,7 @@ class DirectedCycle {
      * @param      G     { parameter_description }
      * @param      v     { parameter_description }
      */
-    private void dfs(Digraph G, int v) {
+    private void dfs(final Digraph G, final int v) {
         onStack[v] = true;
         marked[v] = true;
         for (int w : G.adj(v)) {
@@ -81,7 +81,7 @@ final class Solution {
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int vertices = Integer.parseInt(scan.nextLine());
         int edges = Integer.parseInt(scan.nextLine());
