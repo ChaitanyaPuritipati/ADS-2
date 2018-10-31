@@ -37,21 +37,9 @@ Starting audit...
 Audit done.
 Checkstyle ends with 31 errors.
 Starting audit...
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 3\m3\3.2 Bipartite\Solution.java:3: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 3\m3\3.2 Bipartite\Solution.java:5:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 3\m3\3.2 Bipartite\Solution.java:7:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 3\m3\3.2 Bipartite\Solution.java:9:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 3\m3\3.2 Bipartite\Solution.java:11:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 3\m3\3.2 Bipartite\Solution.java:13:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 3\m3\3.2 Bipartite\Solution.java:15:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 3\m3\3.2 Bipartite\Solution.java:28:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 3\m3\3.2 Bipartite\Solution.java:49:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 3\m3\3.2 Bipartite\Solution.java:53: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 3\m3\3.2 Bipartite\Solution.java:53:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 3\m3\3.2 Bipartite\Solution.java:54:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 3\m3\3.2 Bipartite\Solution.java:57:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 3\m3\3.2 Bipartite\Solution.java:64: Line is longer than 80 characters (found 91). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 3\m3\3.2 Bipartite\Solution.java:81:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 3\m3\3.2 Bipartite\Solution.java:100: Line is longer than 80 characters (found 91). [LineLength]
 Audit done.
-Checkstyle ends with 14 errors.
+Checkstyle ends with 2 errors.
 Starting audit...
 Audit done.
