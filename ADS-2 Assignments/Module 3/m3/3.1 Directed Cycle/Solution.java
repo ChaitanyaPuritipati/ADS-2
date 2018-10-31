@@ -1,9 +1,29 @@
 import java.util.Scanner;
+/**
+ * Class for directed cycle.
+ */
 class DirectedCycle {
+	/**
+	 * { marked array }.
+	 */
 	private boolean[] marked;
+	/**
+	 * { edgeTo array }.
+	 */
     private int[] edgeTo;
+    /**
+     * { onStack array }.
+     */
     private boolean[] onStack;
+    /**
+     * { cycle stack }.
+     */
     private Stack<Integer> cycle;
+    /**
+     * Constructs the object.
+     *
+     * @param      G     { Graph }
+     */
     public DirectedCycle(Digraph G) {
         marked  = new boolean[G.V()];
         onStack = new boolean[G.V()];
@@ -11,6 +31,12 @@ class DirectedCycle {
         for (int v = 0; v < G.V(); v++)
             if (!marked[v] && cycle == null) dfs(G, v);
     }
+    /**
+     * { dfs function }.
+     *
+     * @param      G     { parameter_description }
+     * @param      v     { parameter_description }
+     */
     private void dfs(Digraph G, int v) {
         onStack[v] = true;
         marked[v] = true;
@@ -31,14 +57,30 @@ class DirectedCycle {
         }
         onStack[v] = false;
     }
+    /**
+     * Determines if it has cycle.
+     *
+     * @return     True if has cycle, False otherwise.
+     */
     public boolean hasCycle() {
         return cycle != null;
     }
 }
+/**
+ * { Solution class }.
+ */
 final class Solution {
+	/**
+	 * Constructs the object.
+	 */
 	private Solution() {
 		//unused.
 	}
+	/**
+	 * { Main function }.
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int vertices = Integer.parseInt(scan.nextLine());
