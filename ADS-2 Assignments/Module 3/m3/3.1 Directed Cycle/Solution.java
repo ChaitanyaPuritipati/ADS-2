@@ -22,7 +22,7 @@ class DirectedCycle {
     /**
      * Constructs the object.
      *
-     * @param      G     { Graph }
+     * @param      testgraph  The testgraph
      */
     DirectedCycle(final Digraph testgraph) {
         marked  = new boolean[testgraph.V()];
@@ -34,8 +34,8 @@ class DirectedCycle {
     /**
      * { dfs function }.
      *
-     * @param      G     { parameter_description }
-     * @param      v     { parameter_description }
+     * @param      testgraph  The testgraph
+     * @param      v          { parameter_description }
      */
     private void dfs(final Digraph testgraph, final int v) {
         onStack[v] = true;
