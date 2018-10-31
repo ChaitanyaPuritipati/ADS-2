@@ -36,7 +36,7 @@ class DirectedCycle {
     }
     /**
      * { dfs function }.
-     *
+     * 
      * @param      testgraph  The testgraph
      * @param      v          { parameter_description }
      */
