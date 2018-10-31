@@ -44,8 +44,9 @@ class DirectedCycle {
         onStack[v] = true;
         marked[v] = true;
         for (int w : testgraph.adj(v)) {
-            if (cycle != null) return;
-            else if (!marked[w]) {
+            if (cycle != null) {
+                return;
+            } else if (!marked[w]) {
                 edgeTo[w] = v;
                 dfs(testgraph, w);
             } else if (onStack[w]) {
