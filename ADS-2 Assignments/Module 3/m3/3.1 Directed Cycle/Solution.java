@@ -91,7 +91,10 @@ final class Solution {
         Digraph graphobj = new Digraph(vertices);
         for (int i = 0; i < edges; i++) {
             String[] edgevals = scan.nextLine().split(" ");
-            graphobj.addEdge(Integer.parseInt(edgevals[0]), Integer.parseInt(edgevals[1]));
+            graphobj.addEdge(
+                Integer.parseInt(
+                    edgevals[0]), Integer.parseInt(
+                    edgevals[1]));
         }
         DirectedCycle directedcycleobj = new DirectedCycle(graphobj);
         if (directedcycleobj.hasCycle()) {
