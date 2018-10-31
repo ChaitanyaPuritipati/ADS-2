@@ -24,12 +24,12 @@ class DirectedCycle {
      *
      * @param      G     { Graph }
      */
-    DirectedCycle(final Digraph G) {
-        marked  = new boolean[G.V()];
-        onStack = new boolean[G.V()];
-        edgeTo  = new int[G.V()];
-        for (int v = 0; v < G.V(); v++)
-            if (!marked[v] && cycle == null) dfs(G, v);
+    DirectedCycle(final Digraph testgraph) {
+        marked  = new boolean[testgraph.V()];
+        onStack = new boolean[testgraph.V()];
+        edgeTo  = new int[testgraph.V()];
+        for (int v = 0; v < testgraph.V(); v++)
+            if (!marked[v] && cycle == null) dfs(testgraph, v);
     }
     /**
      * { dfs function }.
@@ -37,14 +37,14 @@ class DirectedCycle {
      * @param      G     { parameter_description }
      * @param      v     { parameter_description }
      */
-    private void dfs(final Digraph G, final int v) {
+    private void dfs(final Digraph testgraph, final int v) {
         onStack[v] = true;
         marked[v] = true;
-        for (int w : G.adj(v)) {
+        for (int w : testgraph.adj(v)) {
             if (cycle != null) return;
             else if (!marked[w]) {
                 edgeTo[w] = v;
-                dfs(G, w);
+                dfs(testgraph, w);
             }
             else if (onStack[w]) {
                 cycle = new Stack<Integer>();
