@@ -40,6 +40,8 @@ public class SAP {
         ancs = -1;
         for (Integer eachv : v) {
             for (Integer eachw : w) {
+                System.out.println(ancs + "ancs");
+                System.out.println(length(eachv, eachw) + "length");
                 if(ancestor(eachv, eachw) >= 0) {
                     if(mindis < 0) {
                         mindis = length(eachv, eachw);
