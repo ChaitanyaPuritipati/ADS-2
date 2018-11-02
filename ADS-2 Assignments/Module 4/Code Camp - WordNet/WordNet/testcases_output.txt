@@ -42,14 +42,8 @@ distance = 7, ancestor = entity
 distance = 10, ancestor = entity
 
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: SAP
-	at WordNet.sap(WordNet.java:59)
-	at Solution.main(Solution.java:27)
-Caused by: java.lang.ClassNotFoundException: SAP
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
-	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
-	... 2 more
+distance = 7, ancestor = [entity]
+distance = 10, ancestor = [entity]
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -62,14 +56,12 @@ distance = 7, ancestor = lipid lipide lipoid
 distance = 1, ancestor = animal_oil
 
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: SAP
-	at WordNet.sap(WordNet.java:59)
-	at Solution.main(Solution.java:27)
-Caused by: java.lang.ClassNotFoundException: SAP
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
-	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
-	... 2 more
+distance = 17, ancestor = [entity]
+distance = 17, ancestor = [entity]
+distance = 19, ancestor = [entity]
+distance = 18, ancestor = [entity]
+distance = 19, ancestor = [entity]
+distance = 1, ancestor = [animal_oil]
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -79,14 +71,9 @@ distance = 13, ancestor = thing
 distance = 2, ancestor = wax
 
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: SAP
-	at WordNet.sap(WordNet.java:59)
-	at Solution.main(Solution.java:27)
-Caused by: java.lang.ClassNotFoundException: SAP
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
-	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
-	... 2 more
+distance = 17, ancestor = [entity]
+distance = 17, ancestor = [entity]
+distance = 16, ancestor = [entity]
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -98,14 +85,11 @@ distance = 0, ancestor = e
 distance = 0, ancestor = f
 
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: SAP
-	at WordNet.sap(WordNet.java:59)
-	at Solution.main(Solution.java:27)
-Caused by: java.lang.ClassNotFoundException: SAP
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
-	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
-	... 2 more
+distance = 2, ancestor = [a]
+distance = 8, ancestor = [a]
+distance = 6, ancestor = [a]
+distance = 4, ancestor = [a]
+distance = 2, ancestor = [a]
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -122,14 +106,16 @@ distance = 2, ancestor = j
 distance = 1, ancestor = k
 
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: SAP
-	at WordNet.sap(WordNet.java:59)
-	at Solution.main(Solution.java:27)
-Caused by: java.lang.ClassNotFoundException: SAP
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
-	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
-	... 2 more
+distance = 1, ancestor = [b]
+distance = 2, ancestor = [c]
+distance = 4, ancestor = [c]
+distance = 3, ancestor = [c]
+distance = 4, ancestor = [c]
+distance = 4, ancestor = [c]
+distance = 3, ancestor = [c]
+distance = 4, ancestor = [c]
+distance = 5, ancestor = [c]
+distance = 6, ancestor = [c]
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -143,14 +129,13 @@ distance = 3, ancestor = h
 distance = 1, ancestor = h
 
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: SAP
-	at WordNet.sap(WordNet.java:59)
-	at Solution.main(Solution.java:27)
-Caused by: java.lang.ClassNotFoundException: SAP
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
-	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
-	... 2 more
+distance = 1, ancestor = [b]
+distance = 2, ancestor = [c]
+distance = 3, ancestor = [d]
+distance = 6, ancestor = [d]
+distance = 5, ancestor = [d]
+distance = 4, ancestor = [d]
+distance = 1, ancestor = [h]
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -167,14 +152,16 @@ distance = 3, ancestor = f
 distance = 4, ancestor = f
 
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: SAP
-	at WordNet.sap(WordNet.java:59)
-	at Solution.main(Solution.java:27)
-Caused by: java.lang.ClassNotFoundException: SAP
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
-	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
-	... 2 more
+distance = 1, ancestor = [b]
+distance = 1, ancestor = [c]
+distance = 1, ancestor = [d]
+distance = 1, ancestor = [e]
+distance = 2, ancestor = [f]
+distance = 3, ancestor = [f]
+distance = 3, ancestor = [f]
+distance = 3, ancestor = [f]
+distance = 3, ancestor = [f]
+distance = 4, ancestor = [f]
 ----------------------------------------
 
 ########## Testcase 8: Passed ##########
@@ -229,34 +216,20 @@ Your Output:
 5:
 ----------------------------------------
 
-########## Testcase 11: Failed ##########
+########## Testcase 11: Passed ##########
 Expected Output: 
 IllegalArgumentException
 
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: SAP
-	at WordNet.sap(WordNet.java:59)
-	at Solution.main(Solution.java:27)
-Caused by: java.lang.ClassNotFoundException: SAP
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
-	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
-	... 2 more
+IllegalArgumentException
 ----------------------------------------
 
-########## Testcase 12: Failed ##########
+########## Testcase 12: Passed ##########
 Expected Output: 
 IllegalArgumentException
 
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: SAP
-	at WordNet.sap(WordNet.java:59)
-	at Solution.main(Solution.java:27)
-Caused by: java.lang.ClassNotFoundException: SAP
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
-	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
-	... 2 more
+IllegalArgumentException
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -280,14 +253,8 @@ distance = 0, ancestor = era epoch
 distance = 8, ancestor = abstraction abstract_entity
 
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: SAP
-	at WordNet.sap(WordNet.java:59)
-	at Solution.main(Solution.java:27)
-Caused by: java.lang.ClassNotFoundException: SAP
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
-	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
-	... 2 more
+distance = 17, ancestor = [entity]
+IllegalArgumentException
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
