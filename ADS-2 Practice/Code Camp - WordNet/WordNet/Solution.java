@@ -24,7 +24,7 @@ class Solution {
 			} else if (linethree.equals("Queries")) {
 				while (StdIn.hasNextLine()) {
 					String[] querytokens = StdIn.readLine().split(" ");
-					String word = Arrays.toString(wordobj.sap(querytokens[0], querytokens[1]));
+					String word = (wordobj.sap(querytokens[0], querytokens[1]));
 					int id = wordobj.distance(querytokens[0], querytokens[1]);
 					System.out.println("distance = " + id + ", ancestor = " + word);
 				}

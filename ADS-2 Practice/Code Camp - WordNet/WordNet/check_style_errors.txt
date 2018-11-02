@@ -322,6 +322,7 @@ Checkstyle ends with 32 errors.
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\Solution.java:1:8: Unused import - java.util.Scanner. [UnusedImports]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\Solution.java:2:8: Unused import - java.util.Arrays. [UnusedImports]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\Solution.java:4: Class Solution should be declared as final. [FinalClass]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\Solution.java:4: Missing a Javadoc comment. [JavadocType]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\Solution.java:5:1: File contains tab characters (this is the first instance). [FileTabCharacter]
@@ -331,11 +332,11 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\Solution.java:15: Line is longer than 80 characters (found 122). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\Solution.java:19: Line is longer than 80 characters (found 84). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\Solution.java:26: Line is longer than 80 characters (found 91). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\Solution.java:27: Line is longer than 80 characters (found 115). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\Solution.java:27: Line is longer than 80 characters (found 100). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\Solution.java:28: Line is longer than 80 characters (found 98). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\Solution.java:29: Line is longer than 80 characters (found 104). [LineLength]
 Audit done.
-Checkstyle ends with 14 errors.
+Checkstyle ends with 15 errors.
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\Stack.java:13: Line has trailing spaces. [RegexpSingleline]
@@ -509,7 +510,7 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:5:5: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:5:16: Variable 'sapobj' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:6:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:6:32: Variable 'idmap' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:6:30: Variable 'idmap' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:7:5: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:7:35: Variable 'wordmap' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:9:5: Missing a Javadoc comment. [JavadocMethod]
@@ -527,7 +528,7 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:56: Line is longer than 80 characters (found 92). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:58:5: Class 'WordNet' looks like designed for extension (can be subclassed), but the method 'sap' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'WordNet' final or making the method 'sap' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:58:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:58:25: Parameter nounA should be final. [FinalParameters]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:58:39: Parameter nounB should be final. [FinalParameters]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:58:23: Parameter nounA should be final. [FinalParameters]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:58:37: Parameter nounB should be final. [FinalParameters]
 Audit done.
 Checkstyle ends with 27 errors.

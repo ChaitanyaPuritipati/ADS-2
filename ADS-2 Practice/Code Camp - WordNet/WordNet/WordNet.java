@@ -3,7 +3,7 @@ import java.util.HashMap;
 public class WordNet {
     public Digraph digraph;
     public SAP sapobj;
-    HashMap<Integer, String[]> idmap = new HashMap<>();
+    HashMap<Integer, String> idmap = new HashMap<>();
     HashMap<String, Bag<Integer>> wordmap = new HashMap<>();
     // constructor takes the name of the two input files
     public WordNet(String synsets, String hypernyms) {
@@ -12,7 +12,7 @@ public class WordNet {
         for (String each : syndata) {
             String[] tokens = each.split(",");
             String[] words = tokens[1].split(" ");
-            idmap.put(Integer.parseInt(tokens[0]), words);
+            idmap.put(Integer.parseInt(tokens[0]), tokens[1]);
             for (String eachword : words) {
                 if (wordmap.containsKey(eachword)) {
                     Bag testbag = wordmap.get(eachword);
@@ -55,7 +55,7 @@ public class WordNet {
 
     // a synset (second field of synsets.txt) that is the common ancestor of nounA and nounB
     // in a shortest ancestral path (defined below)
-    public String[] sap(String nounA, String nounB) {
+    public String sap(String nounA, String nounB) {
         sapobj = new SAP(digraph);
         int id = sapobj.ancestor(wordmap.get(nounA), wordmap.get(nounB));
         return idmap.get(id);

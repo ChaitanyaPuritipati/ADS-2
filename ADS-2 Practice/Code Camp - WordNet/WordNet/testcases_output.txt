@@ -36,14 +36,14 @@ Your Output:
 14: 13
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 distance = 7, ancestor = entity
 distance = 10, ancestor = entity
 
 Your Output: 
-distance = 7, ancestor = [entity]
-distance = 10, ancestor = [entity]
+distance = 7, ancestor = entity
+distance = 10, ancestor = entity
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -56,12 +56,12 @@ distance = 7, ancestor = lipid lipide lipoid
 distance = 1, ancestor = animal_oil
 
 Your Output: 
-distance = 17, ancestor = [entity]
-distance = 17, ancestor = [entity]
-distance = 19, ancestor = [entity]
-distance = 18, ancestor = [entity]
-distance = 19, ancestor = [entity]
-distance = 1, ancestor = [animal_oil]
+distance = 17, ancestor = entity
+distance = 17, ancestor = entity
+distance = 19, ancestor = entity
+distance = 18, ancestor = entity
+distance = 19, ancestor = entity
+distance = 1, ancestor = animal_oil
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -71,9 +71,9 @@ distance = 13, ancestor = thing
 distance = 2, ancestor = wax
 
 Your Output: 
-distance = 17, ancestor = [entity]
-distance = 17, ancestor = [entity]
-distance = 16, ancestor = [entity]
+distance = 17, ancestor = entity
+distance = 17, ancestor = entity
+distance = 16, ancestor = entity
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -85,11 +85,11 @@ distance = 0, ancestor = e
 distance = 0, ancestor = f
 
 Your Output: 
-distance = 2, ancestor = [a]
-distance = 8, ancestor = [a]
-distance = 6, ancestor = [a]
-distance = 4, ancestor = [a]
-distance = 2, ancestor = [a]
+distance = 2, ancestor = a
+distance = 8, ancestor = a
+distance = 6, ancestor = a
+distance = 4, ancestor = a
+distance = 2, ancestor = a
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -106,16 +106,16 @@ distance = 2, ancestor = j
 distance = 1, ancestor = k
 
 Your Output: 
-distance = 1, ancestor = [b]
-distance = 2, ancestor = [c]
-distance = 4, ancestor = [c]
-distance = 3, ancestor = [c]
-distance = 4, ancestor = [c]
-distance = 4, ancestor = [c]
-distance = 3, ancestor = [c]
-distance = 4, ancestor = [c]
-distance = 5, ancestor = [c]
-distance = 6, ancestor = [c]
+distance = 1, ancestor = b
+distance = 2, ancestor = c
+distance = 4, ancestor = c
+distance = 3, ancestor = c
+distance = 4, ancestor = c
+distance = 4, ancestor = c
+distance = 3, ancestor = c
+distance = 4, ancestor = c
+distance = 5, ancestor = c
+distance = 6, ancestor = c
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -129,16 +129,16 @@ distance = 3, ancestor = h
 distance = 1, ancestor = h
 
 Your Output: 
-distance = 1, ancestor = [b]
-distance = 2, ancestor = [c]
-distance = 3, ancestor = [d]
-distance = 6, ancestor = [d]
-distance = 5, ancestor = [d]
-distance = 4, ancestor = [d]
-distance = 1, ancestor = [h]
+distance = 1, ancestor = b
+distance = 2, ancestor = c
+distance = 3, ancestor = d
+distance = 6, ancestor = d
+distance = 5, ancestor = d
+distance = 4, ancestor = d
+distance = 1, ancestor = h
 ----------------------------------------
 
-########## Testcase 7: Failed ##########
+########## Testcase 7: Passed ##########
 Expected Output: 
 distance = 1, ancestor = b
 distance = 1, ancestor = c
@@ -152,16 +152,16 @@ distance = 3, ancestor = f
 distance = 4, ancestor = f
 
 Your Output: 
-distance = 1, ancestor = [b]
-distance = 1, ancestor = [c]
-distance = 1, ancestor = [d]
-distance = 1, ancestor = [e]
-distance = 2, ancestor = [f]
-distance = 3, ancestor = [f]
-distance = 3, ancestor = [f]
-distance = 3, ancestor = [f]
-distance = 3, ancestor = [f]
-distance = 4, ancestor = [f]
+distance = 1, ancestor = b
+distance = 1, ancestor = c
+distance = 1, ancestor = d
+distance = 1, ancestor = e
+distance = 2, ancestor = f
+distance = 3, ancestor = f
+distance = 3, ancestor = f
+distance = 3, ancestor = f
+distance = 3, ancestor = f
+distance = 4, ancestor = f
 ----------------------------------------
 
 ########## Testcase 8: Passed ##########
@@ -253,7 +253,7 @@ distance = 0, ancestor = era epoch
 distance = 8, ancestor = abstraction abstract_entity
 
 Your Output: 
-distance = 17, ancestor = [entity]
+distance = 17, ancestor = entity
 IllegalArgumentException
 ----------------------------------------
 
