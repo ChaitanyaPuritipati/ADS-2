@@ -17,7 +17,7 @@ public class SAP {
 
     // a common ancestor of v and w that participates in a shortest ancestral path; -1 if no such path
     public int ancestor(int v, int w) {
-        System.out.println("entered");
+        // System.out.println("entered");
         BreadthFirstSearch bfsv = new BreadthFirstSearch(graph, v);
         BreadthFirstSearch bfsw = new BreadthFirstSearch(graph, w);
         for (int i = 0; i < graph.V(); i++) {

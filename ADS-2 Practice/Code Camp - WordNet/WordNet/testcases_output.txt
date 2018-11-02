@@ -43,41 +43,21 @@ distance = 10, ancestor = entity
 
 Your Output: 
 -1ancs
-entered
 7length
-entered
 15ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 7length
-entered
 15ancestor
-entered
-entered
-entered
-distance = 7, ancestor = entity
+distance = -1, ancestor = null
 -1ancs
-entered
 10length
-entered
 15ancestor
-entered
-entered
-entered
 Bag@1e67b872
 -1ancs
-entered
 10length
-entered
 15ancestor
-entered
-entered
-entered
-distance = 10, ancestor = entity
+distance = -1, ancestor = null
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -91,113 +71,53 @@ distance = 1, ancestor = animal_oil
 
 Your Output: 
 -1ancs
-entered
 17length
-entered
 162ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 17length
-entered
 162ancestor
-entered
-entered
-entered
-distance = 17, ancestor = entity
+distance = -1, ancestor = null
 -1ancs
-entered
 17length
-entered
 162ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 17length
-entered
 162ancestor
-entered
-entered
-entered
-distance = 17, ancestor = entity
+distance = -1, ancestor = null
 -1ancs
-entered
 19length
-entered
 162ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 19length
-entered
 162ancestor
-entered
-entered
-entered
-distance = 19, ancestor = entity
+distance = -1, ancestor = null
 -1ancs
-entered
 18length
-entered
 162ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 18length
-entered
 162ancestor
-entered
-entered
-entered
-distance = 18, ancestor = entity
+distance = -1, ancestor = null
 -1ancs
-entered
 19length
-entered
 162ancestor
-entered
-entered
-entered
 Bag@1e67b872
 -1ancs
-entered
 19length
-entered
 162ancestor
-entered
-entered
-entered
-distance = 19, ancestor = entity
+distance = -1, ancestor = null
 -1ancs
-entered
 1length
-entered
 34ancestor
-entered
-entered
-entered
 Bag@1e67b872
 -1ancs
-entered
 1length
-entered
 34ancestor
-entered
-entered
-entered
-distance = 1, ancestor = animal_oil
+distance = -1, ancestor = null
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -208,59 +128,29 @@ distance = 2, ancestor = wax
 
 Your Output: 
 -1ancs
-entered
 17length
-entered
 275ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 17length
-entered
 275ancestor
-entered
-entered
-entered
-distance = 17, ancestor = entity
+distance = -1, ancestor = null
 -1ancs
-entered
 17length
-entered
 275ancestor
-entered
-entered
-entered
 Bag@1e67b872
 -1ancs
-entered
 17length
-entered
 275ancestor
-entered
-entered
-entered
-distance = 17, ancestor = entity
+distance = -1, ancestor = null
 -1ancs
-entered
 16length
-entered
 275ancestor
-entered
-entered
-entered
 Bag@60addb54
 -1ancs
-entered
 16length
-entered
 275ancestor
-entered
-entered
-entered
-distance = 16, ancestor = entity
+distance = -1, ancestor = null
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -273,95 +163,45 @@ distance = 0, ancestor = f
 
 Your Output: 
 -1ancs
-entered
 2length
-entered
 0ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 2length
-entered
 0ancestor
-entered
-entered
-entered
-distance = 2, ancestor = a
+distance = -1, ancestor = null
 -1ancs
-entered
 8length
-entered
 0ancestor
-entered
-entered
-entered
 Bag@1e67b872
 -1ancs
-entered
 8length
-entered
 0ancestor
-entered
-entered
-entered
-distance = 8, ancestor = a
+distance = -1, ancestor = null
 -1ancs
-entered
 6length
-entered
 0ancestor
-entered
-entered
-entered
 Bag@60addb54
 -1ancs
-entered
 6length
-entered
 0ancestor
-entered
-entered
-entered
-distance = 6, ancestor = a
+distance = -1, ancestor = null
 -1ancs
-entered
 4length
-entered
 0ancestor
-entered
-entered
-entered
 Bag@3f2a3a5
 -1ancs
-entered
 4length
-entered
 0ancestor
-entered
-entered
-entered
-distance = 4, ancestor = a
+distance = -1, ancestor = null
 -1ancs
-entered
 2length
-entered
 0ancestor
-entered
-entered
-entered
 Bag@4cb2c100
 -1ancs
-entered
 2length
-entered
 0ancestor
-entered
-entered
-entered
-distance = 2, ancestor = a
+distance = -1, ancestor = null
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -379,185 +219,85 @@ distance = 1, ancestor = k
 
 Your Output: 
 -1ancs
-entered
 1length
-entered
 1ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 1length
-entered
 1ancestor
-entered
-entered
-entered
-distance = 1, ancestor = b
+distance = -1, ancestor = null
 -1ancs
-entered
 2length
-entered
 2ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 2length
-entered
 2ancestor
-entered
-entered
-entered
-distance = 2, ancestor = c
+distance = -1, ancestor = null
 -1ancs
-entered
 4length
-entered
 2ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 4length
-entered
 2ancestor
-entered
-entered
-entered
-distance = 4, ancestor = c
+distance = -1, ancestor = null
 -1ancs
-entered
 3length
-entered
 2ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 3length
-entered
 2ancestor
-entered
-entered
-entered
-distance = 3, ancestor = c
+distance = -1, ancestor = null
 -1ancs
-entered
 4length
-entered
 2ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 4length
-entered
 2ancestor
-entered
-entered
-entered
-distance = 4, ancestor = c
+distance = -1, ancestor = null
 -1ancs
-entered
 4length
-entered
 2ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 4length
-entered
 2ancestor
-entered
-entered
-entered
-distance = 4, ancestor = c
+distance = -1, ancestor = null
 -1ancs
-entered
 3length
-entered
 2ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 3length
-entered
 2ancestor
-entered
-entered
-entered
-distance = 3, ancestor = c
+distance = -1, ancestor = null
 -1ancs
-entered
 4length
-entered
 2ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 4length
-entered
 2ancestor
-entered
-entered
-entered
-distance = 4, ancestor = c
+distance = -1, ancestor = null
 -1ancs
-entered
 5length
-entered
 2ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 5length
-entered
 2ancestor
-entered
-entered
-entered
-distance = 5, ancestor = c
+distance = -1, ancestor = null
 -1ancs
-entered
 6length
-entered
 2ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 6length
-entered
 2ancestor
-entered
-entered
-entered
-distance = 6, ancestor = c
+distance = -1, ancestor = null
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -572,131 +312,61 @@ distance = 1, ancestor = h
 
 Your Output: 
 -1ancs
-entered
 1length
-entered
 1ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 1length
-entered
 1ancestor
-entered
-entered
-entered
-distance = 1, ancestor = b
+distance = -1, ancestor = null
 -1ancs
-entered
 2length
-entered
 2ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 2length
-entered
 2ancestor
-entered
-entered
-entered
-distance = 2, ancestor = c
+distance = -1, ancestor = null
 -1ancs
-entered
 3length
-entered
 3ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 3length
-entered
 3ancestor
-entered
-entered
-entered
-distance = 3, ancestor = d
+distance = -1, ancestor = null
 -1ancs
-entered
 6length
-entered
 3ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 6length
-entered
 3ancestor
-entered
-entered
-entered
-distance = 6, ancestor = d
+distance = -1, ancestor = null
 -1ancs
-entered
 5length
-entered
 3ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 5length
-entered
 3ancestor
-entered
-entered
-entered
-distance = 5, ancestor = d
+distance = -1, ancestor = null
 -1ancs
-entered
 4length
-entered
 3ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 4length
-entered
 3ancestor
-entered
-entered
-entered
-distance = 4, ancestor = d
+distance = -1, ancestor = null
 -1ancs
-entered
 1length
-entered
 7ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 1length
-entered
 7ancestor
-entered
-entered
-entered
-distance = 1, ancestor = h
+distance = -1, ancestor = null
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -714,185 +384,85 @@ distance = 4, ancestor = f
 
 Your Output: 
 -1ancs
-entered
 1length
-entered
 1ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 1length
-entered
 1ancestor
-entered
-entered
-entered
-distance = 1, ancestor = b
+distance = -1, ancestor = null
 -1ancs
-entered
 1length
-entered
 2ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 1length
-entered
 2ancestor
-entered
-entered
-entered
-distance = 1, ancestor = c
+distance = -1, ancestor = null
 -1ancs
-entered
 1length
-entered
 3ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 1length
-entered
 3ancestor
-entered
-entered
-entered
-distance = 1, ancestor = d
+distance = -1, ancestor = null
 -1ancs
-entered
 1length
-entered
 4ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 1length
-entered
 4ancestor
-entered
-entered
-entered
-distance = 1, ancestor = e
+distance = -1, ancestor = null
 -1ancs
-entered
 2length
-entered
 5ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 2length
-entered
 5ancestor
-entered
-entered
-entered
-distance = 2, ancestor = f
+distance = -1, ancestor = null
 -1ancs
-entered
 3length
-entered
 5ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 3length
-entered
 5ancestor
-entered
-entered
-entered
-distance = 3, ancestor = f
+distance = -1, ancestor = null
 -1ancs
-entered
 3length
-entered
 5ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 3length
-entered
 5ancestor
-entered
-entered
-entered
-distance = 3, ancestor = f
+distance = -1, ancestor = null
 -1ancs
-entered
 3length
-entered
 5ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 3length
-entered
 5ancestor
-entered
-entered
-entered
-distance = 3, ancestor = f
+distance = -1, ancestor = null
 -1ancs
-entered
 3length
-entered
 5ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 3length
-entered
 5ancestor
-entered
-entered
-entered
-distance = 3, ancestor = f
+distance = -1, ancestor = null
 -1ancs
-entered
 4length
-entered
 5ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 4length
-entered
 5ancestor
-entered
-entered
-entered
-distance = 4, ancestor = f
+distance = -1, ancestor = null
 ----------------------------------------
 
 ########## Testcase 8: Passed ##########
@@ -985,23 +555,13 @@ distance = 8, ancestor = abstraction abstract_entity
 
 Your Output: 
 -1ancs
-entered
 17length
-entered
 38003ancestor
-entered
-entered
-entered
 Bag@5ebec15
 -1ancs
-entered
 17length
-entered
 38003ancestor
-entered
-entered
-entered
-distance = 17, ancestor = entity
+distance = -1, ancestor = null
 IllegalArgumentException
 ----------------------------------------
 
