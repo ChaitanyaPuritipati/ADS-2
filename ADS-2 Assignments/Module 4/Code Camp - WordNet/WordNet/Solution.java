@@ -15,7 +15,7 @@ class Solution {
 		String linethree = StdIn.readLine();
 		Digraph digraphobj = new Digraph(syndata.length);
 		for (String eachline : hypdata) {
-			String[] edges = eachline.split(" ");
+			String[] edges = eachline.split(",");
 			digraphobj.addEdge(Integer.parseInt(edges[0]), Integer.parseInt(edges[1]));
 		}
 		if (linethree.equals("Graph")) {
