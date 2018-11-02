@@ -36,13 +36,41 @@ Your Output:
 14: 13
 ----------------------------------------
 
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 distance = 7, ancestor = entity
 distance = 10, ancestor = entity
 
 Your Output: 
+-1ancs
+entered
+7length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+7length
+entered
+entered
+entered
 distance = 7, ancestor = entity
+-1ancs
+entered
+10length
+entered
+entered
+entered
+Bag@1e67b872
+entered
+-1ancs
+entered
+10length
+entered
+entered
+entered
 distance = 10, ancestor = entity
 ----------------------------------------
 
@@ -56,11 +84,95 @@ distance = 7, ancestor = lipid lipide lipoid
 distance = 1, ancestor = animal_oil
 
 Your Output: 
+-1ancs
+entered
+17length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+17length
+entered
+entered
+entered
 distance = 17, ancestor = entity
+-1ancs
+entered
+17length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+17length
+entered
+entered
+entered
 distance = 17, ancestor = entity
+-1ancs
+entered
+19length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+19length
+entered
+entered
+entered
 distance = 19, ancestor = entity
+-1ancs
+entered
+18length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+18length
+entered
+entered
+entered
 distance = 18, ancestor = entity
+-1ancs
+entered
+19length
+entered
+entered
+entered
+Bag@1e67b872
+entered
+-1ancs
+entered
+19length
+entered
+entered
+entered
 distance = 19, ancestor = entity
+-1ancs
+entered
+1length
+entered
+entered
+entered
+Bag@1e67b872
+entered
+-1ancs
+entered
+1length
+entered
+entered
+entered
 distance = 1, ancestor = animal_oil
 ----------------------------------------
 
@@ -71,8 +183,50 @@ distance = 13, ancestor = thing
 distance = 2, ancestor = wax
 
 Your Output: 
+-1ancs
+entered
+17length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+17length
+entered
+entered
+entered
 distance = 17, ancestor = entity
+-1ancs
+entered
+17length
+entered
+entered
+entered
+Bag@1e67b872
+entered
+-1ancs
+entered
+17length
+entered
+entered
+entered
 distance = 17, ancestor = entity
+-1ancs
+entered
+16length
+entered
+entered
+entered
+Bag@60addb54
+entered
+-1ancs
+entered
+16length
+entered
+entered
+entered
 distance = 16, ancestor = entity
 ----------------------------------------
 
@@ -85,10 +239,80 @@ distance = 0, ancestor = e
 distance = 0, ancestor = f
 
 Your Output: 
+-1ancs
+entered
+2length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+2length
+entered
+entered
+entered
 distance = 2, ancestor = a
+-1ancs
+entered
+8length
+entered
+entered
+entered
+Bag@1e67b872
+entered
+-1ancs
+entered
+8length
+entered
+entered
+entered
 distance = 8, ancestor = a
+-1ancs
+entered
+6length
+entered
+entered
+entered
+Bag@60addb54
+entered
+-1ancs
+entered
+6length
+entered
+entered
+entered
 distance = 6, ancestor = a
+-1ancs
+entered
+4length
+entered
+entered
+entered
+Bag@3f2a3a5
+entered
+-1ancs
+entered
+4length
+entered
+entered
+entered
 distance = 4, ancestor = a
+-1ancs
+entered
+2length
+entered
+entered
+entered
+Bag@4cb2c100
+entered
+-1ancs
+entered
+2length
+entered
+entered
+entered
 distance = 2, ancestor = a
 ----------------------------------------
 
@@ -106,15 +330,155 @@ distance = 2, ancestor = j
 distance = 1, ancestor = k
 
 Your Output: 
+-1ancs
+entered
+1length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+1length
+entered
+entered
+entered
 distance = 1, ancestor = b
+-1ancs
+entered
+2length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+2length
+entered
+entered
+entered
 distance = 2, ancestor = c
+-1ancs
+entered
+4length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+4length
+entered
+entered
+entered
 distance = 4, ancestor = c
+-1ancs
+entered
+3length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+3length
+entered
+entered
+entered
 distance = 3, ancestor = c
+-1ancs
+entered
+4length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+4length
+entered
+entered
+entered
 distance = 4, ancestor = c
+-1ancs
+entered
+4length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+4length
+entered
+entered
+entered
 distance = 4, ancestor = c
+-1ancs
+entered
+3length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+3length
+entered
+entered
+entered
 distance = 3, ancestor = c
+-1ancs
+entered
+4length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+4length
+entered
+entered
+entered
 distance = 4, ancestor = c
+-1ancs
+entered
+5length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+5length
+entered
+entered
+entered
 distance = 5, ancestor = c
+-1ancs
+entered
+6length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+6length
+entered
+entered
+entered
 distance = 6, ancestor = c
 ----------------------------------------
 
@@ -129,16 +493,114 @@ distance = 3, ancestor = h
 distance = 1, ancestor = h
 
 Your Output: 
+-1ancs
+entered
+1length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+1length
+entered
+entered
+entered
 distance = 1, ancestor = b
+-1ancs
+entered
+2length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+2length
+entered
+entered
+entered
 distance = 2, ancestor = c
+-1ancs
+entered
+3length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+3length
+entered
+entered
+entered
 distance = 3, ancestor = d
+-1ancs
+entered
+6length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+6length
+entered
+entered
+entered
 distance = 6, ancestor = d
+-1ancs
+entered
+5length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+5length
+entered
+entered
+entered
 distance = 5, ancestor = d
+-1ancs
+entered
+4length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+4length
+entered
+entered
+entered
 distance = 4, ancestor = d
+-1ancs
+entered
+1length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+1length
+entered
+entered
+entered
 distance = 1, ancestor = h
 ----------------------------------------
 
-########## Testcase 7: Passed ##########
+########## Testcase 7: Failed ##########
 Expected Output: 
 distance = 1, ancestor = b
 distance = 1, ancestor = c
@@ -152,15 +614,155 @@ distance = 3, ancestor = f
 distance = 4, ancestor = f
 
 Your Output: 
+-1ancs
+entered
+1length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+1length
+entered
+entered
+entered
 distance = 1, ancestor = b
+-1ancs
+entered
+1length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+1length
+entered
+entered
+entered
 distance = 1, ancestor = c
+-1ancs
+entered
+1length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+1length
+entered
+entered
+entered
 distance = 1, ancestor = d
+-1ancs
+entered
+1length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+1length
+entered
+entered
+entered
 distance = 1, ancestor = e
+-1ancs
+entered
+2length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+2length
+entered
+entered
+entered
 distance = 2, ancestor = f
+-1ancs
+entered
+3length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+3length
+entered
+entered
+entered
 distance = 3, ancestor = f
+-1ancs
+entered
+3length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+3length
+entered
+entered
+entered
 distance = 3, ancestor = f
+-1ancs
+entered
+3length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+3length
+entered
+entered
+entered
 distance = 3, ancestor = f
+-1ancs
+entered
+3length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+3length
+entered
+entered
+entered
 distance = 3, ancestor = f
+-1ancs
+entered
+4length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+4length
+entered
+entered
+entered
 distance = 4, ancestor = f
 ----------------------------------------
 
@@ -253,6 +855,20 @@ distance = 0, ancestor = era epoch
 distance = 8, ancestor = abstraction abstract_entity
 
 Your Output: 
+-1ancs
+entered
+17length
+entered
+entered
+entered
+Bag@5ebec15
+entered
+-1ancs
+entered
+17length
+entered
+entered
+entered
 distance = 17, ancestor = entity
 IllegalArgumentException
 ----------------------------------------

@@ -49,6 +49,7 @@ public class WordNet {
     // distance between nounA and nounB (defined below)
     public int distance(String nounA, String nounB) {
         sapobj = new SAP(digraph);
+        System.out.println(wordmap.get(nounA));
         int dist = sapobj.length(wordmap.get(nounA), wordmap.get(nounB));
         return dist;
     }

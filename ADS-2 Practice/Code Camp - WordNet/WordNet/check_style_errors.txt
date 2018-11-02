@@ -313,9 +313,9 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\SAP.java:40:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\SAP.java:40:25: Parameter v should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\SAP.java:40:46: Parameter w should be final. [FinalParameters]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\SAP.java:47:19: 'if' is not followed by whitespace. [WhitespaceAround]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\SAP.java:48:23: 'if' is not followed by whitespace. [WhitespaceAround]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\SAP.java:52:27: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\SAP.java:47:19: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\SAP.java:48:23: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\SAP.java:52:27: 'if' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\SAP.java:55: Line has trailing spaces. [RegexpSingleline]
 Audit done.
 Checkstyle ends with 32 errors.
@@ -525,10 +525,10 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:50:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:50:25: Parameter nounA should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:50:39: Parameter nounB should be final. [FinalParameters]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:56: Line is longer than 80 characters (found 92). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:58:5: Class 'WordNet' looks like designed for extension (can be subclassed), but the method 'sap' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'WordNet' final or making the method 'sap' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:58:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:58:23: Parameter nounA should be final. [FinalParameters]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:58:37: Parameter nounB should be final. [FinalParameters]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:57: Line is longer than 80 characters (found 92). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:59:5: Class 'WordNet' looks like designed for extension (can be subclassed), but the method 'sap' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'WordNet' final or making the method 'sap' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:59:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:59:23: Parameter nounA should be final. [FinalParameters]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Practice\Code Camp - WordNet\WordNet\WordNet.java:59:37: Parameter nounB should be final. [FinalParameters]
 Audit done.
 Checkstyle ends with 27 errors.
