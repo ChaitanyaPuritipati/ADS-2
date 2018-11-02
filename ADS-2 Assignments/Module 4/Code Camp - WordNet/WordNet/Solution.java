@@ -16,7 +16,9 @@ class Solution {
 		Digraph digraphobj = new Digraph(syndata.length);
 		for (String eachline : hypdata) {
 			String[] edges = eachline.split(",");
-			digraphobj.addEdge(Integer.parseInt(edges[0]), Integer.parseInt(edges[1]));
+			for (int l = 1; l < edges.length; l++) {
+				digraphobj.addEdge(Integer.parseInt(edges[0]), Integer.parseInt(edges[l]));
+			}
 		}
 		if (linethree.equals("Graph")) {
 			System.out.println(digraphobj.V() + " vertices, " + digraphobj.E() + " edges ");

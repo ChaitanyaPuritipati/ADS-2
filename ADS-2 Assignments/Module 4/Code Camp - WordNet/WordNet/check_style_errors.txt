@@ -299,8 +299,8 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 4\Code Camp - WordNet\WordNet\Solution.java:5:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 4\Code Camp - WordNet\WordNet\Solution.java:8:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 4\Code Camp - WordNet\WordNet\Solution.java:8:33: Parameter args should be final. [FinalParameters]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 4\Code Camp - WordNet\WordNet\Solution.java:19: Line is longer than 80 characters (found 99). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 4\Code Camp - WordNet\WordNet\Solution.java:22: Line is longer than 80 characters (found 104). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 4\Code Camp - WordNet\WordNet\Solution.java:20: Line is longer than 80 characters (found 107). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 4\Code Camp - WordNet\WordNet\Solution.java:24: Line is longer than 80 characters (found 104). [LineLength]
 Audit done.
 Checkstyle ends with 11 errors.
 Starting audit...
