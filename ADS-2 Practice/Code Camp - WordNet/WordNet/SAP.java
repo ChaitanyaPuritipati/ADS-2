@@ -30,6 +30,7 @@ public class SAP {
 
     // length of shortest ancestral path between any vertex in v and any vertex in w; -1 if no such path
     public int length(Iterable<Integer> v, Iterable<Integer> w) {
+        System.out.println("entered");
         ancestor(v, w);
         return mindis;
     }
