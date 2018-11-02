@@ -42,7 +42,14 @@ distance = 7, ancestor = entity
 distance = 10, ancestor = entity
 
 Your Output: 
-
+Exception in thread "main" java.lang.NoClassDefFoundError: SAP
+	at WordNet.sap(WordNet.java:59)
+	at Solution.main(Solution.java:27)
+Caused by: java.lang.ClassNotFoundException: SAP
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 2 more
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -55,7 +62,14 @@ distance = 7, ancestor = lipid lipide lipoid
 distance = 1, ancestor = animal_oil
 
 Your Output: 
-
+Exception in thread "main" java.lang.NoClassDefFoundError: SAP
+	at WordNet.sap(WordNet.java:59)
+	at Solution.main(Solution.java:27)
+Caused by: java.lang.ClassNotFoundException: SAP
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 2 more
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -65,7 +79,14 @@ distance = 13, ancestor = thing
 distance = 2, ancestor = wax
 
 Your Output: 
-
+Exception in thread "main" java.lang.NoClassDefFoundError: SAP
+	at WordNet.sap(WordNet.java:59)
+	at Solution.main(Solution.java:27)
+Caused by: java.lang.ClassNotFoundException: SAP
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 2 more
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -77,7 +98,14 @@ distance = 0, ancestor = e
 distance = 0, ancestor = f
 
 Your Output: 
-
+Exception in thread "main" java.lang.NoClassDefFoundError: SAP
+	at WordNet.sap(WordNet.java:59)
+	at Solution.main(Solution.java:27)
+Caused by: java.lang.ClassNotFoundException: SAP
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 2 more
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -94,7 +122,14 @@ distance = 2, ancestor = j
 distance = 1, ancestor = k
 
 Your Output: 
-
+Exception in thread "main" java.lang.NoClassDefFoundError: SAP
+	at WordNet.sap(WordNet.java:59)
+	at Solution.main(Solution.java:27)
+Caused by: java.lang.ClassNotFoundException: SAP
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 2 more
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -108,7 +143,14 @@ distance = 3, ancestor = h
 distance = 1, ancestor = h
 
 Your Output: 
-
+Exception in thread "main" java.lang.NoClassDefFoundError: SAP
+	at WordNet.sap(WordNet.java:59)
+	at Solution.main(Solution.java:27)
+Caused by: java.lang.ClassNotFoundException: SAP
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 2 more
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -125,7 +167,14 @@ distance = 3, ancestor = f
 distance = 4, ancestor = f
 
 Your Output: 
-
+Exception in thread "main" java.lang.NoClassDefFoundError: SAP
+	at WordNet.sap(WordNet.java:59)
+	at Solution.main(Solution.java:27)
+Caused by: java.lang.ClassNotFoundException: SAP
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 2 more
 ----------------------------------------
 
 ########## Testcase 8: Passed ##########
@@ -185,7 +234,14 @@ Expected Output:
 IllegalArgumentException
 
 Your Output: 
-
+Exception in thread "main" java.lang.NoClassDefFoundError: SAP
+	at WordNet.sap(WordNet.java:59)
+	at Solution.main(Solution.java:27)
+Caused by: java.lang.ClassNotFoundException: SAP
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 2 more
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -193,7 +249,14 @@ Expected Output:
 IllegalArgumentException
 
 Your Output: 
-
+Exception in thread "main" java.lang.NoClassDefFoundError: SAP
+	at WordNet.sap(WordNet.java:59)
+	at Solution.main(Solution.java:27)
+Caused by: java.lang.ClassNotFoundException: SAP
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 2 more
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -217,7 +280,14 @@ distance = 0, ancestor = era epoch
 distance = 8, ancestor = abstraction abstract_entity
 
 Your Output: 
-
+Exception in thread "main" java.lang.NoClassDefFoundError: SAP
+	at WordNet.sap(WordNet.java:59)
+	at Solution.main(Solution.java:27)
+Caused by: java.lang.ClassNotFoundException: SAP
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 2 more
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
