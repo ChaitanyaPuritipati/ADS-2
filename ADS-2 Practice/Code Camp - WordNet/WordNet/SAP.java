@@ -44,17 +44,17 @@ public class SAP {
                 System.out.println(ancs + "ancs");
                 System.out.println(length(eachv, eachw) + "length");
                 System.out.println(ancestor(eachv, eachw) + "ancestor");
-                if(ancestor(eachv, eachw) >= 0) {
-                    if(mindis < 0) {
-                        mindis = length(eachv, eachw);
-                        ancs = ancestor(eachv, eachw);
-                    } else {
-                        if(length(eachv, eachw) < mindis) {
-                            mindis = length(eachv, eachw);
-                            ancs = ancestor(eachv, eachw);
-                        } 
-                    }
-                }
+                // if(ancestor(eachv, eachw) >= 0) {
+                //     if(mindis < 0) {
+                //         mindis = length(eachv, eachw);
+                //         ancs = ancestor(eachv, eachw);
+                //     } else {
+                //         if(length(eachv, eachw) < mindis) {
+                //             mindis = length(eachv, eachw);
+                //             ancs = ancestor(eachv, eachw);
+                //         } 
+                //     }
+                // }
             }
         }
         return ancs;
