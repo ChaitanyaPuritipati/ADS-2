@@ -6,7 +6,6 @@ class Solution {
 		//unused
 	}
 	public static void main(String[] args) {
-		// StdIn stdinobj = new StdIn();
 		String synfilename = StdIn.readLine();
 		In file = new In(new File("Files/" + synfilename));
 		String[] syndata = file.readAllLines();
@@ -14,9 +13,21 @@ class Solution {
 		file = new In(new File("Files/" + hyperfilename));
 		String[] hypdata = file.readAllLines();
 		String linethree = StdIn.readLine();
-		System.out.println(Arrays.toString(syndata));
-		System.out.println(Arrays.toString(hypdata));
-		// if(linethree.equals("Graph")) {
-		// }
+		Digraph digraphobj = new Digraph(syndata.length);
+		for (String eachline : hypdata) {
+			String[] edges = eachline.split(" ");
+			digraphobj.addEdge(Integer.parseInt(edges[0]), Integer.parseInt(edges[1]));
+		}
+		if (linethree.equals("Graph")) {
+			System.out.println(digraphobj.V() + " vertices, " + digraphobj.E() + " edges ");
+			for (int i = 0; i < digraphobj.V(); i++) {
+				String str = "";
+				str = str + i + ": ";
+				for (int eachadj : digraphobj.adj(i)) {
+					str = str + eachadj + " ";
+				}
+				System.out.println(str);
+			}
+		}
 	}
 }
