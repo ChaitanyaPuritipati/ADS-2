@@ -23,7 +23,7 @@ class PageRank {
 		updatingprvals();
 	}
 	void updatingprvals() {
-		for (int i = 1; i < 1100; i++) {
+		for (int i = 1; i < 990; i++) {
 			for (int j = 0; j < pggraph.V(); j++) {
 				update(j);
 			}
