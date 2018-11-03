@@ -38,7 +38,7 @@ class PageRank {
 		return nowval[v];
 	}
 	public String toString() {
-		return Arrays.toString(prval);
+		return Arrays.toString(nowval);
 	}
 }
 
