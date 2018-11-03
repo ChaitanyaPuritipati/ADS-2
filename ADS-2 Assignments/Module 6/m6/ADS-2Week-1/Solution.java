@@ -9,6 +9,15 @@ class PageRank {
 		for(int y = 0; y < prval.length; y++) {
 			prval[y] = (1.0 / (pggraph.V()));
 		}
+		for (int z = 0; z < pggraph.V(); z++) {
+			if(pggraph.outdegree(z) == 0) {
+				for (int b = 0; b < pggraph.V(); b++) {
+					if(b != z) {
+						pggraph.addEdge(z, b);
+					}
+				}
+			}
+		}
 		nowval = new double[pggraph.V()];
 		updatingprvals();
 	}
@@ -22,25 +31,13 @@ class PageRank {
 	}
 	double getPR(int v) {
 		double testprval = 0.0;
-		// System.out.println(v + "v'svalue");
 		if(pggraph.indegree(v) == 0) {
 			nowval[v] = 0.0;
 			return nowval[v];
 		}
-		// if(pggraph.outdegree(v) == 0) {
-		// 	for(int everyvertex = 0; everyvertex < pggraph.V(); everyvertex++) {
-		// 		if(everyvertex != v) {
-		// 			testprval = testprval + ((double)prval[everyvertex]/(double)pggraph.outdegree(everyvertex)); 
-		// 		}
-		// 	}
-		// 	prval[v] = testprval;
-		// }
 		for(Integer eachadj : pggraph.reverse().adj(v)) {
-			// System.out.println(prval[eachadj]/(pggraph.outdegree(eachadj)) + "everytime" + eachadj);
-			// System.out.println(pggraph.outdegree(eachadj) + " everytime " + eachadj);
 			testprval = testprval + (prval[eachadj]/pggraph.outdegree(eachadj));
 		}
-		// System.out.println(testprval);
 		nowval[v] = testprval;
 		return nowval[v];
 	}
