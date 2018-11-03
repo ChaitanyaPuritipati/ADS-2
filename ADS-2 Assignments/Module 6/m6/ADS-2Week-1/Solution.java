@@ -18,9 +18,11 @@ class PageRank {
 		}
 	}
 	double getPR(int v) {
+		double testprval = 0.0;
 		for(Integer eachadj : pggraph.adj(v)) {
-			prval[v] = (prval[eachadj]/pggraph.outdegree(eachadj));
+			testprval += (prval[eachadj]/pggraph.outdegree(eachadj));
 		}
+		prval[v] = testprval;
 		return prval[v];
 	}
 	public String toString() {
