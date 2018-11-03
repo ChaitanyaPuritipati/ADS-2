@@ -9,6 +9,7 @@ class PageRank {
 		for(int y = 0; y < prval.length; y++) {
 			prval[y] = (1.0 / (pggraph.V()));
 		}
+		nowval = new double[pggraph.V()];
 		updatingprvals();
 	}
 	void updatingprvals() {
