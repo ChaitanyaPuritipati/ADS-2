@@ -75,7 +75,7 @@ public class Solution {
 			}
 		}
 		System.out.println(graph);
-		System.out.println();
+		// System.out.println();
 		// Create page rank object and pass the graph object to the constructor
 
         PageRank pgrankobj = new PageRank(graph);
