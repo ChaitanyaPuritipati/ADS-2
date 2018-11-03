@@ -37,6 +37,7 @@ class PageRank {
 		// }
 		for(Integer eachadj : pggraph.reverse().adj(v)) {
 			// System.out.println(prval[eachadj]/(pggraph.outdegree(eachadj)) + "everytime" + eachadj);
+			System.out.println(pggraph.outdegree(eachadj) + "everytime");
 			testprval = testprval + (prval[eachadj]/pggraph.outdegree(eachadj));
 		}
 		// System.out.println(testprval);
