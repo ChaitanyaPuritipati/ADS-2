@@ -13,7 +13,7 @@ class PageRank {
 		updatingprvals();
 	}
 	void updatingprvals() {
-		for (int i = 1; i < 1000; i++) {
+		for (int i = 1; i < 104; i++) {
 			for (int j = 0; j < pggraph.V(); j++) {
 				getPR(j);
 			}
@@ -75,7 +75,6 @@ public class Solution {
 			}
 		}
 		System.out.println(graph);
-		// System.out.println();
 		// Create page rank object and pass the graph object to the constructor
 
         PageRank pgrankobj = new PageRank(graph);
