@@ -28,6 +28,9 @@ class PageRank {
 				update(j);
 			}
 			prval = Arrays.copyOf(nowval, nowval.length);
+			if(Arrays.equals(prval, nowval)) {
+				return;
+			}
 		}
 	}
 	double getPR(int v) {
