@@ -79,8 +79,9 @@ class WebSearch {
 		}
 	}
 	int iAmFeelingLucky(String inputword) {
-		if(!hashtableobj.contains(inputword)) {
-			System.out.println("entered");
+		// System.out.println(inputword);
+		if(!hashtableobj.containsKey(inputword)) {
+			// System.out.println("entered");
 			return -1;
 		}
 		Bag<Integer> testbag = hashtableobj.get(inputword);
@@ -138,8 +139,8 @@ public class Solution {
 		WebSearch webobj = new WebSearch(pgrankobj, file);
 		
 		while (StdIn.hasNextLine()) {
-			webobj.printkeys();
-			System.out.println("------------------------------------");
+			// webobj.printkeys();
+			// System.out.println("------------------------------------");
 			String[] queries = StdIn.readLine().split("=");
 			System.out.println(webobj.iAmFeelingLucky(queries[1]));
 		}
