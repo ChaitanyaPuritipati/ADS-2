@@ -20,9 +20,9 @@ class PageRank {
 	double getPR(int v) {
 		double testprval = 0.0;
 		for(Integer eachadj : pggraph.adj(v)) {
-			System.out.println(testprval + "before");
+			System.out.println(prval[eachadj] + "before aj val" + eachadj);
 			testprval += (prval[eachadj]/pggraph.outdegree(eachadj));
-			System.out.println(testprval + "after");
+			System.out.println(prval[eachadj] + "after aj val" + eachadj);
 		}
 		prval[v] = testprval;
 		return prval[v];
