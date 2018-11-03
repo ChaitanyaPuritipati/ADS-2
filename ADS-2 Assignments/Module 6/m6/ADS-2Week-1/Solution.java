@@ -12,9 +12,11 @@ class PageRank {
 	}
 	void updatingprvals() {
 		for (int i = 0; i < 10; i++) {
+			System.out.println("iteration number " + i);
 			for (int j = 0; j < pggraph.V(); j++) {
 				getPR(j);
 			}
+			System.out.println("-------------------------------------------------------");
 		}
 	}
 	double getPR(int v) {
