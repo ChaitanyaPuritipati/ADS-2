@@ -29,7 +29,7 @@ class PageRank {
 			nowval[v] = 0.0;
 			return nowval[v];
 		}
-		for(Integer eachadj : pggraph.adj(v)) {
+		for(Integer eachadj : pggraph.reverse().adj(v)) {
 			System.out.println(prval[eachadj]/(pggraph.outdegree(eachadj)) + "everytime" + eachadj);
 			testprval = testprval + ((double)prval[eachadj]/(double)pggraph.outdegree(eachadj));
 		}
