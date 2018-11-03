@@ -13,15 +13,14 @@ class PageRank {
 	void updatingprvals() {
 		for (int i = 0; i < 1000; i++) {
 			for (int j = 0; j < pggraph.V(); j++) {
-				double testprval = 0.0;
-				for (Integer eachadj : pggraph.adj(j)) {
-					testprval += (getPR(eachadj)/pggraph.outdegree(eachadj));
-				}
-				prval[j] = testprval; 
+				getPR(j);
 			}
 		}
 	}
 	double getPR(int v) {
+		for(Integer eachadj : pggraph.adj(v)) {
+			prval[v] = (prval[eachadj]/pggraph.outdegree(eachadj));
+		}
 		return prval[v];
 	}
 	public String toString() {
