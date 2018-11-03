@@ -136,8 +136,9 @@ public class Solution {
 		// and pass the page rank object and the file path to the constructor
 
 		WebSearch webobj = new WebSearch(pgrankobj, file);
-		webobj.printkeys();
+		
 		while (StdIn.hasNextLine()) {
+			webobj.printkeys();
 			String[] queries = StdIn.readLine().split("=");
 			System.out.println(webobj.iAmFeelingLucky(queries[1]));
 		}
