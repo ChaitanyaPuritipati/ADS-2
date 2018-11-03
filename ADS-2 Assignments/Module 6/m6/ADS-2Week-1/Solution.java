@@ -4,9 +4,9 @@ class PageRank {
 	private double[] prval;
 	PageRank(Digraph graph) {
 		this.pggraph = graph;
-		prval = new double[graph.V()];
+		prval = new double[pggraph.V()];
 		for(int y = 0; y < prval.length; y++) {
-			prval[y] = (1 / (graph.V()));
+			prval[y] = (1 / (pggraph.V()));
 		}
 	}
 	// double getPR(int v) {
