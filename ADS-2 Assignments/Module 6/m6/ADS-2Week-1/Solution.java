@@ -23,8 +23,8 @@ class PageRank {
 		double testprval = 0.0;
 		System.out.println(v + "v'svalue");
 		for(Integer eachadj : pggraph.adj(v)) {
-			System.out.println(prval[eachadj]/pggraph.outdegree(eachadj) + "everytime" + eachadj);
-			testprval = testprval + (prval[eachadj]/pggraph.outdegree(eachadj));
+			System.out.println(prval[eachadj]/(pggraph.outdegree(eachadj)) + "everytime" + eachadj);
+			testprval = testprval + ((prval[eachadj])/(pggraph.outdegree(eachadj)));
 		}
 		System.out.println(testprval);
 		prval[v] = testprval;
