@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Hashtable;
 class PageRank {
 	private Digraph pggraph;
 	private double[] prval;
@@ -6,13 +7,13 @@ class PageRank {
 	PageRank(Digraph graph) {
 		this.pggraph = graph;
 		prval = new double[pggraph.V()];
-		for(int y = 0; y < prval.length; y++) {
+		for (int y = 0; y < prval.length; y++) {
 			prval[y] = (1.0 / (pggraph.V()));
 		}
 		for (int z = 0; z < pggraph.V(); z++) {
-			if(pggraph.outdegree(z) == 0) {
+			if (pggraph.outdegree(z) == 0) {
 				for (int b = 0; b < pggraph.V(); b++) {
-					if(b != z) {
+					if (b != z) {
 						pggraph.addEdge(z, b);
 					}
 				}
@@ -24,19 +25,22 @@ class PageRank {
 	void updatingprvals() {
 		for (int i = 1; i < 1000; i++) {
 			for (int j = 0; j < pggraph.V(); j++) {
-				getPR(j);
+				update(j);
 			}
 			prval = Arrays.copyOf(nowval, nowval.length);
 		}
 	}
 	double getPR(int v) {
+		return nowval[v];
+	}
+	double update (int v) {
 		double testprval = 0.0;
-		if(pggraph.indegree(v) == 0) {
+		if (pggraph.indegree(v) == 0) {
 			nowval[v] = 0.0;
 			return nowval[v];
 		}
-		for(Integer eachadj : pggraph.reverse().adj(v)) {
-			testprval = testprval + (prval[eachadj]/pggraph.outdegree(eachadj));
+		for (Integer eachadj : pggraph.reverse().adj(v)) {
+			testprval = testprval + (prval[eachadj] / pggraph.outdegree(eachadj));
 		}
 		nowval[v] = testprval;
 		return nowval[v];
@@ -51,6 +55,44 @@ class PageRank {
 }
 
 class WebSearch {
+	PageRank pgrankobjinclass;
+	Hashtable<String, Bag<Integer>> hashtableobj;
+	WebSearch(PageRank rankobj, String filename) {
+		pgrankobjinclass = rankobj;
+		In newfile = new In(filename);
+		hashtableobj = new Hashtable<>();
+		while (newfile.hasNextLine()) {
+			String eachline = newfile.readLine();
+			String[] tokens = eachline.split(":");
+			for (String word : tokens[1].split(" ")) {
+				if (hashtableobj.contains(word)) {
+					Bag testbag = hashtableobj.get(word);
+					testbag.add(Integer.parseInt(tokens[0]));
+					hashtableobj.put(word, testbag);
+				} else {
+					hashtableobj.put(word, new Bag<Integer>());
+					Bag testbag = hashtableobj.get(word);
+					testbag.add(Integer.parseInt(tokens[0]));
+					hashtableobj.put(word, testbag);
+				}
+			}
+		}
+	}
+	int iAmFeelingLucky(String inputword) {
+		if(!hashtableobj.contains(inputword)) {
+			return -1;
+		}
+		Bag<Integer> testbag = hashtableobj.get(inputword);
+		Double maxpr= -1.0;
+		int maxid = -1;
+		for(Integer everyid : testbag) {
+			if(pgrankobjinclass.getPR(everyid) > maxpr) {
+				maxpr = pgrankobjinclass.getPR(everyid);
+				maxid = everyid;
+			}
+		}
+		return maxid;
+	}
 
 }
 
@@ -74,17 +116,24 @@ public class Solution {
 		System.out.println(graph);
 		// Create page rank object and pass the graph object to the constructor
 
-        PageRank pgrankobj = new PageRank(graph);
+		PageRank pgrankobj = new PageRank(graph);
 		// print the page rank object
-        System.out.println(pgrankobj);
+		System.out.println(pgrankobj);
 		// This part is only for the final test case
 
 		// File path to the web content
 		String file = "WebContent.txt";
 
+
 		// instantiate web search object
 		// and pass the page rank object and the file path to the constructor
 
+		WebSearch webobj = new WebSearch(pgrankobj, file);
+
+		while(StdIn.hasNextLine()) {
+			String[] queries = StdIn.readLine().split("=");
+			System.out.println(webobj.iAmFeelingLucky(queries[1]));
+		}
 		// read the search queries from std in
 		// remove the q= prefix and extract the search word
 		// pass the word to iAmFeelingLucky method of web search
