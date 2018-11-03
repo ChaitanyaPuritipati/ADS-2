@@ -20,7 +20,9 @@ public class Solution {
 		Digraph graph = new Digraph(vertexnum);
 		for (int i = 0; i < vertexnum; i++) {
 			String[] edges = StdIn.readLine().split(" ");
-			graph.addEdge(Integer.parseInt(edges[0]), Integer.parseInt(edges[1]));
+			for (int k = 1; k < edges.length; k++) {
+				graph.addEdge(Integer.parseInt(edges[0]), Integer.parseInt(edges[k]));
+			}
 		}
 		System.out.println(graph);
 		// Create page rank object and pass the graph object to the constructor

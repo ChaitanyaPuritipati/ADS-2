@@ -292,9 +292,9 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:12:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:12:33: Parameter args should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:13: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:23: Line is longer than 80 characters (found 94). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:26: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:36: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:24: Line is longer than 80 characters (found 102). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:28: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:38: Line is longer than 80 characters (found 85). [LineLength]
 Audit done.
 Checkstyle ends with 12 errors.
 Starting audit...
