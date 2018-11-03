@@ -292,7 +292,7 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:7:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:7:18: Parameter graph should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:25:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:26:37: '900' is a magic number. [MagicNumber]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:26:37: '1100' is a magic number. [MagicNumber]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:33:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:33:22: Parameter v should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:36:9: Missing a Javadoc comment. [JavadocMethod]
