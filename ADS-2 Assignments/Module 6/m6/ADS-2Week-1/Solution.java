@@ -13,23 +13,23 @@ class PageRank {
 		updatingprvals();
 	}
 	void updatingprvals() {
-		for (int i = 0; i < 10; i++) {
-			System.out.println("iteration number " + i);
+		for (int i = 0; i < 1000; i++) {
+			// System.out.println("iteration number " + i);
 			for (int j = 0; j < pggraph.V(); j++) {
 				getPR(j);
 			}
 			prval = Arrays.copyOf(nowval, nowval.length);
-			System.out.println("-------------------------------------------------------");
+			// System.out.println("-------------------------------------------------------");
 		}
 	}
 	double getPR(int v) {
 		double testprval = 0.0;
-		System.out.println(v + "v'svalue");
+		// System.out.println(v + "v'svalue");
 		for(Integer eachadj : pggraph.adj(v)) {
-			System.out.println(prval[eachadj]/(pggraph.outdegree(eachadj)) + "everytime" + eachadj);
+			// System.out.println(prval[eachadj]/(pggraph.outdegree(eachadj)) + "everytime" + eachadj);
 			testprval = testprval + ((double)prval[eachadj]/(double)pggraph.outdegree(eachadj));
 		}
-		System.out.println(testprval);
+		// System.out.println(testprval);
 		nowval[v] = testprval;
 		return nowval[v];
 	}
