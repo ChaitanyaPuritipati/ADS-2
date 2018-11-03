@@ -65,7 +65,7 @@ class WebSearch {
 			String eachline = newfile.readLine();
 			String[] tokens = eachline.split(":");
 			for (String word : tokens[1].split(" ")) {
-				if (hashtableobj.contains(word)) {
+				if (hashtableobj.containsKey(word)) {
 					Bag testbag = hashtableobj.get(word);
 					testbag.add(Integer.parseInt(tokens[0]));
 					hashtableobj.put(word, testbag);
