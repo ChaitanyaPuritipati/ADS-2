@@ -84,16 +84,21 @@ class WebSearch {
 			return -1;
 		}
 		Bag<Integer> testbag = hashtableobj.get(inputword);
-		Double maxpr= -1.0;
+		Double maxpr = -1.0;
 		int maxid = -1;
-		for(Integer everyid : testbag) {
+		for (Integer everyid : testbag) {
 			System.out.println(everyid);
-			if(pgrankobjinclass.getPR(everyid) > maxpr) {
+			if (pgrankobjinclass.getPR(everyid) > maxpr) {
 				maxpr = pgrankobjinclass.getPR(everyid);
 				maxid = everyid;
 			}
 		}
 		return maxid;
+	}
+	void printkeys() {
+		for (String eachkey : hashtableobj.keySet()) {
+			System.out.println(eachkey);
+		}
 	}
 
 }
@@ -131,8 +136,8 @@ public class Solution {
 		// and pass the page rank object and the file path to the constructor
 
 		WebSearch webobj = new WebSearch(pgrankobj, file);
-
-		while(StdIn.hasNextLine()) {
+		webobj.printkeys();
+		while (StdIn.hasNextLine()) {
 			String[] queries = StdIn.readLine().split("=");
 			System.out.println(webobj.iAmFeelingLucky(queries[1]));
 		}
