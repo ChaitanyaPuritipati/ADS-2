@@ -6,7 +6,7 @@ class PageRank {
 		this.pggraph = graph;
 		prval = new double[pggraph.V()];
 		for(int y = 0; y < prval.length; y++) {
-			prval[y] = (1 / (pggraph.V()));
+			prval[y] = (1.0 / (pggraph.V()));
 		}
 	}
 	// double getPR(int v) {
