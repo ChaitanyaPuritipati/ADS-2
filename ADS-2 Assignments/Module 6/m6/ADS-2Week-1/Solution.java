@@ -19,6 +19,11 @@ class PageRank {
 				getPR(j);
 			}
 			prval = Arrays.copyOf(nowval, nowval.length);
+			for (int k = 0; k < prval.length; k++) {
+				if(prval[k] == nowval[k]) {
+					break;
+				}
+			}
 			System.out.println("-------------------------------------------------------");
 		}
 	}
