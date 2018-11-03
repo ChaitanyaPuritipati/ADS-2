@@ -2,6 +2,7 @@ import java.util.Arrays;
 class PageRank {
 	private Digraph pggraph;
 	private double[] prval;
+	private double[] nowval;
 	PageRank(Digraph graph) {
 		this.pggraph = graph;
 		prval = new double[pggraph.V()];
@@ -16,6 +17,7 @@ class PageRank {
 			for (int j = 0; j < pggraph.V(); j++) {
 				getPR(j);
 			}
+			prval = Arrays.copyOf(nowval, nowval.length);
 			System.out.println("-------------------------------------------------------");
 		}
 	}
@@ -27,8 +29,8 @@ class PageRank {
 			testprval = testprval + ((double)prval[eachadj]/(double)pggraph.outdegree(eachadj));
 		}
 		System.out.println(testprval);
-		prval[v] = testprval;
-		return prval[v];
+		nowval[v] = testprval;
+		return nowval[v];
 	}
 	public String toString() {
 		return Arrays.toString(prval);
