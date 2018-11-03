@@ -139,6 +139,7 @@ public class Solution {
 		
 		while (StdIn.hasNextLine()) {
 			webobj.printkeys();
+			System.out.println("------------------------------------");
 			String[] queries = StdIn.readLine().split("=");
 			System.out.println(webobj.iAmFeelingLucky(queries[1]));
 		}
