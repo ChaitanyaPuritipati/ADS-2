@@ -80,12 +80,14 @@ class WebSearch {
 	}
 	int iAmFeelingLucky(String inputword) {
 		if(!hashtableobj.contains(inputword)) {
+			System.out.println("entered");
 			return -1;
 		}
 		Bag<Integer> testbag = hashtableobj.get(inputword);
 		Double maxpr= -1.0;
 		int maxid = -1;
 		for(Integer everyid : testbag) {
+			System.out.println(everyid);
 			if(pgrankobjinclass.getPR(everyid) > maxpr) {
 				maxpr = pgrankobjinclass.getPR(everyid);
 				maxid = everyid;
