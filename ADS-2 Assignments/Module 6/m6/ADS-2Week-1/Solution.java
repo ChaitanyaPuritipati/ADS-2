@@ -13,7 +13,7 @@ class PageRank {
 		updatingprvals();
 	}
 	void updatingprvals() {
-		for (int i = 1; i < 105; i++) {
+		for (int i = 1; i < 1000; i++) {
 			for (int j = 0; j < pggraph.V(); j++) {
 				getPR(j);
 			}
@@ -38,7 +38,7 @@ class PageRank {
 		}
 		for(Integer eachadj : pggraph.reverse().adj(v)) {
 			// System.out.println(prval[eachadj]/(pggraph.outdegree(eachadj)) + "everytime" + eachadj);
-			testprval = testprval + ((double)prval[eachadj]/(double)pggraph.outdegree(eachadj));
+			testprval = testprval + (prval[eachadj]/pggraph.outdegree(eachadj));
 		}
 		// System.out.println(testprval);
 		nowval[v] = testprval;
