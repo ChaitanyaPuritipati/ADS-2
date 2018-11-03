@@ -87,6 +87,10 @@ class WebSearch {
 		Bag<Integer> testbag = hashtableobj.get(inputword);
 		Double maxpr = -1.0;
 		int maxid = -1;
+		for(Integer everyid : testbag) {
+			System.out.println(everyid);
+		}
+		System.out.println("-------------------------------------");
 		for (Integer everyid : testbag) {
 			if (pgrankobjinclass.getPR(everyid) > maxpr) {
 				maxpr = pgrankobjinclass.getPR(everyid);
