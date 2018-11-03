@@ -29,6 +29,13 @@ class PageRank {
 		}
 		if(pggraph.outdegree(v) == 0) {
 			System.out.println("entered");
+			for(int everyvertex = 0; everyvertex < pggraph.V(); everyvertex++) {
+				if(everyvertex != v) {
+					testprval = testprval + ((double)prval[everyvertex]/(double)pggraph.outdegree(everyvertex)); 
+				}
+			}
+			nowval[v] = testprval;
+			return nowval[v];
 		}
 		for(Integer eachadj : pggraph.reverse().adj(v)) {
 			// System.out.println(prval[eachadj]/(pggraph.outdegree(eachadj)) + "everytime" + eachadj);
