@@ -88,7 +88,6 @@ class WebSearch {
 		Double maxpr = -1.0;
 		int maxid = -1;
 		for (Integer everyid : testbag) {
-			System.out.println(everyid);
 			if (pgrankobjinclass.getPR(everyid) > maxpr) {
 				maxpr = pgrankobjinclass.getPR(everyid);
 				maxid = everyid;
