@@ -11,7 +11,7 @@ class PageRank {
 		updatingprvals();
 	}
 	void updatingprvals() {
-		for (int i = 0; i < 1000; i++) {
+		for (int i = 0; i < 10; i++) {
 			for (int j = 0; j < pggraph.V(); j++) {
 				getPR(j);
 			}
@@ -22,7 +22,6 @@ class PageRank {
 		for(Integer eachadj : pggraph.adj(v)) {
 			System.out.println(prval[eachadj] + "before aj val" + eachadj);
 			testprval += (prval[eachadj]/pggraph.outdegree(eachadj));
-			// System.out.println(prval[eachadj] + "after aj val" + eachadj);
 		}
 		System.out.println(testprval);
 		prval[v] = testprval;
