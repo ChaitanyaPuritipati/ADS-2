@@ -19,163 +19,153 @@ Your Output:
 3: 2 
 
 iteration number 0
-1 - 2
-0.25everytime
-1 - 1
-0.25everytime
+0v'svalue
+0.25everytime2
+0.25everytime1
 0.5
-1 - 2
-0.25everytime
+1v'svalue
+0.25everytime2
 0.25
-2 - 0
-0.25everytime
+2v'svalue
+0.25everytime0
 0.25
-1 - 2
-0.25everytime
+3v'svalue
+0.25everytime2
 0.25
 -------------------------------------------------------
 iteration number 1
-1 - 2
-0.25everytime
-1 - 1
-0.25everytime
+0v'svalue
+0.25everytime2
+0.25everytime1
 0.5
-1 - 2
-0.25everytime
+1v'svalue
+0.25everytime2
 0.25
-2 - 0
-0.25everytime
+2v'svalue
+0.25everytime0
 0.25
-1 - 2
-0.25everytime
+3v'svalue
+0.25everytime2
 0.25
 -------------------------------------------------------
 iteration number 2
-1 - 2
-0.25everytime
-1 - 1
-0.25everytime
+0v'svalue
+0.25everytime2
+0.25everytime1
 0.5
-1 - 2
-0.25everytime
+1v'svalue
+0.25everytime2
 0.25
-2 - 0
-0.25everytime
+2v'svalue
+0.25everytime0
 0.25
-1 - 2
-0.25everytime
+3v'svalue
+0.25everytime2
 0.25
 -------------------------------------------------------
 iteration number 3
-1 - 2
-0.25everytime
-1 - 1
-0.25everytime
+0v'svalue
+0.25everytime2
+0.25everytime1
 0.5
-1 - 2
-0.25everytime
+1v'svalue
+0.25everytime2
 0.25
-2 - 0
-0.25everytime
+2v'svalue
+0.25everytime0
 0.25
-1 - 2
-0.25everytime
+3v'svalue
+0.25everytime2
 0.25
 -------------------------------------------------------
 iteration number 4
-1 - 2
-0.25everytime
-1 - 1
-0.25everytime
+0v'svalue
+0.25everytime2
+0.25everytime1
 0.5
-1 - 2
-0.25everytime
+1v'svalue
+0.25everytime2
 0.25
-2 - 0
-0.25everytime
+2v'svalue
+0.25everytime0
 0.25
-1 - 2
-0.25everytime
+3v'svalue
+0.25everytime2
 0.25
 -------------------------------------------------------
 iteration number 5
-1 - 2
-0.25everytime
-1 - 1
-0.25everytime
+0v'svalue
+0.25everytime2
+0.25everytime1
 0.5
-1 - 2
-0.25everytime
+1v'svalue
+0.25everytime2
 0.25
-2 - 0
-0.25everytime
+2v'svalue
+0.25everytime0
 0.25
-1 - 2
-0.25everytime
+3v'svalue
+0.25everytime2
 0.25
 -------------------------------------------------------
 iteration number 6
-1 - 2
-0.25everytime
-1 - 1
-0.25everytime
+0v'svalue
+0.25everytime2
+0.25everytime1
 0.5
-1 - 2
-0.25everytime
+1v'svalue
+0.25everytime2
 0.25
-2 - 0
-0.25everytime
+2v'svalue
+0.25everytime0
 0.25
-1 - 2
-0.25everytime
+3v'svalue
+0.25everytime2
 0.25
 -------------------------------------------------------
 iteration number 7
-1 - 2
-0.25everytime
-1 - 1
-0.25everytime
+0v'svalue
+0.25everytime2
+0.25everytime1
 0.5
-1 - 2
-0.25everytime
+1v'svalue
+0.25everytime2
 0.25
-2 - 0
-0.25everytime
+2v'svalue
+0.25everytime0
 0.25
-1 - 2
-0.25everytime
+3v'svalue
+0.25everytime2
 0.25
 -------------------------------------------------------
 iteration number 8
-1 - 2
-0.25everytime
-1 - 1
-0.25everytime
+0v'svalue
+0.25everytime2
+0.25everytime1
 0.5
-1 - 2
-0.25everytime
+1v'svalue
+0.25everytime2
 0.25
-2 - 0
-0.25everytime
+2v'svalue
+0.25everytime0
 0.25
-1 - 2
-0.25everytime
+3v'svalue
+0.25everytime2
 0.25
 -------------------------------------------------------
 iteration number 9
-1 - 2
-0.25everytime
-1 - 1
-0.25everytime
+0v'svalue
+0.25everytime2
+0.25everytime1
 0.5
-1 - 2
-0.25everytime
+1v'svalue
+0.25everytime2
 0.25
-2 - 0
-0.25everytime
+2v'svalue
+0.25everytime0
 0.25
-1 - 2
-0.25everytime
+3v'svalue
+0.25everytime2
 0.25
 -------------------------------------------------------
 [0.5, 0.25, 0.25, 0.25]
@@ -202,183 +192,163 @@ Your Output:
 3: 0 
 
 iteration number 0
-2 - 1
-0.125everytime
+0v'svalue
+0.125everytime1
 0.125
-2 - 2
-0.125everytime
-1 - 0
-0.125everytime
+1v'svalue
+0.125everytime2
+0.125everytime0
 0.25
-1 - 3
-0.25everytime
-1 - 0
-0.125everytime
+2v'svalue
+0.25everytime3
+0.125everytime0
 0.375
-1 - 0
-0.125everytime
+3v'svalue
+0.125everytime0
 0.125
 -------------------------------------------------------
 iteration number 1
-2 - 1
-0.125everytime
+0v'svalue
+0.125everytime1
 0.125
-2 - 2
-0.1875everytime
-1 - 0
-0.125everytime
+1v'svalue
+0.1875everytime2
+0.125everytime0
 0.3125
-1 - 3
-0.125everytime
-1 - 0
-0.125everytime
+2v'svalue
+0.125everytime3
+0.125everytime0
 0.25
-1 - 0
-0.125everytime
+3v'svalue
+0.125everytime0
 0.125
 -------------------------------------------------------
 iteration number 2
-2 - 1
-0.15625everytime
+0v'svalue
+0.15625everytime1
 0.15625
-2 - 2
-0.125everytime
-1 - 0
-0.15625everytime
+1v'svalue
+0.125everytime2
+0.15625everytime0
 0.28125
-1 - 3
-0.125everytime
-1 - 0
-0.15625everytime
+2v'svalue
+0.125everytime3
+0.15625everytime0
 0.28125
-1 - 0
-0.15625everytime
+3v'svalue
+0.15625everytime0
 0.15625
 -------------------------------------------------------
 iteration number 3
-2 - 1
-0.140625everytime
+0v'svalue
+0.140625everytime1
 0.140625
-2 - 2
-0.140625everytime
-1 - 0
-0.140625everytime
+1v'svalue
+0.140625everytime2
+0.140625everytime0
 0.28125
-1 - 3
-0.15625everytime
-1 - 0
-0.140625everytime
+2v'svalue
+0.15625everytime3
+0.140625everytime0
 0.296875
-1 - 0
-0.140625everytime
+3v'svalue
+0.140625everytime0
 0.140625
 -------------------------------------------------------
 iteration number 4
-2 - 1
-0.140625everytime
+0v'svalue
+0.140625everytime1
 0.140625
-2 - 2
-0.1484375everytime
-1 - 0
-0.140625everytime
+1v'svalue
+0.1484375everytime2
+0.140625everytime0
 0.2890625
-1 - 3
-0.140625everytime
-1 - 0
-0.140625everytime
+2v'svalue
+0.140625everytime3
+0.140625everytime0
 0.28125
-1 - 0
-0.140625everytime
+3v'svalue
+0.140625everytime0
 0.140625
 -------------------------------------------------------
 iteration number 5
-2 - 1
-0.14453125everytime
+0v'svalue
+0.14453125everytime1
 0.14453125
-2 - 2
-0.140625everytime
-1 - 0
-0.14453125everytime
+1v'svalue
+0.140625everytime2
+0.14453125everytime0
 0.28515625
-1 - 3
-0.140625everytime
-1 - 0
-0.14453125everytime
+2v'svalue
+0.140625everytime3
+0.14453125everytime0
 0.28515625
-1 - 0
-0.14453125everytime
+3v'svalue
+0.14453125everytime0
 0.14453125
 -------------------------------------------------------
 iteration number 6
-2 - 1
-0.142578125everytime
+0v'svalue
+0.142578125everytime1
 0.142578125
-2 - 2
-0.142578125everytime
-1 - 0
-0.142578125everytime
+1v'svalue
+0.142578125everytime2
+0.142578125everytime0
 0.28515625
-1 - 3
-0.14453125everytime
-1 - 0
-0.142578125everytime
+2v'svalue
+0.14453125everytime3
+0.142578125everytime0
 0.287109375
-1 - 0
-0.142578125everytime
+3v'svalue
+0.142578125everytime0
 0.142578125
 -------------------------------------------------------
 iteration number 7
-2 - 1
-0.142578125everytime
+0v'svalue
+0.142578125everytime1
 0.142578125
-2 - 2
-0.1435546875everytime
-1 - 0
-0.142578125everytime
+1v'svalue
+0.1435546875everytime2
+0.142578125everytime0
 0.2861328125
-1 - 3
-0.142578125everytime
-1 - 0
-0.142578125everytime
+2v'svalue
+0.142578125everytime3
+0.142578125everytime0
 0.28515625
-1 - 0
-0.142578125everytime
+3v'svalue
+0.142578125everytime0
 0.142578125
 -------------------------------------------------------
 iteration number 8
-2 - 1
-0.14306640625everytime
+0v'svalue
+0.14306640625everytime1
 0.14306640625
-2 - 2
-0.142578125everytime
-1 - 0
-0.14306640625everytime
+1v'svalue
+0.142578125everytime2
+0.14306640625everytime0
 0.28564453125
-1 - 3
-0.142578125everytime
-1 - 0
-0.14306640625everytime
+2v'svalue
+0.142578125everytime3
+0.14306640625everytime0
 0.28564453125
-1 - 0
-0.14306640625everytime
+3v'svalue
+0.14306640625everytime0
 0.14306640625
 -------------------------------------------------------
 iteration number 9
-2 - 1
-0.142822265625everytime
+0v'svalue
+0.142822265625everytime1
 0.142822265625
-2 - 2
-0.142822265625everytime
-1 - 0
-0.142822265625everytime
+1v'svalue
+0.142822265625everytime2
+0.142822265625everytime0
 0.28564453125
-1 - 3
-0.14306640625everytime
-1 - 0
-0.142822265625everytime
+2v'svalue
+0.14306640625everytime3
+0.142822265625everytime0
 0.285888671875
-1 - 0
-0.142822265625everytime
+3v'svalue
+0.142822265625everytime0
 0.142822265625
 -------------------------------------------------------
 [0.142822265625, 0.28564453125, 0.285888671875, 0.142822265625]
@@ -405,223 +375,183 @@ Your Output:
 3: 2 0 
 
 iteration number 0
-2 - 1
-0.125everytime
+0v'svalue
+0.125everytime1
 0.125
-3 - 2
-0.08333333333333333everytime
-1 - 0
-0.125everytime
+1v'svalue
+0.08333333333333333everytime2
+0.125everytime0
 0.20833333333333331
-2 - 3
-0.125everytime
-2 - 1
-0.10416666666666666everytime
-1 - 0
-0.125everytime
+2v'svalue
+0.125everytime3
+0.10416666666666666everytime1
+0.125everytime0
 0.35416666666666663
-3 - 2
-0.11805555555555554everytime
-1 - 0
-0.125everytime
+3v'svalue
+0.11805555555555554everytime2
+0.125everytime0
 0.24305555555555552
 -------------------------------------------------------
 iteration number 1
-2 - 1
-0.10416666666666666everytime
+0v'svalue
+0.10416666666666666everytime1
 0.10416666666666666
-3 - 2
-0.11805555555555554everytime
-1 - 0
-0.10416666666666666everytime
+1v'svalue
+0.11805555555555554everytime2
+0.10416666666666666everytime0
 0.2222222222222222
-2 - 3
-0.12152777777777776everytime
-2 - 1
-0.1111111111111111everytime
-1 - 0
-0.10416666666666666everytime
+2v'svalue
+0.12152777777777776everytime3
+0.1111111111111111everytime1
+0.10416666666666666everytime0
 0.3368055555555555
-3 - 2
-0.1122685185185185everytime
-1 - 0
-0.10416666666666666everytime
+3v'svalue
+0.1122685185185185everytime2
+0.10416666666666666everytime0
 0.21643518518518517
 -------------------------------------------------------
 iteration number 2
-2 - 1
-0.1111111111111111everytime
+0v'svalue
+0.1111111111111111everytime1
 0.1111111111111111
-3 - 2
-0.1122685185185185everytime
-1 - 0
-0.1111111111111111everytime
+1v'svalue
+0.1122685185185185everytime2
+0.1111111111111111everytime0
 0.2233796296296296
-2 - 3
-0.10821759259259259everytime
-2 - 1
-0.1116898148148148everytime
-1 - 0
-0.1111111111111111everytime
+2v'svalue
+0.10821759259259259everytime3
+0.1116898148148148everytime1
+0.1111111111111111everytime0
 0.3310185185185185
-3 - 2
-0.1103395061728395everytime
-1 - 0
-0.1111111111111111everytime
+3v'svalue
+0.1103395061728395everytime2
+0.1111111111111111everytime0
 0.2214506172839506
 -------------------------------------------------------
 iteration number 3
-2 - 1
-0.1116898148148148everytime
+0v'svalue
+0.1116898148148148everytime1
 0.1116898148148148
-3 - 2
-0.1103395061728395everytime
-1 - 0
-0.1116898148148148everytime
+1v'svalue
+0.1103395061728395everytime2
+0.1116898148148148everytime0
 0.2220293209876543
-2 - 3
-0.1107253086419753everytime
-2 - 1
-0.11101466049382715everytime
-1 - 0
-0.1116898148148148everytime
+2v'svalue
+0.1107253086419753everytime3
+0.11101466049382715everytime1
+0.1116898148148148everytime0
 0.3334297839506173
-3 - 2
-0.11114326131687242everytime
-1 - 0
-0.1116898148148148everytime
+3v'svalue
+0.11114326131687242everytime2
+0.1116898148148148everytime0
 0.22283307613168724
 -------------------------------------------------------
 iteration number 4
-2 - 1
-0.11101466049382715everytime
+0v'svalue
+0.11101466049382715everytime1
 0.11101466049382715
-3 - 2
-0.11114326131687242everytime
-1 - 0
-0.11101466049382715everytime
+1v'svalue
+0.11114326131687242everytime2
+0.11101466049382715everytime0
 0.22215792181069957
-2 - 3
-0.11141653806584362everytime
-2 - 1
-0.11107896090534979everytime
-1 - 0
-0.11101466049382715everytime
+2v'svalue
+0.11141653806584362everytime3
+0.11107896090534979everytime1
+0.11101466049382715everytime0
 0.33351015946502055
-3 - 2
-0.11117005315500685everytime
-1 - 0
-0.11101466049382715everytime
+3v'svalue
+0.11117005315500685everytime2
+0.11101466049382715everytime0
 0.222184713648834
 -------------------------------------------------------
 iteration number 5
-2 - 1
-0.11107896090534979everytime
+0v'svalue
+0.11107896090534979everytime1
 0.11107896090534979
-3 - 2
-0.11117005315500685everytime
-1 - 0
-0.11107896090534979everytime
+1v'svalue
+0.11117005315500685everytime2
+0.11107896090534979everytime0
 0.22224901406035663
-2 - 3
-0.111092356824417everytime
-2 - 1
-0.11112450703017832everytime
-1 - 0
-0.11107896090534979everytime
+2v'svalue
+0.111092356824417everytime3
+0.11112450703017832everytime1
+0.11107896090534979everytime0
 0.3332958247599451
-3 - 2
-0.11109860825331504everytime
-1 - 0
-0.11107896090534979everytime
+3v'svalue
+0.11109860825331504everytime2
+0.11107896090534979everytime0
 0.22217756915866482
 -------------------------------------------------------
 iteration number 6
-2 - 1
-0.11112450703017832everytime
+0v'svalue
+0.11112450703017832everytime1
 0.11112450703017832
-3 - 2
-0.11109860825331504everytime
-1 - 0
-0.11112450703017832everytime
+1v'svalue
+0.11109860825331504everytime2
+0.11112450703017832everytime0
 0.22222311528349337
-2 - 3
-0.11108878457933241everytime
-2 - 1
-0.11111155764174668everytime
-1 - 0
-0.11112450703017832everytime
+2v'svalue
+0.11108878457933241everytime3
+0.11111155764174668everytime1
+0.11112450703017832everytime0
 0.3333248492512574
-3 - 2
-0.11110828308375247everytime
-1 - 0
-0.11112450703017832everytime
+3v'svalue
+0.11110828308375247everytime2
+0.11112450703017832everytime0
 0.22223279011393077
 -------------------------------------------------------
 iteration number 7
-2 - 1
-0.11111155764174668everytime
+0v'svalue
+0.11111155764174668everytime1
 0.11111155764174668
-3 - 2
-0.11110828308375247everytime
-1 - 0
-0.11111155764174668everytime
+1v'svalue
+0.11110828308375247everytime2
+0.11111155764174668everytime0
 0.22221984072549916
-2 - 3
-0.11111639505696538everytime
-2 - 1
-0.11110992036274958everytime
-1 - 0
-0.11111155764174668everytime
+2v'svalue
+0.11111639505696538everytime3
+0.11110992036274958everytime1
+0.11111155764174668everytime0
 0.3333378730614617
-3 - 2
-0.11111262435382056everytime
-1 - 0
-0.11111155764174668everytime
+3v'svalue
+0.11111262435382056everytime2
+0.11111155764174668everytime0
 0.22222418199556726
 -------------------------------------------------------
 iteration number 8
-2 - 1
-0.11110992036274958everytime
+0v'svalue
+0.11110992036274958everytime1
 0.11110992036274958
-3 - 2
-0.11111262435382056everytime
-1 - 0
-0.11110992036274958everytime
+1v'svalue
+0.11111262435382056everytime2
+0.11110992036274958everytime0
 0.22222254471657016
-2 - 3
-0.11111209099778363everytime
-2 - 1
-0.11111127235828508everytime
-1 - 0
-0.11110992036274958everytime
+2v'svalue
+0.11111209099778363everytime3
+0.11111127235828508everytime1
+0.11110992036274958everytime0
 0.3333332837188183
-3 - 2
-0.11111109457293944everytime
-1 - 0
-0.11110992036274958everytime
+3v'svalue
+0.11111109457293944everytime2
+0.11110992036274958everytime0
 0.22222101493568902
 -------------------------------------------------------
 iteration number 9
-2 - 1
-0.11111127235828508everytime
+0v'svalue
+0.11111127235828508everytime1
 0.11111127235828508
-3 - 2
-0.11111109457293944everytime
-1 - 0
-0.11111127235828508everytime
+1v'svalue
+0.11111109457293944everytime2
+0.11111127235828508everytime0
 0.22222236693122452
-2 - 3
-0.11111050746784451everytime
-2 - 1
-0.11111118346561226everytime
-1 - 0
-0.11111127235828508everytime
+2v'svalue
+0.11111050746784451everytime3
+0.11111118346561226everytime1
+0.11111127235828508everytime0
 0.3333329632917419
-3 - 2
-0.11111098776391397everytime
-1 - 0
-0.11111127235828508everytime
+3v'svalue
+0.11111098776391397everytime2
+0.11111127235828508everytime0
 0.22222226012219903
 -------------------------------------------------------
 [0.11111127235828508, 0.22222236693122452, 0.3333329632917419, 0.22222226012219903]
@@ -660,383 +590,323 @@ Your Output:
 7: 0 
 
 iteration number 0
-5 - 3
-0.025everytime
-1 - 2
-0.125everytime
-1 - 1
-0.125everytime
+0v'svalue
+0.025everytime3
+0.125everytime2
+0.125everytime1
 0.275
-3 - 0
-0.09166666666666667everytime
+1v'svalue
+0.09166666666666667everytime0
 0.09166666666666667
-3 - 0
-0.09166666666666667everytime
+2v'svalue
+0.09166666666666667everytime0
 0.09166666666666667
-1 - 7
-0.125everytime
-1 - 6
-0.125everytime
-1 - 5
-0.125everytime
-1 - 4
-0.125everytime
-3 - 0
-0.09166666666666667everytime
+3v'svalue
+0.125everytime7
+0.125everytime6
+0.125everytime5
+0.125everytime4
+0.09166666666666667everytime0
 0.5916666666666667
-3 - 0
-0.09166666666666667everytime
+4v'svalue
+0.09166666666666667everytime0
 0.09166666666666667
-3 - 0
-0.09166666666666667everytime
+5v'svalue
+0.09166666666666667everytime0
 0.09166666666666667
-3 - 0
-0.09166666666666667everytime
+6v'svalue
+0.09166666666666667everytime0
 0.09166666666666667
-3 - 0
-0.09166666666666667everytime
+7v'svalue
+0.09166666666666667everytime0
 0.09166666666666667
 -------------------------------------------------------
 iteration number 1
-5 - 3
-0.11833333333333333everytime
-1 - 2
-0.09166666666666667everytime
-1 - 1
-0.09166666666666667everytime
+0v'svalue
+0.11833333333333333everytime3
+0.09166666666666667everytime2
+0.09166666666666667everytime1
 0.3016666666666667
-3 - 0
-0.10055555555555556everytime
+1v'svalue
+0.10055555555555556everytime0
 0.10055555555555556
-3 - 0
-0.10055555555555556everytime
+2v'svalue
+0.10055555555555556everytime0
 0.10055555555555556
-1 - 7
-0.09166666666666667everytime
-1 - 6
-0.09166666666666667everytime
-1 - 5
-0.09166666666666667everytime
-1 - 4
-0.09166666666666667everytime
-3 - 0
-0.10055555555555556everytime
+3v'svalue
+0.09166666666666667everytime7
+0.09166666666666667everytime6
+0.09166666666666667everytime5
+0.09166666666666667everytime4
+0.10055555555555556everytime0
 0.46722222222222226
-3 - 0
-0.10055555555555556everytime
+4v'svalue
+0.10055555555555556everytime0
 0.10055555555555556
-3 - 0
-0.10055555555555556everytime
+5v'svalue
+0.10055555555555556everytime0
 0.10055555555555556
-3 - 0
-0.10055555555555556everytime
+6v'svalue
+0.10055555555555556everytime0
 0.10055555555555556
-3 - 0
-0.10055555555555556everytime
+7v'svalue
+0.10055555555555556everytime0
 0.10055555555555556
 -------------------------------------------------------
 iteration number 2
-5 - 3
-0.09344444444444445everytime
-1 - 2
-0.10055555555555556everytime
-1 - 1
-0.10055555555555556everytime
+0v'svalue
+0.09344444444444445everytime3
+0.10055555555555556everytime2
+0.10055555555555556everytime1
 0.29455555555555557
-3 - 0
-0.0981851851851852everytime
+1v'svalue
+0.0981851851851852everytime0
 0.0981851851851852
-3 - 0
-0.0981851851851852everytime
+2v'svalue
+0.0981851851851852everytime0
 0.0981851851851852
-1 - 7
-0.10055555555555556everytime
-1 - 6
-0.10055555555555556everytime
-1 - 5
-0.10055555555555556everytime
-1 - 4
-0.10055555555555556everytime
-3 - 0
-0.0981851851851852everytime
+3v'svalue
+0.10055555555555556everytime7
+0.10055555555555556everytime6
+0.10055555555555556everytime5
+0.10055555555555556everytime4
+0.0981851851851852everytime0
 0.5004074074074074
-3 - 0
-0.0981851851851852everytime
+4v'svalue
+0.0981851851851852everytime0
 0.0981851851851852
-3 - 0
-0.0981851851851852everytime
+5v'svalue
+0.0981851851851852everytime0
 0.0981851851851852
-3 - 0
-0.0981851851851852everytime
+6v'svalue
+0.0981851851851852everytime0
 0.0981851851851852
-3 - 0
-0.0981851851851852everytime
+7v'svalue
+0.0981851851851852everytime0
 0.0981851851851852
 -------------------------------------------------------
 iteration number 3
-5 - 3
-0.10008148148148148everytime
-1 - 2
-0.0981851851851852everytime
-1 - 1
-0.0981851851851852everytime
+0v'svalue
+0.10008148148148148everytime3
+0.0981851851851852everytime2
+0.0981851851851852everytime1
 0.29645185185185186
-3 - 0
-0.09881728395061729everytime
+1v'svalue
+0.09881728395061729everytime0
 0.09881728395061729
-3 - 0
-0.09881728395061729everytime
+2v'svalue
+0.09881728395061729everytime0
 0.09881728395061729
-1 - 7
-0.0981851851851852everytime
-1 - 6
-0.0981851851851852everytime
-1 - 5
-0.0981851851851852everytime
-1 - 4
-0.0981851851851852everytime
-3 - 0
-0.09881728395061729everytime
+3v'svalue
+0.0981851851851852everytime7
+0.0981851851851852everytime6
+0.0981851851851852everytime5
+0.0981851851851852everytime4
+0.09881728395061729everytime0
 0.49155802469135806
-3 - 0
-0.09881728395061729everytime
+4v'svalue
+0.09881728395061729everytime0
 0.09881728395061729
-3 - 0
-0.09881728395061729everytime
+5v'svalue
+0.09881728395061729everytime0
 0.09881728395061729
-3 - 0
-0.09881728395061729everytime
+6v'svalue
+0.09881728395061729everytime0
 0.09881728395061729
-3 - 0
-0.09881728395061729everytime
+7v'svalue
+0.09881728395061729everytime0
 0.09881728395061729
 -------------------------------------------------------
 iteration number 4
-5 - 3
-0.09831160493827161everytime
-1 - 2
-0.09881728395061729everytime
-1 - 1
-0.09881728395061729everytime
+0v'svalue
+0.09831160493827161everytime3
+0.09881728395061729everytime2
+0.09881728395061729everytime1
 0.2959461728395062
-3 - 0
-0.0986487242798354everytime
+1v'svalue
+0.0986487242798354everytime0
 0.0986487242798354
-3 - 0
-0.0986487242798354everytime
+2v'svalue
+0.0986487242798354everytime0
 0.0986487242798354
-1 - 7
-0.09881728395061729everytime
-1 - 6
-0.09881728395061729everytime
-1 - 5
-0.09881728395061729everytime
-1 - 4
-0.09881728395061729everytime
-3 - 0
-0.0986487242798354everytime
+3v'svalue
+0.09881728395061729everytime7
+0.09881728395061729everytime6
+0.09881728395061729everytime5
+0.09881728395061729everytime4
+0.0986487242798354everytime0
 0.49391786008230454
-3 - 0
-0.0986487242798354everytime
+4v'svalue
+0.0986487242798354everytime0
 0.0986487242798354
-3 - 0
-0.0986487242798354everytime
+5v'svalue
+0.0986487242798354everytime0
 0.0986487242798354
-3 - 0
-0.0986487242798354everytime
+6v'svalue
+0.0986487242798354everytime0
 0.0986487242798354
-3 - 0
-0.0986487242798354everytime
+7v'svalue
+0.0986487242798354everytime0
 0.0986487242798354
 -------------------------------------------------------
 iteration number 5
-5 - 3
-0.0987835720164609everytime
-1 - 2
-0.0986487242798354everytime
-1 - 1
-0.0986487242798354everytime
+0v'svalue
+0.0987835720164609everytime3
+0.0986487242798354everytime2
+0.0986487242798354everytime1
 0.2960810205761317
-3 - 0
-0.09869367352537724everytime
+1v'svalue
+0.09869367352537724everytime0
 0.09869367352537724
-3 - 0
-0.09869367352537724everytime
+2v'svalue
+0.09869367352537724everytime0
 0.09869367352537724
-1 - 7
-0.0986487242798354everytime
-1 - 6
-0.0986487242798354everytime
-1 - 5
-0.0986487242798354everytime
-1 - 4
-0.0986487242798354everytime
-3 - 0
-0.09869367352537724everytime
+3v'svalue
+0.0986487242798354everytime7
+0.0986487242798354everytime6
+0.0986487242798354everytime5
+0.0986487242798354everytime4
+0.09869367352537724everytime0
 0.4932885706447188
-3 - 0
-0.09869367352537724everytime
+4v'svalue
+0.09869367352537724everytime0
 0.09869367352537724
-3 - 0
-0.09869367352537724everytime
+5v'svalue
+0.09869367352537724everytime0
 0.09869367352537724
-3 - 0
-0.09869367352537724everytime
+6v'svalue
+0.09869367352537724everytime0
 0.09869367352537724
-3 - 0
-0.09869367352537724everytime
+7v'svalue
+0.09869367352537724everytime0
 0.09869367352537724
 -------------------------------------------------------
 iteration number 6
-5 - 3
-0.09865771412894377everytime
-1 - 2
-0.09869367352537724everytime
-1 - 1
-0.09869367352537724everytime
+0v'svalue
+0.09865771412894377everytime3
+0.09869367352537724everytime2
+0.09869367352537724everytime1
 0.29604506117969825
-3 - 0
-0.09868168705989942everytime
+1v'svalue
+0.09868168705989942everytime0
 0.09868168705989942
-3 - 0
-0.09868168705989942everytime
+2v'svalue
+0.09868168705989942everytime0
 0.09868168705989942
-1 - 7
-0.09869367352537724everytime
-1 - 6
-0.09869367352537724everytime
-1 - 5
-0.09869367352537724everytime
-1 - 4
-0.09869367352537724everytime
-3 - 0
-0.09868168705989942everytime
+3v'svalue
+0.09869367352537724everytime7
+0.09869367352537724everytime6
+0.09869367352537724everytime5
+0.09869367352537724everytime4
+0.09868168705989942everytime0
 0.4934563811614084
-3 - 0
-0.09868168705989942everytime
+4v'svalue
+0.09868168705989942everytime0
 0.09868168705989942
-3 - 0
-0.09868168705989942everytime
+5v'svalue
+0.09868168705989942everytime0
 0.09868168705989942
-3 - 0
-0.09868168705989942everytime
+6v'svalue
+0.09868168705989942everytime0
 0.09868168705989942
-3 - 0
-0.09868168705989942everytime
+7v'svalue
+0.09868168705989942everytime0
 0.09868168705989942
 -------------------------------------------------------
 iteration number 7
-5 - 3
-0.09869127623228167everytime
-1 - 2
-0.09868168705989942everytime
-1 - 1
-0.09868168705989942everytime
+0v'svalue
+0.09869127623228167everytime3
+0.09868168705989942everytime2
+0.09868168705989942everytime1
 0.2960546503520805
-3 - 0
-0.0986848834506935everytime
+1v'svalue
+0.0986848834506935everytime0
 0.0986848834506935
-3 - 0
-0.0986848834506935everytime
+2v'svalue
+0.0986848834506935everytime0
 0.0986848834506935
-1 - 7
-0.09868168705989942everytime
-1 - 6
-0.09868168705989942everytime
-1 - 5
-0.09868168705989942everytime
-1 - 4
-0.09868168705989942everytime
-3 - 0
-0.0986848834506935everytime
+3v'svalue
+0.09868168705989942everytime7
+0.09868168705989942everytime6
+0.09868168705989942everytime5
+0.09868168705989942everytime4
+0.0986848834506935everytime0
 0.4934116316902912
-3 - 0
-0.0986848834506935everytime
+4v'svalue
+0.0986848834506935everytime0
 0.0986848834506935
-3 - 0
-0.0986848834506935everytime
+5v'svalue
+0.0986848834506935everytime0
 0.0986848834506935
-3 - 0
-0.0986848834506935everytime
+6v'svalue
+0.0986848834506935everytime0
 0.0986848834506935
-3 - 0
-0.0986848834506935everytime
+7v'svalue
+0.0986848834506935everytime0
 0.0986848834506935
 -------------------------------------------------------
 iteration number 8
-5 - 3
-0.09868232633805823everytime
-1 - 2
-0.0986848834506935everytime
-1 - 1
-0.0986848834506935everytime
+0v'svalue
+0.09868232633805823everytime3
+0.0986848834506935everytime2
+0.0986848834506935everytime1
 0.2960520932394452
-3 - 0
-0.09868403107981506everytime
+1v'svalue
+0.09868403107981506everytime0
 0.09868403107981506
-3 - 0
-0.09868403107981506everytime
+2v'svalue
+0.09868403107981506everytime0
 0.09868403107981506
-1 - 7
-0.0986848834506935everytime
-1 - 6
-0.0986848834506935everytime
-1 - 5
-0.0986848834506935everytime
-1 - 4
-0.0986848834506935everytime
-3 - 0
-0.09868403107981506everytime
+3v'svalue
+0.0986848834506935everytime7
+0.0986848834506935everytime6
+0.0986848834506935everytime5
+0.0986848834506935everytime4
+0.09868403107981506everytime0
 0.49342356488258904
-3 - 0
-0.09868403107981506everytime
+4v'svalue
+0.09868403107981506everytime0
 0.09868403107981506
-3 - 0
-0.09868403107981506everytime
+5v'svalue
+0.09868403107981506everytime0
 0.09868403107981506
-3 - 0
-0.09868403107981506everytime
+6v'svalue
+0.09868403107981506everytime0
 0.09868403107981506
-3 - 0
-0.09868403107981506everytime
+7v'svalue
+0.09868403107981506everytime0
 0.09868403107981506
 -------------------------------------------------------
 iteration number 9
-5 - 3
-0.0986847129765178everytime
-1 - 2
-0.09868403107981506everytime
-1 - 1
-0.09868403107981506everytime
+0v'svalue
+0.0986847129765178everytime3
+0.09868403107981506everytime2
+0.09868403107981506everytime1
 0.2960527751361479
-3 - 0
-0.09868425837871597everytime
+1v'svalue
+0.09868425837871597everytime0
 0.09868425837871597
-3 - 0
-0.09868425837871597everytime
+2v'svalue
+0.09868425837871597everytime0
 0.09868425837871597
-1 - 7
-0.09868403107981506everytime
-1 - 6
-0.09868403107981506everytime
-1 - 5
-0.09868403107981506everytime
-1 - 4
-0.09868403107981506everytime
-3 - 0
-0.09868425837871597everytime
+3v'svalue
+0.09868403107981506everytime7
+0.09868403107981506everytime6
+0.09868403107981506everytime5
+0.09868403107981506everytime4
+0.09868425837871597everytime0
 0.4934203826979762
-3 - 0
-0.09868425837871597everytime
+4v'svalue
+0.09868425837871597everytime0
 0.09868425837871597
-3 - 0
-0.09868425837871597everytime
+5v'svalue
+0.09868425837871597everytime0
 0.09868425837871597
-3 - 0
-0.09868425837871597everytime
+6v'svalue
+0.09868425837871597everytime0
 0.09868425837871597
-3 - 0
-0.09868425837871597everytime
+7v'svalue
+0.09868425837871597everytime0
 0.09868425837871597
 -------------------------------------------------------
 [0.2960527751361479, 0.09868425837871597, 0.09868425837871597, 0.4934203826979762, 0.09868425837871597, 0.09868425837871597, 0.09868425837871597, 0.09868425837871597]
@@ -1069,243 +939,223 @@ Your Output:
 5: 
 
 iteration number 0
-2 - 3
-0.08333333333333333everytime
-1 - 2
-0.16666666666666666everytime
-1 - 1
-0.16666666666666666everytime
+0v'svalue
+0.08333333333333333everytime3
+0.16666666666666666everytime2
+0.16666666666666666everytime1
 0.41666666666666663
-3 - 0
-0.13888888888888887everytime
+1v'svalue
+0.13888888888888887everytime0
 0.13888888888888887
-3 - 0
-0.13888888888888887everytime
+2v'svalue
+0.13888888888888887everytime0
 0.13888888888888887
-0 - 5
-Infinityeverytime
-3 - 0
-0.13888888888888887everytime
+3v'svalue
+Infinityeverytime5
+0.13888888888888887everytime0
 Infinity
-3 - 0
-0.13888888888888887everytime
+4v'svalue
+0.13888888888888887everytime0
 0.13888888888888887
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 1
-2 - 3
-Infinityeverytime
-1 - 2
-0.13888888888888887everytime
-1 - 1
-0.13888888888888887everytime
+0v'svalue
+Infinityeverytime3
+0.13888888888888887everytime2
+0.13888888888888887everytime1
 Infinity
-3 - 0
-Infinityeverytime
+1v'svalue
+Infinityeverytime0
 Infinity
-3 - 0
-Infinityeverytime
+2v'svalue
+Infinityeverytime0
 Infinity
-0 - 5
-NaNeverytime
-3 - 0
-Infinityeverytime
+3v'svalue
+NaNeverytime5
+Infinityeverytime0
 NaN
-3 - 0
-Infinityeverytime
+4v'svalue
+Infinityeverytime0
 Infinity
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 2
-2 - 3
-NaNeverytime
-1 - 2
-Infinityeverytime
-1 - 1
-Infinityeverytime
+0v'svalue
+NaNeverytime3
+Infinityeverytime2
+Infinityeverytime1
 NaN
-3 - 0
-NaNeverytime
+1v'svalue
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+2v'svalue
+NaNeverytime0
 NaN
-0 - 5
-NaNeverytime
-3 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime5
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+4v'svalue
+NaNeverytime0
 NaN
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 3
-2 - 3
-NaNeverytime
-1 - 2
-NaNeverytime
-1 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime1
 NaN
-3 - 0
-NaNeverytime
+1v'svalue
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+2v'svalue
+NaNeverytime0
 NaN
-0 - 5
-NaNeverytime
-3 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime5
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+4v'svalue
+NaNeverytime0
 NaN
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 4
-2 - 3
-NaNeverytime
-1 - 2
-NaNeverytime
-1 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime1
 NaN
-3 - 0
-NaNeverytime
+1v'svalue
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+2v'svalue
+NaNeverytime0
 NaN
-0 - 5
-NaNeverytime
-3 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime5
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+4v'svalue
+NaNeverytime0
 NaN
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 5
-2 - 3
-NaNeverytime
-1 - 2
-NaNeverytime
-1 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime1
 NaN
-3 - 0
-NaNeverytime
+1v'svalue
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+2v'svalue
+NaNeverytime0
 NaN
-0 - 5
-NaNeverytime
-3 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime5
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+4v'svalue
+NaNeverytime0
 NaN
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 6
-2 - 3
-NaNeverytime
-1 - 2
-NaNeverytime
-1 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime1
 NaN
-3 - 0
-NaNeverytime
+1v'svalue
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+2v'svalue
+NaNeverytime0
 NaN
-0 - 5
-NaNeverytime
-3 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime5
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+4v'svalue
+NaNeverytime0
 NaN
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 7
-2 - 3
-NaNeverytime
-1 - 2
-NaNeverytime
-1 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime1
 NaN
-3 - 0
-NaNeverytime
+1v'svalue
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+2v'svalue
+NaNeverytime0
 NaN
-0 - 5
-NaNeverytime
-3 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime5
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+4v'svalue
+NaNeverytime0
 NaN
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 8
-2 - 3
-NaNeverytime
-1 - 2
-NaNeverytime
-1 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime1
 NaN
-3 - 0
-NaNeverytime
+1v'svalue
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+2v'svalue
+NaNeverytime0
 NaN
-0 - 5
-NaNeverytime
-3 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime5
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+4v'svalue
+NaNeverytime0
 NaN
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 9
-2 - 3
-NaNeverytime
-1 - 2
-NaNeverytime
-1 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime1
 NaN
-3 - 0
-NaNeverytime
+1v'svalue
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+2v'svalue
+NaNeverytime0
 NaN
-0 - 5
-NaNeverytime
-3 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime5
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+4v'svalue
+NaNeverytime0
 NaN
+5v'svalue
 0.0
 -------------------------------------------------------
 [NaN, NaN, NaN, NaN, NaN, 0.0]
@@ -1344,303 +1194,283 @@ Your Output:
 7: 
 
 iteration number 0
-5 - 3
-0.025everytime
-1 - 2
-0.125everytime
-1 - 1
-0.125everytime
+0v'svalue
+0.025everytime3
+0.125everytime2
+0.125everytime1
 0.275
-3 - 0
-0.09166666666666667everytime
+1v'svalue
+0.09166666666666667everytime0
 0.09166666666666667
-3 - 0
-0.09166666666666667everytime
+2v'svalue
+0.09166666666666667everytime0
 0.09166666666666667
-0 - 7
-Infinityeverytime
-0 - 6
-Infinityeverytime
-0 - 5
-Infinityeverytime
-0 - 4
-Infinityeverytime
-3 - 0
-0.09166666666666667everytime
+3v'svalue
+Infinityeverytime7
+Infinityeverytime6
+Infinityeverytime5
+Infinityeverytime4
+0.09166666666666667everytime0
 Infinity
+4v'svalue
 0.0
+5v'svalue
 0.0
+6v'svalue
 0.0
+7v'svalue
 0.0
 -------------------------------------------------------
 iteration number 1
-5 - 3
-Infinityeverytime
-1 - 2
-0.09166666666666667everytime
-1 - 1
-0.09166666666666667everytime
+0v'svalue
+Infinityeverytime3
+0.09166666666666667everytime2
+0.09166666666666667everytime1
 Infinity
-3 - 0
-Infinityeverytime
+1v'svalue
+Infinityeverytime0
 Infinity
-3 - 0
-Infinityeverytime
+2v'svalue
+Infinityeverytime0
 Infinity
-0 - 7
-NaNeverytime
-0 - 6
-NaNeverytime
-0 - 5
-NaNeverytime
-0 - 4
-NaNeverytime
-3 - 0
-Infinityeverytime
+3v'svalue
+NaNeverytime7
+NaNeverytime6
+NaNeverytime5
+NaNeverytime4
+Infinityeverytime0
 NaN
+4v'svalue
 0.0
+5v'svalue
 0.0
+6v'svalue
 0.0
+7v'svalue
 0.0
 -------------------------------------------------------
 iteration number 2
-5 - 3
-NaNeverytime
-1 - 2
-Infinityeverytime
-1 - 1
-Infinityeverytime
+0v'svalue
+NaNeverytime3
+Infinityeverytime2
+Infinityeverytime1
 NaN
-3 - 0
-NaNeverytime
+1v'svalue
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+2v'svalue
+NaNeverytime0
 NaN
-0 - 7
-NaNeverytime
-0 - 6
-NaNeverytime
-0 - 5
-NaNeverytime
-0 - 4
-NaNeverytime
-3 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime7
+NaNeverytime6
+NaNeverytime5
+NaNeverytime4
+NaNeverytime0
 NaN
+4v'svalue
 0.0
+5v'svalue
 0.0
+6v'svalue
 0.0
+7v'svalue
 0.0
 -------------------------------------------------------
 iteration number 3
-5 - 3
-NaNeverytime
-1 - 2
-NaNeverytime
-1 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime1
 NaN
-3 - 0
-NaNeverytime
+1v'svalue
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+2v'svalue
+NaNeverytime0
 NaN
-0 - 7
-NaNeverytime
-0 - 6
-NaNeverytime
-0 - 5
-NaNeverytime
-0 - 4
-NaNeverytime
-3 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime7
+NaNeverytime6
+NaNeverytime5
+NaNeverytime4
+NaNeverytime0
 NaN
+4v'svalue
 0.0
+5v'svalue
 0.0
+6v'svalue
 0.0
+7v'svalue
 0.0
 -------------------------------------------------------
 iteration number 4
-5 - 3
-NaNeverytime
-1 - 2
-NaNeverytime
-1 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime1
 NaN
-3 - 0
-NaNeverytime
+1v'svalue
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+2v'svalue
+NaNeverytime0
 NaN
-0 - 7
-NaNeverytime
-0 - 6
-NaNeverytime
-0 - 5
-NaNeverytime
-0 - 4
-NaNeverytime
-3 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime7
+NaNeverytime6
+NaNeverytime5
+NaNeverytime4
+NaNeverytime0
 NaN
+4v'svalue
 0.0
+5v'svalue
 0.0
+6v'svalue
 0.0
+7v'svalue
 0.0
 -------------------------------------------------------
 iteration number 5
-5 - 3
-NaNeverytime
-1 - 2
-NaNeverytime
-1 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime1
 NaN
-3 - 0
-NaNeverytime
+1v'svalue
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+2v'svalue
+NaNeverytime0
 NaN
-0 - 7
-NaNeverytime
-0 - 6
-NaNeverytime
-0 - 5
-NaNeverytime
-0 - 4
-NaNeverytime
-3 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime7
+NaNeverytime6
+NaNeverytime5
+NaNeverytime4
+NaNeverytime0
 NaN
+4v'svalue
 0.0
+5v'svalue
 0.0
+6v'svalue
 0.0
+7v'svalue
 0.0
 -------------------------------------------------------
 iteration number 6
-5 - 3
-NaNeverytime
-1 - 2
-NaNeverytime
-1 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime1
 NaN
-3 - 0
-NaNeverytime
+1v'svalue
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+2v'svalue
+NaNeverytime0
 NaN
-0 - 7
-NaNeverytime
-0 - 6
-NaNeverytime
-0 - 5
-NaNeverytime
-0 - 4
-NaNeverytime
-3 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime7
+NaNeverytime6
+NaNeverytime5
+NaNeverytime4
+NaNeverytime0
 NaN
+4v'svalue
 0.0
+5v'svalue
 0.0
+6v'svalue
 0.0
+7v'svalue
 0.0
 -------------------------------------------------------
 iteration number 7
-5 - 3
-NaNeverytime
-1 - 2
-NaNeverytime
-1 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime1
 NaN
-3 - 0
-NaNeverytime
+1v'svalue
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+2v'svalue
+NaNeverytime0
 NaN
-0 - 7
-NaNeverytime
-0 - 6
-NaNeverytime
-0 - 5
-NaNeverytime
-0 - 4
-NaNeverytime
-3 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime7
+NaNeverytime6
+NaNeverytime5
+NaNeverytime4
+NaNeverytime0
 NaN
+4v'svalue
 0.0
+5v'svalue
 0.0
+6v'svalue
 0.0
+7v'svalue
 0.0
 -------------------------------------------------------
 iteration number 8
-5 - 3
-NaNeverytime
-1 - 2
-NaNeverytime
-1 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime1
 NaN
-3 - 0
-NaNeverytime
+1v'svalue
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+2v'svalue
+NaNeverytime0
 NaN
-0 - 7
-NaNeverytime
-0 - 6
-NaNeverytime
-0 - 5
-NaNeverytime
-0 - 4
-NaNeverytime
-3 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime7
+NaNeverytime6
+NaNeverytime5
+NaNeverytime4
+NaNeverytime0
 NaN
+4v'svalue
 0.0
+5v'svalue
 0.0
+6v'svalue
 0.0
+7v'svalue
 0.0
 -------------------------------------------------------
 iteration number 9
-5 - 3
-NaNeverytime
-1 - 2
-NaNeverytime
-1 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime1
 NaN
-3 - 0
-NaNeverytime
+1v'svalue
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+2v'svalue
+NaNeverytime0
 NaN
-0 - 7
-NaNeverytime
-0 - 6
-NaNeverytime
-0 - 5
-NaNeverytime
-0 - 4
-NaNeverytime
-3 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime7
+NaNeverytime6
+NaNeverytime5
+NaNeverytime4
+NaNeverytime0
 NaN
+4v'svalue
 0.0
+5v'svalue
 0.0
+6v'svalue
 0.0
+7v'svalue
 0.0
 -------------------------------------------------------
 [NaN, NaN, NaN, NaN, 0.0, 0.0, 0.0, 0.0]
@@ -1667,143 +1497,143 @@ Your Output:
 3: 0 
 
 iteration number 0
-1 - 1
-0.25everytime
+0v'svalue
+0.25everytime1
 0.25
-1 - 2
-0.25everytime
+1v'svalue
+0.25everytime2
 0.25
-1 - 3
-0.25everytime
+2v'svalue
+0.25everytime3
 0.25
-1 - 0
-0.25everytime
+3v'svalue
+0.25everytime0
 0.25
 -------------------------------------------------------
 iteration number 1
-1 - 1
-0.25everytime
+0v'svalue
+0.25everytime1
 0.25
-1 - 2
-0.25everytime
+1v'svalue
+0.25everytime2
 0.25
-1 - 3
-0.25everytime
+2v'svalue
+0.25everytime3
 0.25
-1 - 0
-0.25everytime
+3v'svalue
+0.25everytime0
 0.25
 -------------------------------------------------------
 iteration number 2
-1 - 1
-0.25everytime
+0v'svalue
+0.25everytime1
 0.25
-1 - 2
-0.25everytime
+1v'svalue
+0.25everytime2
 0.25
-1 - 3
-0.25everytime
+2v'svalue
+0.25everytime3
 0.25
-1 - 0
-0.25everytime
+3v'svalue
+0.25everytime0
 0.25
 -------------------------------------------------------
 iteration number 3
-1 - 1
-0.25everytime
+0v'svalue
+0.25everytime1
 0.25
-1 - 2
-0.25everytime
+1v'svalue
+0.25everytime2
 0.25
-1 - 3
-0.25everytime
+2v'svalue
+0.25everytime3
 0.25
-1 - 0
-0.25everytime
+3v'svalue
+0.25everytime0
 0.25
 -------------------------------------------------------
 iteration number 4
-1 - 1
-0.25everytime
+0v'svalue
+0.25everytime1
 0.25
-1 - 2
-0.25everytime
+1v'svalue
+0.25everytime2
 0.25
-1 - 3
-0.25everytime
+2v'svalue
+0.25everytime3
 0.25
-1 - 0
-0.25everytime
+3v'svalue
+0.25everytime0
 0.25
 -------------------------------------------------------
 iteration number 5
-1 - 1
-0.25everytime
+0v'svalue
+0.25everytime1
 0.25
-1 - 2
-0.25everytime
+1v'svalue
+0.25everytime2
 0.25
-1 - 3
-0.25everytime
+2v'svalue
+0.25everytime3
 0.25
-1 - 0
-0.25everytime
+3v'svalue
+0.25everytime0
 0.25
 -------------------------------------------------------
 iteration number 6
-1 - 1
-0.25everytime
+0v'svalue
+0.25everytime1
 0.25
-1 - 2
-0.25everytime
+1v'svalue
+0.25everytime2
 0.25
-1 - 3
-0.25everytime
+2v'svalue
+0.25everytime3
 0.25
-1 - 0
-0.25everytime
+3v'svalue
+0.25everytime0
 0.25
 -------------------------------------------------------
 iteration number 7
-1 - 1
-0.25everytime
+0v'svalue
+0.25everytime1
 0.25
-1 - 2
-0.25everytime
+1v'svalue
+0.25everytime2
 0.25
-1 - 3
-0.25everytime
+2v'svalue
+0.25everytime3
 0.25
-1 - 0
-0.25everytime
+3v'svalue
+0.25everytime0
 0.25
 -------------------------------------------------------
 iteration number 8
-1 - 1
-0.25everytime
+0v'svalue
+0.25everytime1
 0.25
-1 - 2
-0.25everytime
+1v'svalue
+0.25everytime2
 0.25
-1 - 3
-0.25everytime
+2v'svalue
+0.25everytime3
 0.25
-1 - 0
-0.25everytime
+3v'svalue
+0.25everytime0
 0.25
 -------------------------------------------------------
 iteration number 9
-1 - 1
-0.25everytime
+0v'svalue
+0.25everytime1
 0.25
-1 - 2
-0.25everytime
+1v'svalue
+0.25everytime2
 0.25
-1 - 3
-0.25everytime
+2v'svalue
+0.25everytime3
 0.25
-1 - 0
-0.25everytime
+3v'svalue
+0.25everytime0
 0.25
 -------------------------------------------------------
 [0.25, 0.25, 0.25, 0.25]
@@ -1836,203 +1666,203 @@ Your Output:
 5: 
 
 iteration number 0
-1 - 1
-0.16666666666666666everytime
+0v'svalue
+0.16666666666666666everytime1
 0.16666666666666666
-1 - 2
-0.16666666666666666everytime
+1v'svalue
+0.16666666666666666everytime2
 0.16666666666666666
-2 - 3
-0.08333333333333333everytime
+2v'svalue
+0.08333333333333333everytime3
 0.08333333333333333
-0 - 5
-Infinityeverytime
-1 - 0
-0.16666666666666666everytime
+3v'svalue
+Infinityeverytime5
+0.16666666666666666everytime0
 Infinity
-1 - 0
-0.16666666666666666everytime
+4v'svalue
+0.16666666666666666everytime0
 0.16666666666666666
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 1
-1 - 1
-0.16666666666666666everytime
+0v'svalue
+0.16666666666666666everytime1
 0.16666666666666666
-1 - 2
-0.08333333333333333everytime
+1v'svalue
+0.08333333333333333everytime2
 0.08333333333333333
-2 - 3
-Infinityeverytime
+2v'svalue
+Infinityeverytime3
 Infinity
-0 - 5
-NaNeverytime
-1 - 0
-0.16666666666666666everytime
+3v'svalue
+NaNeverytime5
+0.16666666666666666everytime0
 NaN
-1 - 0
-0.16666666666666666everytime
+4v'svalue
+0.16666666666666666everytime0
 0.16666666666666666
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 2
-1 - 1
-0.08333333333333333everytime
+0v'svalue
+0.08333333333333333everytime1
 0.08333333333333333
-1 - 2
-Infinityeverytime
+1v'svalue
+Infinityeverytime2
 Infinity
-2 - 3
-NaNeverytime
+2v'svalue
+NaNeverytime3
 NaN
-0 - 5
-NaNeverytime
-1 - 0
-0.08333333333333333everytime
+3v'svalue
+NaNeverytime5
+0.08333333333333333everytime0
 NaN
-1 - 0
-0.08333333333333333everytime
+4v'svalue
+0.08333333333333333everytime0
 0.08333333333333333
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 3
-1 - 1
-Infinityeverytime
+0v'svalue
+Infinityeverytime1
 Infinity
-1 - 2
-NaNeverytime
+1v'svalue
+NaNeverytime2
 NaN
-2 - 3
-NaNeverytime
+2v'svalue
+NaNeverytime3
 NaN
-0 - 5
-NaNeverytime
-1 - 0
-Infinityeverytime
+3v'svalue
+NaNeverytime5
+Infinityeverytime0
 NaN
-1 - 0
-Infinityeverytime
+4v'svalue
+Infinityeverytime0
 Infinity
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 4
-1 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime1
 NaN
-1 - 2
-NaNeverytime
+1v'svalue
+NaNeverytime2
 NaN
-2 - 3
-NaNeverytime
+2v'svalue
+NaNeverytime3
 NaN
-0 - 5
-NaNeverytime
-1 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime5
+NaNeverytime0
 NaN
-1 - 0
-NaNeverytime
+4v'svalue
+NaNeverytime0
 NaN
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 5
-1 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime1
 NaN
-1 - 2
-NaNeverytime
+1v'svalue
+NaNeverytime2
 NaN
-2 - 3
-NaNeverytime
+2v'svalue
+NaNeverytime3
 NaN
-0 - 5
-NaNeverytime
-1 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime5
+NaNeverytime0
 NaN
-1 - 0
-NaNeverytime
+4v'svalue
+NaNeverytime0
 NaN
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 6
-1 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime1
 NaN
-1 - 2
-NaNeverytime
+1v'svalue
+NaNeverytime2
 NaN
-2 - 3
-NaNeverytime
+2v'svalue
+NaNeverytime3
 NaN
-0 - 5
-NaNeverytime
-1 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime5
+NaNeverytime0
 NaN
-1 - 0
-NaNeverytime
+4v'svalue
+NaNeverytime0
 NaN
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 7
-1 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime1
 NaN
-1 - 2
-NaNeverytime
+1v'svalue
+NaNeverytime2
 NaN
-2 - 3
-NaNeverytime
+2v'svalue
+NaNeverytime3
 NaN
-0 - 5
-NaNeverytime
-1 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime5
+NaNeverytime0
 NaN
-1 - 0
-NaNeverytime
+4v'svalue
+NaNeverytime0
 NaN
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 8
-1 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime1
 NaN
-1 - 2
-NaNeverytime
+1v'svalue
+NaNeverytime2
 NaN
-2 - 3
-NaNeverytime
+2v'svalue
+NaNeverytime3
 NaN
-0 - 5
-NaNeverytime
-1 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime5
+NaNeverytime0
 NaN
-1 - 0
-NaNeverytime
+4v'svalue
+NaNeverytime0
 NaN
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 9
-1 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime1
 NaN
-1 - 2
-NaNeverytime
+1v'svalue
+NaNeverytime2
 NaN
-2 - 3
-NaNeverytime
+2v'svalue
+NaNeverytime3
 NaN
-0 - 5
-NaNeverytime
-1 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime5
+NaNeverytime0
 NaN
-1 - 0
-NaNeverytime
+4v'svalue
+NaNeverytime0
 NaN
+5v'svalue
 0.0
 -------------------------------------------------------
 [NaN, NaN, NaN, NaN, NaN, 0.0]
@@ -2059,303 +1889,223 @@ Your Output:
 3: 2 1 0 
 
 iteration number 0
-3 - 3
-0.08333333333333333everytime
-3 - 2
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
+0v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime2
+0.08333333333333333everytime1
 0.25
-3 - 3
-0.08333333333333333everytime
-3 - 2
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+1v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime2
+0.08333333333333333everytime0
 0.25
-3 - 3
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+2v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime1
+0.08333333333333333everytime0
 0.25
-3 - 2
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+3v'svalue
+0.08333333333333333everytime2
+0.08333333333333333everytime1
+0.08333333333333333everytime0
 0.25
 -------------------------------------------------------
 iteration number 1
-3 - 3
-0.08333333333333333everytime
-3 - 2
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
+0v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime2
+0.08333333333333333everytime1
 0.25
-3 - 3
-0.08333333333333333everytime
-3 - 2
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+1v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime2
+0.08333333333333333everytime0
 0.25
-3 - 3
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+2v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime1
+0.08333333333333333everytime0
 0.25
-3 - 2
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+3v'svalue
+0.08333333333333333everytime2
+0.08333333333333333everytime1
+0.08333333333333333everytime0
 0.25
 -------------------------------------------------------
 iteration number 2
-3 - 3
-0.08333333333333333everytime
-3 - 2
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
+0v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime2
+0.08333333333333333everytime1
 0.25
-3 - 3
-0.08333333333333333everytime
-3 - 2
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+1v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime2
+0.08333333333333333everytime0
 0.25
-3 - 3
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+2v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime1
+0.08333333333333333everytime0
 0.25
-3 - 2
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+3v'svalue
+0.08333333333333333everytime2
+0.08333333333333333everytime1
+0.08333333333333333everytime0
 0.25
 -------------------------------------------------------
 iteration number 3
-3 - 3
-0.08333333333333333everytime
-3 - 2
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
+0v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime2
+0.08333333333333333everytime1
 0.25
-3 - 3
-0.08333333333333333everytime
-3 - 2
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+1v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime2
+0.08333333333333333everytime0
 0.25
-3 - 3
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+2v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime1
+0.08333333333333333everytime0
 0.25
-3 - 2
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+3v'svalue
+0.08333333333333333everytime2
+0.08333333333333333everytime1
+0.08333333333333333everytime0
 0.25
 -------------------------------------------------------
 iteration number 4
-3 - 3
-0.08333333333333333everytime
-3 - 2
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
+0v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime2
+0.08333333333333333everytime1
 0.25
-3 - 3
-0.08333333333333333everytime
-3 - 2
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+1v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime2
+0.08333333333333333everytime0
 0.25
-3 - 3
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+2v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime1
+0.08333333333333333everytime0
 0.25
-3 - 2
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+3v'svalue
+0.08333333333333333everytime2
+0.08333333333333333everytime1
+0.08333333333333333everytime0
 0.25
 -------------------------------------------------------
 iteration number 5
-3 - 3
-0.08333333333333333everytime
-3 - 2
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
+0v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime2
+0.08333333333333333everytime1
 0.25
-3 - 3
-0.08333333333333333everytime
-3 - 2
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+1v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime2
+0.08333333333333333everytime0
 0.25
-3 - 3
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+2v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime1
+0.08333333333333333everytime0
 0.25
-3 - 2
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+3v'svalue
+0.08333333333333333everytime2
+0.08333333333333333everytime1
+0.08333333333333333everytime0
 0.25
 -------------------------------------------------------
 iteration number 6
-3 - 3
-0.08333333333333333everytime
-3 - 2
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
+0v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime2
+0.08333333333333333everytime1
 0.25
-3 - 3
-0.08333333333333333everytime
-3 - 2
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+1v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime2
+0.08333333333333333everytime0
 0.25
-3 - 3
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+2v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime1
+0.08333333333333333everytime0
 0.25
-3 - 2
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+3v'svalue
+0.08333333333333333everytime2
+0.08333333333333333everytime1
+0.08333333333333333everytime0
 0.25
 -------------------------------------------------------
 iteration number 7
-3 - 3
-0.08333333333333333everytime
-3 - 2
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
+0v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime2
+0.08333333333333333everytime1
 0.25
-3 - 3
-0.08333333333333333everytime
-3 - 2
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+1v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime2
+0.08333333333333333everytime0
 0.25
-3 - 3
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+2v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime1
+0.08333333333333333everytime0
 0.25
-3 - 2
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+3v'svalue
+0.08333333333333333everytime2
+0.08333333333333333everytime1
+0.08333333333333333everytime0
 0.25
 -------------------------------------------------------
 iteration number 8
-3 - 3
-0.08333333333333333everytime
-3 - 2
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
+0v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime2
+0.08333333333333333everytime1
 0.25
-3 - 3
-0.08333333333333333everytime
-3 - 2
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+1v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime2
+0.08333333333333333everytime0
 0.25
-3 - 3
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+2v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime1
+0.08333333333333333everytime0
 0.25
-3 - 2
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+3v'svalue
+0.08333333333333333everytime2
+0.08333333333333333everytime1
+0.08333333333333333everytime0
 0.25
 -------------------------------------------------------
 iteration number 9
-3 - 3
-0.08333333333333333everytime
-3 - 2
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
+0v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime2
+0.08333333333333333everytime1
 0.25
-3 - 3
-0.08333333333333333everytime
-3 - 2
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+1v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime2
+0.08333333333333333everytime0
 0.25
-3 - 3
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+2v'svalue
+0.08333333333333333everytime3
+0.08333333333333333everytime1
+0.08333333333333333everytime0
 0.25
-3 - 2
-0.08333333333333333everytime
-3 - 1
-0.08333333333333333everytime
-3 - 0
-0.08333333333333333everytime
+3v'svalue
+0.08333333333333333everytime2
+0.08333333333333333everytime1
+0.08333333333333333everytime0
 0.25
 -------------------------------------------------------
 [0.25, 0.25, 0.25, 0.25]
@@ -2388,363 +2138,283 @@ Your Output:
 5: 
 
 iteration number 0
-3 - 3
-0.05555555555555555everytime
-4 - 2
-0.041666666666666664everytime
-3 - 1
-0.05555555555555555everytime
+0v'svalue
+0.05555555555555555everytime3
+0.041666666666666664everytime2
+0.05555555555555555everytime1
 0.15277777777777776
-3 - 3
-0.05555555555555555everytime
-4 - 2
-0.041666666666666664everytime
-3 - 0
-0.05092592592592592everytime
+1v'svalue
+0.05555555555555555everytime3
+0.041666666666666664everytime2
+0.05092592592592592everytime0
 0.14814814814814814
-0 - 5
-Infinityeverytime
-3 - 3
-0.05555555555555555everytime
-3 - 1
-0.04938271604938271everytime
-3 - 0
-0.05092592592592592everytime
+2v'svalue
+Infinityeverytime5
+0.05555555555555555everytime3
+0.04938271604938271everytime1
+0.05092592592592592everytime0
 Infinity
-4 - 2
-Infinityeverytime
-3 - 1
-0.04938271604938271everytime
-3 - 0
-0.05092592592592592everytime
+3v'svalue
+Infinityeverytime2
+0.04938271604938271everytime1
+0.05092592592592592everytime0
 Infinity
-3 - 0
-0.05092592592592592everytime
+4v'svalue
+0.05092592592592592everytime0
 0.05092592592592592
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 1
-3 - 3
-Infinityeverytime
-4 - 2
-Infinityeverytime
-3 - 1
-0.04938271604938271everytime
+0v'svalue
+Infinityeverytime3
+Infinityeverytime2
+0.04938271604938271everytime1
 Infinity
-3 - 3
-Infinityeverytime
-4 - 2
-Infinityeverytime
-3 - 0
-Infinityeverytime
+1v'svalue
+Infinityeverytime3
+Infinityeverytime2
+Infinityeverytime0
 Infinity
-0 - 5
-NaNeverytime
-3 - 3
-Infinityeverytime
-3 - 1
-Infinityeverytime
-3 - 0
-Infinityeverytime
+2v'svalue
+NaNeverytime5
+Infinityeverytime3
+Infinityeverytime1
+Infinityeverytime0
 NaN
-4 - 2
-NaNeverytime
-3 - 1
-Infinityeverytime
-3 - 0
-Infinityeverytime
+3v'svalue
+NaNeverytime2
+Infinityeverytime1
+Infinityeverytime0
 NaN
-3 - 0
-Infinityeverytime
+4v'svalue
+Infinityeverytime0
 Infinity
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 2
-3 - 3
-NaNeverytime
-4 - 2
-NaNeverytime
-3 - 1
-Infinityeverytime
+0v'svalue
+NaNeverytime3
+NaNeverytime2
+Infinityeverytime1
 NaN
-3 - 3
-NaNeverytime
-4 - 2
-NaNeverytime
-3 - 0
-NaNeverytime
+1v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime0
 NaN
-0 - 5
-NaNeverytime
-3 - 3
-NaNeverytime
-3 - 1
-NaNeverytime
-3 - 0
-NaNeverytime
+2v'svalue
+NaNeverytime5
+NaNeverytime3
+NaNeverytime1
+NaNeverytime0
 NaN
-4 - 2
-NaNeverytime
-3 - 1
-NaNeverytime
-3 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime2
+NaNeverytime1
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+4v'svalue
+NaNeverytime0
 NaN
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 3
-3 - 3
-NaNeverytime
-4 - 2
-NaNeverytime
-3 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime1
 NaN
-3 - 3
-NaNeverytime
-4 - 2
-NaNeverytime
-3 - 0
-NaNeverytime
+1v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime0
 NaN
-0 - 5
-NaNeverytime
-3 - 3
-NaNeverytime
-3 - 1
-NaNeverytime
-3 - 0
-NaNeverytime
+2v'svalue
+NaNeverytime5
+NaNeverytime3
+NaNeverytime1
+NaNeverytime0
 NaN
-4 - 2
-NaNeverytime
-3 - 1
-NaNeverytime
-3 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime2
+NaNeverytime1
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+4v'svalue
+NaNeverytime0
 NaN
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 4
-3 - 3
-NaNeverytime
-4 - 2
-NaNeverytime
-3 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime1
 NaN
-3 - 3
-NaNeverytime
-4 - 2
-NaNeverytime
-3 - 0
-NaNeverytime
+1v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime0
 NaN
-0 - 5
-NaNeverytime
-3 - 3
-NaNeverytime
-3 - 1
-NaNeverytime
-3 - 0
-NaNeverytime
+2v'svalue
+NaNeverytime5
+NaNeverytime3
+NaNeverytime1
+NaNeverytime0
 NaN
-4 - 2
-NaNeverytime
-3 - 1
-NaNeverytime
-3 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime2
+NaNeverytime1
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+4v'svalue
+NaNeverytime0
 NaN
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 5
-3 - 3
-NaNeverytime
-4 - 2
-NaNeverytime
-3 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime1
 NaN
-3 - 3
-NaNeverytime
-4 - 2
-NaNeverytime
-3 - 0
-NaNeverytime
+1v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime0
 NaN
-0 - 5
-NaNeverytime
-3 - 3
-NaNeverytime
-3 - 1
-NaNeverytime
-3 - 0
-NaNeverytime
+2v'svalue
+NaNeverytime5
+NaNeverytime3
+NaNeverytime1
+NaNeverytime0
 NaN
-4 - 2
-NaNeverytime
-3 - 1
-NaNeverytime
-3 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime2
+NaNeverytime1
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+4v'svalue
+NaNeverytime0
 NaN
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 6
-3 - 3
-NaNeverytime
-4 - 2
-NaNeverytime
-3 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime1
 NaN
-3 - 3
-NaNeverytime
-4 - 2
-NaNeverytime
-3 - 0
-NaNeverytime
+1v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime0
 NaN
-0 - 5
-NaNeverytime
-3 - 3
-NaNeverytime
-3 - 1
-NaNeverytime
-3 - 0
-NaNeverytime
+2v'svalue
+NaNeverytime5
+NaNeverytime3
+NaNeverytime1
+NaNeverytime0
 NaN
-4 - 2
-NaNeverytime
-3 - 1
-NaNeverytime
-3 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime2
+NaNeverytime1
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+4v'svalue
+NaNeverytime0
 NaN
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 7
-3 - 3
-NaNeverytime
-4 - 2
-NaNeverytime
-3 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime1
 NaN
-3 - 3
-NaNeverytime
-4 - 2
-NaNeverytime
-3 - 0
-NaNeverytime
+1v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime0
 NaN
-0 - 5
-NaNeverytime
-3 - 3
-NaNeverytime
-3 - 1
-NaNeverytime
-3 - 0
-NaNeverytime
+2v'svalue
+NaNeverytime5
+NaNeverytime3
+NaNeverytime1
+NaNeverytime0
 NaN
-4 - 2
-NaNeverytime
-3 - 1
-NaNeverytime
-3 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime2
+NaNeverytime1
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+4v'svalue
+NaNeverytime0
 NaN
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 8
-3 - 3
-NaNeverytime
-4 - 2
-NaNeverytime
-3 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime1
 NaN
-3 - 3
-NaNeverytime
-4 - 2
-NaNeverytime
-3 - 0
-NaNeverytime
+1v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime0
 NaN
-0 - 5
-NaNeverytime
-3 - 3
-NaNeverytime
-3 - 1
-NaNeverytime
-3 - 0
-NaNeverytime
+2v'svalue
+NaNeverytime5
+NaNeverytime3
+NaNeverytime1
+NaNeverytime0
 NaN
-4 - 2
-NaNeverytime
-3 - 1
-NaNeverytime
-3 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime2
+NaNeverytime1
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+4v'svalue
+NaNeverytime0
 NaN
+5v'svalue
 0.0
 -------------------------------------------------------
 iteration number 9
-3 - 3
-NaNeverytime
-4 - 2
-NaNeverytime
-3 - 1
-NaNeverytime
+0v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime1
 NaN
-3 - 3
-NaNeverytime
-4 - 2
-NaNeverytime
-3 - 0
-NaNeverytime
+1v'svalue
+NaNeverytime3
+NaNeverytime2
+NaNeverytime0
 NaN
-0 - 5
-NaNeverytime
-3 - 3
-NaNeverytime
-3 - 1
-NaNeverytime
-3 - 0
-NaNeverytime
+2v'svalue
+NaNeverytime5
+NaNeverytime3
+NaNeverytime1
+NaNeverytime0
 NaN
-4 - 2
-NaNeverytime
-3 - 1
-NaNeverytime
-3 - 0
-NaNeverytime
+3v'svalue
+NaNeverytime2
+NaNeverytime1
+NaNeverytime0
 NaN
-3 - 0
-NaNeverytime
+4v'svalue
+NaNeverytime0
 NaN
+5v'svalue
 0.0
 -------------------------------------------------------
 [NaN, NaN, NaN, NaN, NaN, 0.0]
@@ -2765,83 +2435,83 @@ Your Output:
 1: 0 
 
 iteration number 0
-1 - 1
-0.5everytime
+0v'svalue
+0.5everytime1
 0.5
-1 - 0
-0.5everytime
+1v'svalue
+0.5everytime0
 0.5
 -------------------------------------------------------
 iteration number 1
-1 - 1
-0.5everytime
+0v'svalue
+0.5everytime1
 0.5
-1 - 0
-0.5everytime
+1v'svalue
+0.5everytime0
 0.5
 -------------------------------------------------------
 iteration number 2
-1 - 1
-0.5everytime
+0v'svalue
+0.5everytime1
 0.5
-1 - 0
-0.5everytime
+1v'svalue
+0.5everytime0
 0.5
 -------------------------------------------------------
 iteration number 3
-1 - 1
-0.5everytime
+0v'svalue
+0.5everytime1
 0.5
-1 - 0
-0.5everytime
+1v'svalue
+0.5everytime0
 0.5
 -------------------------------------------------------
 iteration number 4
-1 - 1
-0.5everytime
+0v'svalue
+0.5everytime1
 0.5
-1 - 0
-0.5everytime
+1v'svalue
+0.5everytime0
 0.5
 -------------------------------------------------------
 iteration number 5
-1 - 1
-0.5everytime
+0v'svalue
+0.5everytime1
 0.5
-1 - 0
-0.5everytime
+1v'svalue
+0.5everytime0
 0.5
 -------------------------------------------------------
 iteration number 6
-1 - 1
-0.5everytime
+0v'svalue
+0.5everytime1
 0.5
-1 - 0
-0.5everytime
+1v'svalue
+0.5everytime0
 0.5
 -------------------------------------------------------
 iteration number 7
-1 - 1
-0.5everytime
+0v'svalue
+0.5everytime1
 0.5
-1 - 0
-0.5everytime
+1v'svalue
+0.5everytime0
 0.5
 -------------------------------------------------------
 iteration number 8
-1 - 1
-0.5everytime
+0v'svalue
+0.5everytime1
 0.5
-1 - 0
-0.5everytime
+1v'svalue
+0.5everytime0
 0.5
 -------------------------------------------------------
 iteration number 9
-1 - 1
-0.5everytime
+0v'svalue
+0.5everytime1
 0.5
-1 - 0
-0.5everytime
+1v'svalue
+0.5everytime0
 0.5
 -------------------------------------------------------
 [0.5, 0.5]
@@ -2897,583 +2567,483 @@ Your Output:
 11: 0 
 
 iteration number 0
-9 - 3
-0.009259259259259259everytime
-1 - 2
-0.08333333333333333everytime
-1 - 1
-0.08333333333333333everytime
+0v'svalue
+0.009259259259259259everytime3
+0.08333333333333333everytime2
+0.08333333333333333everytime1
 0.17592592592592593
-3 - 0
-0.05864197530864198everytime
+1v'svalue
+0.05864197530864198everytime0
 0.05864197530864198
-3 - 0
-0.05864197530864198everytime
+2v'svalue
+0.05864197530864198everytime0
 0.05864197530864198
-1 - 11
-0.08333333333333333everytime
-1 - 10
-0.08333333333333333everytime
-1 - 9
-0.08333333333333333everytime
-1 - 8
-0.08333333333333333everytime
-1 - 7
-0.08333333333333333everytime
-1 - 6
-0.08333333333333333everytime
-1 - 5
-0.08333333333333333everytime
-1 - 4
-0.08333333333333333everytime
-3 - 0
-0.05864197530864198everytime
+3v'svalue
+0.08333333333333333everytime11
+0.08333333333333333everytime10
+0.08333333333333333everytime9
+0.08333333333333333everytime8
+0.08333333333333333everytime7
+0.08333333333333333everytime6
+0.08333333333333333everytime5
+0.08333333333333333everytime4
+0.05864197530864198everytime0
 0.7253086419753086
-3 - 0
-0.05864197530864198everytime
+4v'svalue
+0.05864197530864198everytime0
 0.05864197530864198
-3 - 0
-0.05864197530864198everytime
+5v'svalue
+0.05864197530864198everytime0
 0.05864197530864198
-3 - 0
-0.05864197530864198everytime
+6v'svalue
+0.05864197530864198everytime0
 0.05864197530864198
-3 - 0
-0.05864197530864198everytime
+7v'svalue
+0.05864197530864198everytime0
 0.05864197530864198
-3 - 0
-0.05864197530864198everytime
+8v'svalue
+0.05864197530864198everytime0
 0.05864197530864198
-3 - 0
-0.05864197530864198everytime
+9v'svalue
+0.05864197530864198everytime0
 0.05864197530864198
-3 - 0
-0.05864197530864198everytime
+10v'svalue
+0.05864197530864198everytime0
 0.05864197530864198
-3 - 0
-0.05864197530864198everytime
+11v'svalue
+0.05864197530864198everytime0
 0.05864197530864198
 -------------------------------------------------------
 iteration number 1
-9 - 3
-0.08058984910836763everytime
-1 - 2
-0.05864197530864198everytime
-1 - 1
-0.05864197530864198everytime
+0v'svalue
+0.08058984910836763everytime3
+0.05864197530864198everytime2
+0.05864197530864198everytime1
 0.19787379972565158
-3 - 0
-0.06595793324188386everytime
+1v'svalue
+0.06595793324188386everytime0
 0.06595793324188386
-3 - 0
-0.06595793324188386everytime
+2v'svalue
+0.06595793324188386everytime0
 0.06595793324188386
-1 - 11
-0.05864197530864198everytime
-1 - 10
-0.05864197530864198everytime
-1 - 9
-0.05864197530864198everytime
-1 - 8
-0.05864197530864198everytime
-1 - 7
-0.05864197530864198everytime
-1 - 6
-0.05864197530864198everytime
-1 - 5
-0.05864197530864198everytime
-1 - 4
-0.05864197530864198everytime
-3 - 0
-0.06595793324188386everytime
+3v'svalue
+0.05864197530864198everytime11
+0.05864197530864198everytime10
+0.05864197530864198everytime9
+0.05864197530864198everytime8
+0.05864197530864198everytime7
+0.05864197530864198everytime6
+0.05864197530864198everytime5
+0.05864197530864198everytime4
+0.06595793324188386everytime0
 0.5350937357110196
-3 - 0
-0.06595793324188386everytime
+4v'svalue
+0.06595793324188386everytime0
 0.06595793324188386
-3 - 0
-0.06595793324188386everytime
+5v'svalue
+0.06595793324188386everytime0
 0.06595793324188386
-3 - 0
-0.06595793324188386everytime
+6v'svalue
+0.06595793324188386everytime0
 0.06595793324188386
-3 - 0
-0.06595793324188386everytime
+7v'svalue
+0.06595793324188386everytime0
 0.06595793324188386
-3 - 0
-0.06595793324188386everytime
+8v'svalue
+0.06595793324188386everytime0
 0.06595793324188386
-3 - 0
-0.06595793324188386everytime
+9v'svalue
+0.06595793324188386everytime0
 0.06595793324188386
-3 - 0
-0.06595793324188386everytime
+10v'svalue
+0.06595793324188386everytime0
 0.06595793324188386
-3 - 0
-0.06595793324188386everytime
+11v'svalue
+0.06595793324188386everytime0
 0.06595793324188386
 -------------------------------------------------------
 iteration number 2
-9 - 3
-0.05945485952344662everytime
-1 - 2
-0.06595793324188386everytime
-1 - 1
-0.06595793324188386everytime
+0v'svalue
+0.05945485952344662everytime3
+0.06595793324188386everytime2
+0.06595793324188386everytime1
 0.19137072600721433
-3 - 0
-0.06379024200240478everytime
+1v'svalue
+0.06379024200240478everytime0
 0.06379024200240478
-3 - 0
-0.06379024200240478everytime
+2v'svalue
+0.06379024200240478everytime0
 0.06379024200240478
-1 - 11
-0.06595793324188386everytime
-1 - 10
-0.06595793324188386everytime
-1 - 9
-0.06595793324188386everytime
-1 - 8
-0.06595793324188386everytime
-1 - 7
-0.06595793324188386everytime
-1 - 6
-0.06595793324188386everytime
-1 - 5
-0.06595793324188386everytime
-1 - 4
-0.06595793324188386everytime
-3 - 0
-0.06379024200240478everytime
+3v'svalue
+0.06595793324188386everytime11
+0.06595793324188386everytime10
+0.06595793324188386everytime9
+0.06595793324188386everytime8
+0.06595793324188386everytime7
+0.06595793324188386everytime6
+0.06595793324188386everytime5
+0.06595793324188386everytime4
+0.06379024200240478everytime0
 0.5914537079374756
-3 - 0
-0.06379024200240478everytime
+4v'svalue
+0.06379024200240478everytime0
 0.06379024200240478
-3 - 0
-0.06379024200240478everytime
+5v'svalue
+0.06379024200240478everytime0
 0.06379024200240478
-3 - 0
-0.06379024200240478everytime
+6v'svalue
+0.06379024200240478everytime0
 0.06379024200240478
-3 - 0
-0.06379024200240478everytime
+7v'svalue
+0.06379024200240478everytime0
 0.06379024200240478
-3 - 0
-0.06379024200240478everytime
+8v'svalue
+0.06379024200240478everytime0
 0.06379024200240478
-3 - 0
-0.06379024200240478everytime
+9v'svalue
+0.06379024200240478everytime0
 0.06379024200240478
-3 - 0
-0.06379024200240478everytime
+10v'svalue
+0.06379024200240478everytime0
 0.06379024200240478
-3 - 0
-0.06379024200240478everytime
+11v'svalue
+0.06379024200240478everytime0
 0.06379024200240478
 -------------------------------------------------------
 iteration number 3
-9 - 3
-0.06571707865971951everytime
-1 - 2
-0.06379024200240478everytime
-1 - 1
-0.06379024200240478everytime
+0v'svalue
+0.06571707865971951everytime3
+0.06379024200240478everytime2
+0.06379024200240478everytime1
 0.19329756266452908
-3 - 0
-0.06443252088817636everytime
+1v'svalue
+0.06443252088817636everytime0
 0.06443252088817636
-3 - 0
-0.06443252088817636everytime
+2v'svalue
+0.06443252088817636everytime0
 0.06443252088817636
-1 - 11
-0.06379024200240478everytime
-1 - 10
-0.06379024200240478everytime
-1 - 9
-0.06379024200240478everytime
-1 - 8
-0.06379024200240478everytime
-1 - 7
-0.06379024200240478everytime
-1 - 6
-0.06379024200240478everytime
-1 - 5
-0.06379024200240478everytime
-1 - 4
-0.06379024200240478everytime
-3 - 0
-0.06443252088817636everytime
+3v'svalue
+0.06379024200240478everytime11
+0.06379024200240478everytime10
+0.06379024200240478everytime9
+0.06379024200240478everytime8
+0.06379024200240478everytime7
+0.06379024200240478everytime6
+0.06379024200240478everytime5
+0.06379024200240478everytime4
+0.06443252088817636everytime0
 0.5747544569074146
-3 - 0
-0.06443252088817636everytime
+4v'svalue
+0.06443252088817636everytime0
 0.06443252088817636
-3 - 0
-0.06443252088817636everytime
+5v'svalue
+0.06443252088817636everytime0
 0.06443252088817636
-3 - 0
-0.06443252088817636everytime
+6v'svalue
+0.06443252088817636everytime0
 0.06443252088817636
-3 - 0
-0.06443252088817636everytime
+7v'svalue
+0.06443252088817636everytime0
 0.06443252088817636
-3 - 0
-0.06443252088817636everytime
+8v'svalue
+0.06443252088817636everytime0
 0.06443252088817636
-3 - 0
-0.06443252088817636everytime
+9v'svalue
+0.06443252088817636everytime0
 0.06443252088817636
-3 - 0
-0.06443252088817636everytime
+10v'svalue
+0.06443252088817636everytime0
 0.06443252088817636
-3 - 0
-0.06443252088817636everytime
+11v'svalue
+0.06443252088817636everytime0
 0.06443252088817636
 -------------------------------------------------------
 iteration number 4
-9 - 3
-0.06386160632304606everytime
-1 - 2
-0.06443252088817636everytime
-1 - 1
-0.06443252088817636everytime
+0v'svalue
+0.06386160632304606everytime3
+0.06443252088817636everytime2
+0.06443252088817636everytime1
 0.19272664809939877
-3 - 0
-0.06424221603313292everytime
+1v'svalue
+0.06424221603313292everytime0
 0.06424221603313292
-3 - 0
-0.06424221603313292everytime
+2v'svalue
+0.06424221603313292everytime0
 0.06424221603313292
-1 - 11
-0.06443252088817636everytime
-1 - 10
-0.06443252088817636everytime
-1 - 9
-0.06443252088817636everytime
-1 - 8
-0.06443252088817636everytime
-1 - 7
-0.06443252088817636everytime
-1 - 6
-0.06443252088817636everytime
-1 - 5
-0.06443252088817636everytime
-1 - 4
-0.06443252088817636everytime
-3 - 0
-0.06424221603313292everytime
+3v'svalue
+0.06443252088817636everytime11
+0.06443252088817636everytime10
+0.06443252088817636everytime9
+0.06443252088817636everytime8
+0.06443252088817636everytime7
+0.06443252088817636everytime6
+0.06443252088817636everytime5
+0.06443252088817636everytime4
+0.06424221603313292everytime0
 0.5797023831385438
-3 - 0
-0.06424221603313292everytime
+4v'svalue
+0.06424221603313292everytime0
 0.06424221603313292
-3 - 0
-0.06424221603313292everytime
+5v'svalue
+0.06424221603313292everytime0
 0.06424221603313292
-3 - 0
-0.06424221603313292everytime
+6v'svalue
+0.06424221603313292everytime0
 0.06424221603313292
-3 - 0
-0.06424221603313292everytime
+7v'svalue
+0.06424221603313292everytime0
 0.06424221603313292
-3 - 0
-0.06424221603313292everytime
+8v'svalue
+0.06424221603313292everytime0
 0.06424221603313292
-3 - 0
-0.06424221603313292everytime
+9v'svalue
+0.06424221603313292everytime0
 0.06424221603313292
-3 - 0
-0.06424221603313292everytime
+10v'svalue
+0.06424221603313292everytime0
 0.06424221603313292
-3 - 0
-0.06424221603313292everytime
+11v'svalue
+0.06424221603313292everytime0
 0.06424221603313292
 -------------------------------------------------------
 iteration number 5
-9 - 3
-0.06441137590428264everytime
-1 - 2
-0.06424221603313292everytime
-1 - 1
-0.06424221603313292everytime
+0v'svalue
+0.06441137590428264everytime3
+0.06424221603313292everytime2
+0.06424221603313292everytime1
 0.19289580797054845
-3 - 0
-0.06429860265684949everytime
+1v'svalue
+0.06429860265684949everytime0
 0.06429860265684949
-3 - 0
-0.06429860265684949everytime
+2v'svalue
+0.06429860265684949everytime0
 0.06429860265684949
-1 - 11
-0.06424221603313292everytime
-1 - 10
-0.06424221603313292everytime
-1 - 9
-0.06424221603313292everytime
-1 - 8
-0.06424221603313292everytime
-1 - 7
-0.06424221603313292everytime
-1 - 6
-0.06424221603313292everytime
-1 - 5
-0.06424221603313292everytime
-1 - 4
-0.06424221603313292everytime
-3 - 0
-0.06429860265684949everytime
+3v'svalue
+0.06424221603313292everytime11
+0.06424221603313292everytime10
+0.06424221603313292everytime9
+0.06424221603313292everytime8
+0.06424221603313292everytime7
+0.06424221603313292everytime6
+0.06424221603313292everytime5
+0.06424221603313292everytime4
+0.06429860265684949everytime0
 0.5782363309219128
-3 - 0
-0.06429860265684949everytime
+4v'svalue
+0.06429860265684949everytime0
 0.06429860265684949
-3 - 0
-0.06429860265684949everytime
+5v'svalue
+0.06429860265684949everytime0
 0.06429860265684949
-3 - 0
-0.06429860265684949everytime
+6v'svalue
+0.06429860265684949everytime0
 0.06429860265684949
-3 - 0
-0.06429860265684949everytime
+7v'svalue
+0.06429860265684949everytime0
 0.06429860265684949
-3 - 0
-0.06429860265684949everytime
+8v'svalue
+0.06429860265684949everytime0
 0.06429860265684949
-3 - 0
-0.06429860265684949everytime
+9v'svalue
+0.06429860265684949everytime0
 0.06429860265684949
-3 - 0
-0.06429860265684949everytime
+10v'svalue
+0.06429860265684949everytime0
 0.06429860265684949
-3 - 0
-0.06429860265684949everytime
+11v'svalue
+0.06429860265684949everytime0
 0.06429860265684949
 -------------------------------------------------------
 iteration number 6
-9 - 3
-0.06424848121354587everytime
-1 - 2
-0.06429860265684949everytime
-1 - 1
-0.06429860265684949everytime
+0v'svalue
+0.06424848121354587everytime3
+0.06429860265684949everytime2
+0.06429860265684949everytime1
 0.19284568652724488
-3 - 0
-0.06428189550908163everytime
+1v'svalue
+0.06428189550908163everytime0
 0.06428189550908163
-3 - 0
-0.06428189550908163everytime
+2v'svalue
+0.06428189550908163everytime0
 0.06428189550908163
-1 - 11
-0.06429860265684949everytime
-1 - 10
-0.06429860265684949everytime
-1 - 9
-0.06429860265684949everytime
-1 - 8
-0.06429860265684949everytime
-1 - 7
-0.06429860265684949everytime
-1 - 6
-0.06429860265684949everytime
-1 - 5
-0.06429860265684949everytime
-1 - 4
-0.06429860265684949everytime
-3 - 0
-0.06428189550908163everytime
+3v'svalue
+0.06429860265684949everytime11
+0.06429860265684949everytime10
+0.06429860265684949everytime9
+0.06429860265684949everytime8
+0.06429860265684949everytime7
+0.06429860265684949everytime6
+0.06429860265684949everytime5
+0.06429860265684949everytime4
+0.06428189550908163everytime0
 0.5786707167638775
-3 - 0
-0.06428189550908163everytime
+4v'svalue
+0.06428189550908163everytime0
 0.06428189550908163
-3 - 0
-0.06428189550908163everytime
+5v'svalue
+0.06428189550908163everytime0
 0.06428189550908163
-3 - 0
-0.06428189550908163everytime
+6v'svalue
+0.06428189550908163everytime0
 0.06428189550908163
-3 - 0
-0.06428189550908163everytime
+7v'svalue
+0.06428189550908163everytime0
 0.06428189550908163
-3 - 0
-0.06428189550908163everytime
+8v'svalue
+0.06428189550908163everytime0
 0.06428189550908163
-3 - 0
-0.06428189550908163everytime
+9v'svalue
+0.06428189550908163everytime0
 0.06428189550908163
-3 - 0
-0.06428189550908163everytime
+10v'svalue
+0.06428189550908163everytime0
 0.06428189550908163
-3 - 0
-0.06428189550908163everytime
+11v'svalue
+0.06428189550908163everytime0
 0.06428189550908163
 -------------------------------------------------------
 iteration number 7
-9 - 3
-0.0642967463070975everytime
-1 - 2
-0.06428189550908163everytime
-1 - 1
-0.06428189550908163everytime
+0v'svalue
+0.0642967463070975everytime3
+0.06428189550908163everytime2
+0.06428189550908163everytime1
 0.19286053732526076
-3 - 0
-0.06428684577508692everytime
+1v'svalue
+0.06428684577508692everytime0
 0.06428684577508692
-3 - 0
-0.06428684577508692everytime
+2v'svalue
+0.06428684577508692everytime0
 0.06428684577508692
-1 - 11
-0.06428189550908163everytime
-1 - 10
-0.06428189550908163everytime
-1 - 9
-0.06428189550908163everytime
-1 - 8
-0.06428189550908163everytime
-1 - 7
-0.06428189550908163everytime
-1 - 6
-0.06428189550908163everytime
-1 - 5
-0.06428189550908163everytime
-1 - 4
-0.06428189550908163everytime
-3 - 0
-0.06428684577508692everytime
+3v'svalue
+0.06428189550908163everytime11
+0.06428189550908163everytime10
+0.06428189550908163everytime9
+0.06428189550908163everytime8
+0.06428189550908163everytime7
+0.06428189550908163everytime6
+0.06428189550908163everytime5
+0.06428189550908163everytime4
+0.06428684577508692everytime0
 0.57854200984774
-3 - 0
-0.06428684577508692everytime
+4v'svalue
+0.06428684577508692everytime0
 0.06428684577508692
-3 - 0
-0.06428684577508692everytime
+5v'svalue
+0.06428684577508692everytime0
 0.06428684577508692
-3 - 0
-0.06428684577508692everytime
+6v'svalue
+0.06428684577508692everytime0
 0.06428684577508692
-3 - 0
-0.06428684577508692everytime
+7v'svalue
+0.06428684577508692everytime0
 0.06428684577508692
-3 - 0
-0.06428684577508692everytime
+8v'svalue
+0.06428684577508692everytime0
 0.06428684577508692
-3 - 0
-0.06428684577508692everytime
+9v'svalue
+0.06428684577508692everytime0
 0.06428684577508692
-3 - 0
-0.06428684577508692everytime
+10v'svalue
+0.06428684577508692everytime0
 0.06428684577508692
-3 - 0
-0.06428684577508692everytime
+11v'svalue
+0.06428684577508692everytime0
 0.06428684577508692
 -------------------------------------------------------
 iteration number 8
-9 - 3
-0.06428244553863777everytime
-1 - 2
-0.06428684577508692everytime
-1 - 1
-0.06428684577508692everytime
+0v'svalue
+0.06428244553863777everytime3
+0.06428684577508692everytime2
+0.06428684577508692everytime1
 0.1928561370888116
-3 - 0
-0.06428537902960386everytime
+1v'svalue
+0.06428537902960386everytime0
 0.06428537902960386
-3 - 0
-0.06428537902960386everytime
+2v'svalue
+0.06428537902960386everytime0
 0.06428537902960386
-1 - 11
-0.06428684577508692everytime
-1 - 10
-0.06428684577508692everytime
-1 - 9
-0.06428684577508692everytime
-1 - 8
-0.06428684577508692everytime
-1 - 7
-0.06428684577508692everytime
-1 - 6
-0.06428684577508692everytime
-1 - 5
-0.06428684577508692everytime
-1 - 4
-0.06428684577508692everytime
-3 - 0
-0.06428537902960386everytime
+3v'svalue
+0.06428684577508692everytime11
+0.06428684577508692everytime10
+0.06428684577508692everytime9
+0.06428684577508692everytime8
+0.06428684577508692everytime7
+0.06428684577508692everytime6
+0.06428684577508692everytime5
+0.06428684577508692everytime4
+0.06428537902960386everytime0
 0.5785801452302992
-3 - 0
-0.06428537902960386everytime
+4v'svalue
+0.06428537902960386everytime0
 0.06428537902960386
-3 - 0
-0.06428537902960386everytime
+5v'svalue
+0.06428537902960386everytime0
 0.06428537902960386
-3 - 0
-0.06428537902960386everytime
+6v'svalue
+0.06428537902960386everytime0
 0.06428537902960386
-3 - 0
-0.06428537902960386everytime
+7v'svalue
+0.06428537902960386everytime0
 0.06428537902960386
-3 - 0
-0.06428537902960386everytime
+8v'svalue
+0.06428537902960386everytime0
 0.06428537902960386
-3 - 0
-0.06428537902960386everytime
+9v'svalue
+0.06428537902960386everytime0
 0.06428537902960386
-3 - 0
-0.06428537902960386everytime
+10v'svalue
+0.06428537902960386everytime0
 0.06428537902960386
-3 - 0
-0.06428537902960386everytime
+11v'svalue
+0.06428537902960386everytime0
 0.06428537902960386
 -------------------------------------------------------
 iteration number 9
-9 - 3
-0.06428668280336658everytime
-1 - 2
-0.06428537902960386everytime
-1 - 1
-0.06428537902960386everytime
+0v'svalue
+0.06428668280336658everytime3
+0.06428537902960386everytime2
+0.06428537902960386everytime1
 0.19285744086257428
-3 - 0
-0.0642858136208581everytime
+1v'svalue
+0.0642858136208581everytime0
 0.0642858136208581
-3 - 0
-0.0642858136208581everytime
+2v'svalue
+0.0642858136208581everytime0
 0.0642858136208581
-1 - 11
-0.06428537902960386everytime
-1 - 10
-0.06428537902960386everytime
-1 - 9
-0.06428537902960386everytime
-1 - 8
-0.06428537902960386everytime
-1 - 7
-0.06428537902960386everytime
-1 - 6
-0.06428537902960386everytime
-1 - 5
-0.06428537902960386everytime
-1 - 4
-0.06428537902960386everytime
-3 - 0
-0.0642858136208581everytime
+3v'svalue
+0.06428537902960386everytime11
+0.06428537902960386everytime10
+0.06428537902960386everytime9
+0.06428537902960386everytime8
+0.06428537902960386everytime7
+0.06428537902960386everytime6
+0.06428537902960386everytime5
+0.06428537902960386everytime4
+0.0642858136208581everytime0
 0.578568845857689
-3 - 0
-0.0642858136208581everytime
+4v'svalue
+0.0642858136208581everytime0
 0.0642858136208581
-3 - 0
-0.0642858136208581everytime
+5v'svalue
+0.0642858136208581everytime0
 0.0642858136208581
-3 - 0
-0.0642858136208581everytime
+6v'svalue
+0.0642858136208581everytime0
 0.0642858136208581
-3 - 0
-0.0642858136208581everytime
+7v'svalue
+0.0642858136208581everytime0
 0.0642858136208581
-3 - 0
-0.0642858136208581everytime
+8v'svalue
+0.0642858136208581everytime0
 0.0642858136208581
-3 - 0
-0.0642858136208581everytime
+9v'svalue
+0.0642858136208581everytime0
 0.0642858136208581
-3 - 0
-0.0642858136208581everytime
+10v'svalue
+0.0642858136208581everytime0
 0.0642858136208581
-3 - 0
-0.0642858136208581everytime
+11v'svalue
+0.0642858136208581everytime0
 0.0642858136208581
 -------------------------------------------------------
 [0.19285744086257428, 0.0642858136208581, 0.0642858136208581, 0.578568845857689, 0.0642858136208581, 0.0642858136208581, 0.0642858136208581, 0.0642858136208581, 0.0642858136208581, 0.0642858136208581, 0.0642858136208581, 0.0642858136208581]
