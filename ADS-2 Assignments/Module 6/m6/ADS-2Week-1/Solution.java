@@ -1,6 +1,22 @@
-
+import java.util.Arrays;
 class PageRank {
-
+	private Digraph pggraph;
+	private double[] prval;
+	PageRank(Digraph graph) {
+		this.pggraph = graph;
+		prval = new double[graph.V()];
+		for(int y = 0; y < prval.length; y++) {
+			prval[y] = (1 / (graph.V()));
+		}
+	}
+	// double getPR(int v) {
+	// 	for (Integer everyadj : pggraph.adj(v)) {
+	// 		actualprval = 
+	// 	}
+	// }
+	public String toString() {
+		return Arrays.toString(prval);
+	}
 }
 
 class WebSearch {
@@ -27,8 +43,9 @@ public class Solution {
 		System.out.println(graph);
 		// Create page rank object and pass the graph object to the constructor
 
+        PageRank pgrankobj = new PageRank(graph);
 		// print the page rank object
-
+        System.out.println(pgrankobj);
 		// This part is only for the final test case
 
 		// File path to the web content
