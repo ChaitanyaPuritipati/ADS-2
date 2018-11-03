@@ -18,10 +18,10 @@ class PageRank {
 			for (int j = 0; j < pggraph.V(); j++) {
 				getPR(j);
 			}
-			prval = Arrays.copyOf(nowval, nowval.length);
 			if(Arrays.equals(prval, nowval)) {
 				return;
 			}
+			prval = Arrays.copyOf(nowval, nowval.length);
 			System.out.println("-------------------------------------------------------");
 		}
 	}
