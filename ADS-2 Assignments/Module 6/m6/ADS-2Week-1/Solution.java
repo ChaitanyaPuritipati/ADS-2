@@ -8,12 +8,22 @@ class PageRank {
 		for(int y = 0; y < prval.length; y++) {
 			prval[y] = (1.0 / (pggraph.V()));
 		}
+		updatingprvals();
 	}
-	// double getPR(int v) {
-	// 	for (Integer everyadj : pggraph.adj(v)) {
-	// 		actualprval = 
-	// 	}
-	// }
+	void updatingprvals() {
+		for (int i = 0; i < 1000; i++) {
+			for (int j = 0; j < pggraph.V(); j++) {
+				double testprval = 0.0;
+				for (Integer eachadj : pggraph.adj(j)) {
+					testprval += (getPR(eachadj)/pggraph.outdegree(eachadj));
+				}
+				prval[j] = testprval; 
+			}
+		}
+	}
+	double getPR(int v) {
+		return prval[v];
+	}
 	public String toString() {
 		return Arrays.toString(prval);
 	}
