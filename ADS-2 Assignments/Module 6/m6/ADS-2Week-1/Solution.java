@@ -24,6 +24,7 @@ class PageRank {
 	}
 	void updatingprvals() {
 		for (int i = 1; i < 990; i++) {
+			System.out.println("iteration number - " + i);
 			for (int j = 0; j < pggraph.V(); j++) {
 				update(j);
 			}
@@ -45,6 +46,7 @@ class PageRank {
 		for (Integer eachadj : pggraph.reverse().adj(v)) {
 			testprval = testprval + (prval[eachadj] / pggraph.outdegree(eachadj));
 		}
+		System.out.println(testprval);
 		nowval[v] = testprval;
 		return nowval[v];
 	}
