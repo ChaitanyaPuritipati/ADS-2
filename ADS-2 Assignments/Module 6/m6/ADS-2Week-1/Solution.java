@@ -43,7 +43,8 @@ class PageRank {
      * { updatingprvals }.
      */
     void updatingprvals() {
-        for (int i = 1; i < 1001; i++) {
+        final int thou = 1001;
+        for (int i = 1; i < thou; i++) {
             // System.out.println("iteration number - " + i);
             for (int j = 0; j < pggraph.V(); j++) {
                 update(j);
@@ -183,7 +184,7 @@ final class Solution {
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         // read the first line of the input to get the number of vertices
 
         int vertexnum = Integer.parseInt(StdIn.readLine());
