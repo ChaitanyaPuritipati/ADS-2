@@ -110,7 +110,6 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:18: Line is longer than 80 characters (found 106). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:19: Line is longer than 80 characters (found 114). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:37: Line is longer than 80 characters (found 82). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:84:32: Parameter x should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:152:43: Expected @param tag for 'x'. [JavadocMethod]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:160:44: Expected @param tag for 'x'. [JavadocMethod]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:168:41: Expected @param tag for 'x'. [JavadocMethod]
@@ -127,7 +126,7 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:232:65: Expected @param tag for 'format'. [JavadocMethod]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:232:89: Expected @param tag for 'args'. [JavadocMethod]
 Audit done.
-Checkstyle ends with 20 errors.
+Checkstyle ends with 19 errors.
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\UF.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\UF.java:36: Line has trailing spaces. [RegexpSingleline]

@@ -81,7 +81,7 @@ public final class StdOut {
      *
      * @param      x     { parameter_description }
      */
-    public static void println(char x) {
+    public static void println(final char x) {
         out.println(x);
     }
     /**
