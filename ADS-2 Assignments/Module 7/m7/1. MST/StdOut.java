@@ -10,7 +10,9 @@ import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.util.Locale;
-
+/**
+ * { StdOut }.
+ */
 public final class StdOut {
     /**
      * { UTF8 }.
@@ -245,7 +247,10 @@ public final class StdOut {
      * @param      format  The format
      * @param      args    The arguments
      */
-    public static void printf(final Locale locale, final String format, final Object... args) {
+    public static void printf(
+        final Locale locale,
+        final String format,
+        final Object... args) {
         out.printf(locale, format, args);
         out.flush();
     }
