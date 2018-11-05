@@ -3,9 +3,7 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\EdgeWeightedGraph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
-Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\KruskalMST.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
