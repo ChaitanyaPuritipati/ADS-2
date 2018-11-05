@@ -110,17 +110,9 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:18: Line is longer than 80 characters (found 106). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:19: Line is longer than 80 characters (found 114). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:37: Line is longer than 80 characters (found 82). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:210:41: Expected @param tag for 'x'. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:218:42: Expected @param tag for 'x'. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:226:41: Expected @param tag for 'x'. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:234:44: Expected @param tag for 'format'. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:234:68: Expected @param tag for 'args'. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:242: Line is longer than 80 characters (found 95). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:242:44: Expected @param tag for 'locale'. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:242:65: Expected @param tag for 'format'. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:242:89: Expected @param tag for 'args'. [JavadocMethod]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:253: Line is longer than 80 characters (found 95). [LineLength]
 Audit done.
-Checkstyle ends with 13 errors.
+Checkstyle ends with 5 errors.
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\UF.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\UF.java:36: Line has trailing spaces. [RegexpSingleline]

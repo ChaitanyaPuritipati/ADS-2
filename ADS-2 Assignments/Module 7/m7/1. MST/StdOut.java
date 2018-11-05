@@ -146,8 +146,8 @@ public final class StdOut {
         out.flush();
     }
     /**
-     * { function_description }.
-     *
+     * { print() }.
+     *Complexity: O(1)
      * @param      x     { parameter_description }
      */
     public static void print(final Object x) {
@@ -206,6 +206,8 @@ public final class StdOut {
     /**
      * { print() }.
      * Complexity: O(1)
+     *
+     * @param      x     { parameter_description }
      */
     public static void print(final long x) {
         out.print(x);
@@ -214,6 +216,8 @@ public final class StdOut {
     /**
      * { print() }.
      * Complexity: O(1)
+     *
+     * @param      x     { parameter_description }
      */
     public static void print(final short x) {
         out.print(x);
@@ -222,6 +226,8 @@ public final class StdOut {
     /**
      * { print() }.
      * Complexity: O(1)
+     *
+     * @param      x     { parameter_description }
      */
     public static void print(final byte x) {
         out.print(x);
@@ -229,15 +235,20 @@ public final class StdOut {
     }
     /**
      * { printf() }.
-     * Complexity: O(1)
+     *Complexity: O(1)
+     * @param      format  The format
+     * @param      args    The arguments
      */
     public static void printf(final String format, final Object... args) {
         out.printf(US_LOCALE, format, args);
         out.flush();
     }
     /**
-     * { print() }.
-     * Complexity: O(1)
+     * { printf() }.
+     *Complexity: O(1)
+     * @param      locale  The locale
+     * @param      format  The format
+     * @param      args    The arguments
      */
     public static void printf(final Locale locale, final String format, final Object... args) {
         out.printf(locale, format, args);
