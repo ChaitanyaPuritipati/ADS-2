@@ -76,7 +76,7 @@ public class UF {
     /**
      * Merges the component containing site p with the
      * the component containing site q.
-     * 
+     *
      * its complexity is O(1)
      *
      * @param      p     { parameter_description }
