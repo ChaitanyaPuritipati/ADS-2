@@ -19,146 +19,166 @@ import java.util.Locale;
  *  <i>Introduction to Programming in Java: An Interdisciplinary Approach</i> by Robert Sedgewick and Kevin Wayne.
  */
 public final class StdOut {
-
-    // force Unicode UTF-8 encoding; otherwise it's system dependent
+    /**
+     * { UTF8 }.
+     */
     private static final String UTF8 = "UTF-8";
-
-    // assume language = English, country = US for consistency with StdIn
+    /**
+     * { US_LOCALE }.
+     */
     private static final Locale US_LOCALE = new Locale("en", "US");
-
-    // send output here
+    /**
+     * { out }.
+     */
     private static PrintWriter out;
 
-    // this is called before invoking any methods
     static {
         try {
             out = new PrintWriter(new OutputStreamWriter(System.out, UTF8), true);
         }
         catch (UnsupportedEncodingException e) { System.out.println(e); }
     }
-
-    // singleton pattern - can't instantiate
+    /**
+     * Constructs the object.
+     */
     private StdOut() { }
-
-    // close the output stream (not required)
-   /**
-     * Close standard output.
+    /**
+     * { close() }.
+     * Complexity: O(1)
      */
     public static void close() {
         out.close();
     }
-
-   /**
-     * Terminate the current line by printing the line separator string.
+    /**
+     * { println() }.
+     * Complexity: O(1)
      */
     public static void println() {
         out.println();
     }
-
-   /**
-     * Print an object to standard output and then terminate the line.
+    /**
+     * { println() }.
+     * Complexity: O(1)
+     *
+     * @param      x     { parameter_description }
      */
     public static void println(Object x) {
         out.println(x);
     }
-
-   /**
-     * Print a boolean to standard output and then terminate the line.
+    /**
+     * { println() }.
+     * Complexity: O(1)
+     *
+     * @param      x     { parameter_description }
      */
     public static void println(boolean x) {
         out.println(x);
     }
-
-   /**
-     * Print a char to standard output and then terminate the line.
+    /**
+     * { println() }.
+     * Complexity: O(1)
+     *
+     * @param      x     { parameter_description }
      */
     public static void println(char x) {
         out.println(x);
     }
-
-   /**
-     * Print a double to standard output and then terminate the line.
+    /**
+     * { println() }.
+     * Complexity: O(1)
+     *
+     * @param      x     { parameter_description }
      */
     public static void println(double x) {
         out.println(x);
     }
-
-   /**
-     * Print a float to standard output and then terminate the line.
+    /**
+     * { println() }.
+     * Complexity: O(1)
+     *
+     * @param      x     { parameter_description }
      */
     public static void println(float x) {
         out.println(x);
     }
-
-   /**
-     * Print an int to standard output and then terminate the line.
+    /**
+     * { println() }.
+     * Complexity: O(1)
+     *
+     * @param      x     { parameter_description }
      */
     public static void println(int x) {
         out.println(x);
     }
-
-   /**
-     * Print a long to standard output and then terminate the line.
+    /**
+     * { println() }.
+     * Complexity: O(1)
+     *
+     * @param      x     { parameter_description }
      */
     public static void println(long x) {
         out.println(x);
     }
-
-   /**
-     * Print a short to standard output and then terminate the line.
+    /**
+     * { println() }.
+     * Complexity: O(1)
+     *
+     * @param      x     { parameter_description }
      */
     public static void println(short x) {
         out.println(x);
     }
-
-   /**
-     * Print a byte to standard output and then terminate the line.
+    /**
+     * { println() }.
+     * Complexity: O(1)
+     *
+     * @param      x     { parameter_description }
      */
     public static void println(byte x) {
         out.println(x);
     }
-
-   /**
-     * Flush standard output.
+    /**
+     * { print() }.
+     * Complexity: O(1)
      */
     public static void print() {
         out.flush();
     }
-
-   /**
-     * Print an Object to standard output and flush standard output.
+    /**
+     * { print() }.
+     * Complexity: O(1)
      */
     public static void print(Object x) {
         out.print(x);
         out.flush();
     }
-
-   /**
-     * Print a boolean to standard output and flush standard output.
+    /**
+     * { print() }.
+     * Complexity: O(1)
      */
     public static void print(boolean x) {
         out.print(x);
         out.flush();
     }
-
-   /**
-     * Print a char to standard output and flush standard output.
+    /**
+     * { print() }.
+     * Complexity: O(1)
      */
     public static void print(char x) {
         out.print(x);
         out.flush();
     }
-
-   /**
-     * Print a double to standard output and flush standard output.
+    /**
+     * { print() }.
+     * Complexity: O(1)
      */
     public static void print(double x) {
         out.print(x);
         out.flush();
     }
-
-   /**
-     * Print a float to standard output and flush standard output.
+    /**
+     * { print() }.
+     * Complexity: O(1)
      */
     public static void print(float x) {
         out.print(x);
@@ -172,43 +192,41 @@ public final class StdOut {
         out.print(x);
         out.flush();
     }
-
-   /**
-     * Print a long to standard output and flush standard output.
+    /**
+     * { print() }.
+     * Complexity: O(1)
      */
     public static void print(long x) {
         out.print(x);
         out.flush();
     }
-
-   /**
-     * Print a short to standard output and flush standard output.
+    /**
+     * { print() }.
+     * Complexity: O(1)
      */
     public static void print(short x) {
         out.print(x);
         out.flush();
     }
-
-   /**
-     * Print a byte to standard output and flush standard output.
+    /**
+     * { print() }.
+     * Complexity: O(1)
      */
     public static void print(byte x) {
         out.print(x);
         out.flush();
     }
-
-   /**
-     * Print a formatted string to standard output using the specified
-     * format string and arguments, and flush standard output.
+    /**
+     * { printf() }.
+     * Complexity: O(1)
      */
     public static void printf(String format, Object... args) {
         out.printf(US_LOCALE, format, args);
         out.flush();
     }
-
-   /**
-     * Print a formatted string to standard output using the specified
-     * locale, format string, and arguments, and flush standard output.
+    /**
+     * { print() }.
+     * Complexity: O(1)
      */
     public static void printf(Locale locale, String format, Object... args) {
         out.printf(locale, format, args);
