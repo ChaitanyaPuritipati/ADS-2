@@ -1,4 +1,5 @@
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:53:15: 'if' is not followed by whitespace. [WhitespaceAfter]
 Audit done.
-Checkstyle ends with 1 errors.
+Checkstyle ends with 2 errors.
