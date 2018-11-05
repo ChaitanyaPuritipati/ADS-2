@@ -21,7 +21,7 @@ class PageRank {
      *
      * @param      graph  The graph
      */
-    PageRank(Digraph graph) {
+    PageRank(final Digraph graph) {
         this.pggraph = graph;
         prval = new double[pggraph.V()];
         for (int y = 0; y < prval.length; y++) {
@@ -61,7 +61,7 @@ class PageRank {
      *
      * @return     The pr.
      */
-    double getPR(int v) {
+    double getPR(final int v) {
         return nowval[v];
     }
     /**
@@ -71,7 +71,7 @@ class PageRank {
      *
      * @return     { description_of_the_return_value }
      */
-    double update (int v) {
+    double update (final int v) {
         double testprval = 0.0;
         if (pggraph.indegree(v) == 0) {
             nowval[v] = 0.0;
@@ -115,7 +115,7 @@ class WebSearch {
      * @param      rankobj   The rankobj
      * @param      filename  The filename
      */
-    WebSearch(PageRank rankobj, String filename) {
+    WebSearch(final PageRank rankobj, final String filename) {
         pgrankobjinclass = rankobj;
         In newfile = new In(filename);
         hashtableobj = new Hashtable<>();
