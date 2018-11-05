@@ -106,9 +106,7 @@ Checkstyle ends with 5 errors.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
-Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\UF.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\UF.java:36: Line has trailing spaces. [RegexpSingleline]
