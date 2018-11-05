@@ -50,9 +50,9 @@ class PageRank {
                 update(j);
             }
             prval = Arrays.copyOf(nowval, nowval.length);
-            if(Arrays.equals(prval, nowval)) {
-                 break;
-            }
+            // if(Arrays.equals(prval, nowval)) {
+            //      break;
+            // }
         }
     }
     /**
