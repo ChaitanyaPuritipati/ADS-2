@@ -146,8 +146,9 @@ public final class StdOut {
         out.flush();
     }
     /**
-     * { print() }.
-     * Complexity: O(1)
+     * { function_description }.
+     *
+     * @param      x     { parameter_description }
      */
     public static void print(final Object x) {
         out.print(x);
@@ -156,6 +157,8 @@ public final class StdOut {
     /**
      * { print() }.
      * Complexity: O(1)
+     *
+     * @param      x     { parameter_description }
      */
     public static void print(final boolean x) {
         out.print(x);
@@ -164,6 +167,8 @@ public final class StdOut {
     /**
      * { print() }.
      * Complexity: O(1)
+     *
+     * @param      x     { parameter_description }
      */
     public static void print(final char x) {
         out.print(x);
@@ -172,6 +177,8 @@ public final class StdOut {
     /**
      * { print() }.
      * Complexity: O(1)
+     *
+     * @param      x     { parameter_description }
      */
     public static void print(final double x) {
         out.print(x);
@@ -180,6 +187,8 @@ public final class StdOut {
     /**
      * { print() }.
      * Complexity: O(1)
+     *
+     * @param      x     { parameter_description }
      */
     public static void print(final float x) {
         out.print(x);
