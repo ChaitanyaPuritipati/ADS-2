@@ -1,6 +1,4 @@
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:149:25: Parameter inputword should be final. [FinalParameters]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:201: Line is longer than 80 characters (found 86). [LineLength]
 Audit done.
-Checkstyle ends with 3 errors.
+Checkstyle ends with 1 errors.

@@ -146,7 +146,7 @@ class WebSearch {
      *
      * @return     { description_of_the_return_value }
      */
-    int iAmFeelingLucky(String inputword) {
+    int iAmFeelingLucky(final String inputword) {
         if (!hashtableobj.containsKey(inputword)) {
             return -1;
         }
@@ -198,7 +198,10 @@ final class Solution {
         for (int i = 0; i < vertexnum; i++) {
             String[] edges = StdIn.readLine().split(" ");
             for (int k = 1; k < edges.length; k++) {
-                graph.addEdge(Integer.parseInt(edges[0]), Integer.parseInt(edges[k]));
+                graph.addEdge(
+                    Integer.parseInt(
+                        edges[0]), Integer.parseInt(
+                        edges[k]));
             }
         }
         System.out.println(graph);
