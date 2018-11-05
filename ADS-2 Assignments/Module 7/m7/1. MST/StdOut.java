@@ -27,7 +27,9 @@ public final class StdOut {
 
     static {
         try {
-            out = new PrintWriter(new OutputStreamWriter(System.out, UTF8), true);
+            out = new PrintWriter(
+                new OutputStreamWriter(
+                    System.out, UTF8), true);
         } catch (UnsupportedEncodingException e) {
             System.out.println(e);
         }

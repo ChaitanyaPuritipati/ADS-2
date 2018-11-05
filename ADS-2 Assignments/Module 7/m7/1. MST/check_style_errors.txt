@@ -108,10 +108,9 @@ Audit done.
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:14: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:30: Line is longer than 80 characters (found 82). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:246: Line is longer than 80 characters (found 95). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\StdOut.java:248: Line is longer than 80 characters (found 95). [LineLength]
 Audit done.
-Checkstyle ends with 4 errors.
+Checkstyle ends with 3 errors.
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\UF.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 7\m7\1. MST\UF.java:36: Line has trailing spaces. [RegexpSingleline]
