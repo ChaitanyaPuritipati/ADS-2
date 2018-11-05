@@ -63,7 +63,7 @@ public final class StdOut {
      *
      * @param      x     { parameter_description }
      */
-    public static void println(Object x) {
+    public static void println(final Object x) {
         out.println(x);
     }
     /**
@@ -72,7 +72,7 @@ public final class StdOut {
      *
      * @param      x     { parameter_description }
      */
-    public static void println(boolean x) {
+    public static void println(final boolean x) {
         out.println(x);
     }
     /**
@@ -90,7 +90,7 @@ public final class StdOut {
      *
      * @param      x     { parameter_description }
      */
-    public static void println(double x) {
+    public static void println(final double x) {
         out.println(x);
     }
     /**
@@ -99,7 +99,7 @@ public final class StdOut {
      *
      * @param      x     { parameter_description }
      */
-    public static void println(float x) {
+    public static void println(final float x) {
         out.println(x);
     }
     /**
@@ -108,7 +108,7 @@ public final class StdOut {
      *
      * @param      x     { parameter_description }
      */
-    public static void println(int x) {
+    public static void println(final int x) {
         out.println(x);
     }
     /**
@@ -117,7 +117,7 @@ public final class StdOut {
      *
      * @param      x     { parameter_description }
      */
-    public static void println(long x) {
+    public static void println(final long x) {
         out.println(x);
     }
     /**
@@ -126,7 +126,7 @@ public final class StdOut {
      *
      * @param      x     { parameter_description }
      */
-    public static void println(short x) {
+    public static void println(final short x) {
         out.println(x);
     }
     /**
@@ -135,7 +135,7 @@ public final class StdOut {
      *
      * @param      x     { parameter_description }
      */
-    public static void println(byte x) {
+    public static void println(final byte x) {
         out.println(x);
     }
     /**
@@ -149,7 +149,7 @@ public final class StdOut {
      * { print() }.
      * Complexity: O(1)
      */
-    public static void print(Object x) {
+    public static void print(final Object x) {
         out.print(x);
         out.flush();
     }
@@ -157,7 +157,7 @@ public final class StdOut {
      * { print() }.
      * Complexity: O(1)
      */
-    public static void print(boolean x) {
+    public static void print(final boolean x) {
         out.print(x);
         out.flush();
     }
@@ -165,7 +165,7 @@ public final class StdOut {
      * { print() }.
      * Complexity: O(1)
      */
-    public static void print(char x) {
+    public static void print(final char x) {
         out.print(x);
         out.flush();
     }
@@ -173,7 +173,7 @@ public final class StdOut {
      * { print() }.
      * Complexity: O(1)
      */
-    public static void print(double x) {
+    public static void print(final double x) {
         out.print(x);
         out.flush();
     }
@@ -181,7 +181,7 @@ public final class StdOut {
      * { print() }.
      * Complexity: O(1)
      */
-    public static void print(float x) {
+    public static void print(final float x) {
         out.print(x);
         out.flush();
     }
@@ -189,7 +189,7 @@ public final class StdOut {
     /**
       * Print an int to standard output and flush standard output.
       */
-    public static void print(int x) {
+    public static void print(final int x) {
         out.print(x);
         out.flush();
     }
@@ -197,7 +197,7 @@ public final class StdOut {
      * { print() }.
      * Complexity: O(1)
      */
-    public static void print(long x) {
+    public static void print(final long x) {
         out.print(x);
         out.flush();
     }
@@ -205,7 +205,7 @@ public final class StdOut {
      * { print() }.
      * Complexity: O(1)
      */
-    public static void print(short x) {
+    public static void print(final short x) {
         out.print(x);
         out.flush();
     }
@@ -213,7 +213,7 @@ public final class StdOut {
      * { print() }.
      * Complexity: O(1)
      */
-    public static void print(byte x) {
+    public static void print(final byte x) {
         out.print(x);
         out.flush();
     }
@@ -221,7 +221,7 @@ public final class StdOut {
      * { printf() }.
      * Complexity: O(1)
      */
-    public static void printf(String format, Object... args) {
+    public static void printf(final String format, final Object... args) {
         out.printf(US_LOCALE, format, args);
         out.flush();
     }
@@ -229,7 +229,7 @@ public final class StdOut {
      * { print() }.
      * Complexity: O(1)
      */
-    public static void printf(Locale locale, String format, Object... args) {
+    public static void printf(final Locale locale, final String format, final Object... args) {
         out.printf(locale, format, args);
         out.flush();
     }
