@@ -53,7 +53,7 @@ public class UF {
     /**
      * Returns the number of components.
      * its complexity is O(1)
-     * 
+     *
      * @return the number of components
      */
     public int count() {
