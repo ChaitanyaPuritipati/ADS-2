@@ -35,7 +35,9 @@ public final class StdOut {
     static {
         try {
             out = new PrintWriter(new OutputStreamWriter(System.out, UTF8), true);
-        } catch (UnsupportedEncodingException e) { System.out.println(e); }
+        } catch (UnsupportedEncodingException e) {
+            System.out.println(e);
+        }
     }
     /**
      * Constructs the object.
