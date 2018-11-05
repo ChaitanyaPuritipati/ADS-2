@@ -194,10 +194,11 @@ public final class StdOut {
         out.print(x);
         out.flush();
     }
-
     /**
-      * Print an int to standard output and flush standard output.
-      */
+     * { print() }.
+     * Complexity: O(1)
+     * @param      x     { parameter_description }
+     */
     public static void print(final int x) {
         out.print(x);
         out.flush();
