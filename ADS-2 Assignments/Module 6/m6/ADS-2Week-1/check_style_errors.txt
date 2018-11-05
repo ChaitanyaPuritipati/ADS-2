@@ -1,12 +1,8 @@
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:75:19: '(' is preceded with whitespace. [MethodParamPad]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:82: Line is longer than 80 characters (found 82). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:108:14: Variable 'pgrankobjinclass' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:112:37: Variable 'hashtableobj' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:147:25: Parameter inputword should be final. [FinalParameters]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:148:11: 'if' is not followed by whitespace. [WhitespaceAround]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:199: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:218: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:110:14: Variable 'pgrankobjinclass' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:114:37: Variable 'hashtableobj' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:149:25: Parameter inputword should be final. [FinalParameters]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 6\m6\ADS-2Week-1\Solution.java:201: Line is longer than 80 characters (found 86). [LineLength]
 Audit done.
-Checkstyle ends with 9 errors.
+Checkstyle ends with 5 errors.

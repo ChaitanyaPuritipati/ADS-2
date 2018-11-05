@@ -72,14 +72,16 @@ class PageRank {
      *
      * @return     { description_of_the_return_value }
      */
-    double update (final int v) {
+    double update(final int v) {
         double testprval = 0.0;
         if (pggraph.indegree(v) == 0) {
             nowval[v] = 0.0;
             return nowval[v];
         }
         for (Integer eachadj : pggraph.reverse().adj(v)) {
-            testprval = testprval + (prval[eachadj] / pggraph.outdegree(eachadj));
+            testprval = testprval + (
+                            prval[eachadj] / pggraph.outdegree(
+                                eachadj));
         }
         // System.out.println(testprval);
         nowval[v] = testprval;
@@ -145,7 +147,7 @@ class WebSearch {
      * @return     { description_of_the_return_value }
      */
     int iAmFeelingLucky(String inputword) {
-        if(!hashtableobj.containsKey(inputword)) {
+        if (!hashtableobj.containsKey(inputword)) {
             return -1;
         }
         Bag<Integer> testbag = hashtableobj.get(inputword);
@@ -215,7 +217,7 @@ final class Solution {
         // and pass the page rank object and the file path to the constructor
 
         WebSearch webobj = new WebSearch(pgrankobj, file);
-        
+
         while (StdIn.hasNextLine()) {
             String[] queries = StdIn.readLine().split("=");
             System.out.println(webobj.iAmFeelingLucky(queries[1]));
