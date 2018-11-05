@@ -107,11 +107,11 @@ class WebSearch {
     /**
      * { pgrankobject }.
      */
-    PageRank pgrankobjinclass;
+    private PageRank pgrankobjinclass;
     /**
      * { Hashtable }.
      */
-    Hashtable<String, Bag<Integer>> hashtableobj;
+    private Hashtable<String, Bag<Integer>> hashtableobj;
     /**
      * Constructs the object.
      *
