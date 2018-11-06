@@ -9,14 +9,14 @@ public class EdgeWeightedDigraph {
     /**
      * { Vertices variable }.
      */
-    private final int vertices;                // number of vertices in this digraph
+    private final int vertices;
     /**
      * { E variable }.
      */
     private int edges;
     /**
-     * { Bag variable }.
-     */// number of edges in this digraph
+     * { Bag of directed edges }.
+     */
     private Bag<DirectedEdge>[] adj;
     /**
      * { indegree variable }.
