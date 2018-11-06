@@ -28,7 +28,9 @@ public class EdgeWeightedDigraph {
      * @param      inputvertices  The inputvertices
      */
     public EdgeWeightedDigraph(final int inputvertices) {
-        if (inputvertices < 0) throw new IllegalArgumentException("Number of vertices in a Digraph must be nonnegative");
+        if (inputvertices < 0) {
+            throw new IllegalArgumentException("Number of vertices in a Digraph must be nonnegative");
+        }
         this.vertices = inputvertices;
         this.edges = 0;
         this.indegree = new int[vertices];

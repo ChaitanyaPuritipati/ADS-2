@@ -49,23 +49,22 @@ Audit done.
 Checkstyle ends with 19 errors.
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:12: Line is longer than 80 characters (found 84). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:31: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:31: Line is longer than 80 characters (found 121). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:36: 'for' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:41: Line is longer than 80 characters (found 98). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:50: Line is longer than 80 characters (found 109). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:68: Line is longer than 80 characters (found 99). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:69: Line is longer than 80 characters (found 89). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:74: Line is longer than 80 characters (found 96). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:86: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:130: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:131: Line is longer than 80 characters (found 106). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:138: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:172:26: Parameter v should be final. [FinalParameters]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:192: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:210: Line is longer than 80 characters (found 93). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:32: Line is longer than 80 characters (found 102). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:38: 'for' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:43: Line is longer than 80 characters (found 98). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:52: Line is longer than 80 characters (found 109). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:70: Line is longer than 80 characters (found 99). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:71: Line is longer than 80 characters (found 89). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:76: Line is longer than 80 characters (found 96). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:88: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:132: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:133: Line is longer than 80 characters (found 106). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:140: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:174:26: Parameter v should be final. [FinalParameters]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:194: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:212: Line is longer than 80 characters (found 93). [LineLength]
 Audit done.
-Checkstyle ends with 16 errors.
+Checkstyle ends with 15 errors.
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\IndexMinPQ.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
