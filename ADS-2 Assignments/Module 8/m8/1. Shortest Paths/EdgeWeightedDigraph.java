@@ -233,7 +233,9 @@ public class EdgeWeightedDigraph {
     /**
      * Returns a string representation of this edge-weighted digraph.
      *
-     * @return the number of vertices <em>V</em>, followed by the number of edges <em>E</em>,
+     * @return the number of vertices
+     *  <em>V</em>, followed by the
+     *   number of edges <em>E</em>,
      *         followed by the <em>V</em> adjacency lists of edges
      */
     public String toString() {
