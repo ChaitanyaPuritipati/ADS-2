@@ -75,8 +75,12 @@ public class EdgeWeightedDigraph {
     //  * with each entry separated by whitespace.
     //  *
     //  * @param  in the input stream
-    //  * @throws IllegalArgumentException if the endpoints of any edge are not in prescribed range
-    //  * @throws IllegalArgumentException if the number of vertices or edges is negative
+    //  * @throws IllegalArgumentException
+    //    if the endpoints of any
+    //    edge are not in prescribed range
+    //  * @throws IllegalArgumentException
+    //    if the number of vertices
+    //    or edges is negative
     //  */
     // public EdgeWeightedDigraph(In in) {
     //     this(in.readInt());
