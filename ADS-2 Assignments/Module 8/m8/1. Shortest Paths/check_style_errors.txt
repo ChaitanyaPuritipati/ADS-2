@@ -48,11 +48,10 @@ Starting audit...
 Audit done.
 Checkstyle ends with 19 errors.
 Starting audit...
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:160: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:214: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:232: Line is longer than 80 characters (found 93). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:216: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\EdgeWeightedDigraph.java:234: Line is longer than 80 characters (found 93). [LineLength]
 Audit done.
-Checkstyle ends with 3 errors.
+Checkstyle ends with 2 errors.
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\IndexMinPQ.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.

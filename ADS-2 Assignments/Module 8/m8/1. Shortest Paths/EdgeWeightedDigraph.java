@@ -157,7 +157,9 @@ public class EdgeWeightedDigraph {
      * Adds the directed edge {@code e} to this edge-weighted digraph.
      *
      * @param  e the edge
-     * @throws IllegalArgumentException unless endpoints of edge are between {@code 0}
+     * @throws IllegalArgumentException
+     *  unless endpoints of edge are between {
+     *  @code 0}
      *         and {@code V-1}
      */
     public void addEdge(final DirectedEdge e) {
