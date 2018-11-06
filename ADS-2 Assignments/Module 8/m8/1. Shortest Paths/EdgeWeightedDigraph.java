@@ -42,7 +42,8 @@ public class EdgeWeightedDigraph {
     }
 
     // /**
-    //  * Initializes a random edge-weighted digraph with {@code V} vertices and <em>E</em> edges.
+    //  * Initializes a random edge-weighted digraph with
+    //   {@code V} vertices and <em>E</em> edges.
     //  *
     //  * @param  V the number of vertices
     //  * @param  E the number of edges
