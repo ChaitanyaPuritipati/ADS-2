@@ -22,12 +22,10 @@ public class EdgeWeightedDigraph {
      * { indegree variable }.
      */
     private int[] indegree;
-
     /**
-     * Initializes an empty edge-weighted digraph with {@code V} vertices and 0 edges.
+     * Constructs the object.
      *
-     * @param  V the number of vertices
-     * @throws IllegalArgumentException if {@code V < 0}
+     * @param      inputvertices  The inputvertices
      */
     public EdgeWeightedDigraph(final int inputvertices) {
         if (inputvertices < 0) throw new IllegalArgumentException("Number of vertices in a Digraph must be nonnegative");
@@ -123,8 +121,11 @@ public class EdgeWeightedDigraph {
     public int edgescount() {
         return edges;
     }
-
-    // throw an IllegalArgumentException unless {@code 0 <= v < V}
+    /**
+     * { validate Vertex }.
+     *
+     * @param      v     { int type }
+     */
     private void validateVertex(final int v) {
         if (v < 0 || v >= vertices)
             throw new IllegalArgumentException("vertex " + v + " is not between 0 and " + (vertices - 1));
