@@ -12,12 +12,10 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\Solution.java:31: Line is longer than 80 characters (found 153). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\Solution.java:32: Line is longer than 80 characters (found 154). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\Solution.java:39: Line is longer than 80 characters (found 97). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\Solution.java:40: Line is longer than 80 characters (found 92). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\Solution.java:47: Line is longer than 80 characters (found 97). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\Solution.java:48: Line is longer than 80 characters (found 92). [LineLength]
 Audit done.
-Checkstyle ends with 5 errors.
+Checkstyle ends with 3 errors.
 Starting audit...
 Audit done.
 Starting audit...

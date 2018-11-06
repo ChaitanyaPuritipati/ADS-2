@@ -28,8 +28,16 @@ final class Solution {
             Integer.parseInt(counters[0]));
         for (int i = 0; i < Integer.parseInt(counters[1]); i++) {
             String[] linkdata = scan.nextLine().split(" ");
-            DirectedEdge edgeobj = new DirectedEdge(stationlist.indexOf(linkdata[0]), stationlist.indexOf(linkdata[1]), Double.parseDouble(linkdata[2]));
-            DirectedEdge edgeobj1 = new DirectedEdge(stationlist.indexOf(linkdata[1]), stationlist.indexOf(linkdata[0]), Double.parseDouble(linkdata[2]));
+            DirectedEdge edgeobj = new DirectedEdge(
+                stationlist.indexOf(
+                    linkdata[0]), stationlist.indexOf(
+                    linkdata[1]), Double.parseDouble(
+                    linkdata[2]));
+            DirectedEdge edgeobj1 = new DirectedEdge(
+                stationlist.indexOf(
+                    linkdata[1]), stationlist.indexOf(
+                    linkdata[0]), Double.parseDouble(
+                    linkdata[2]));
             edgegraph.addEdge(edgeobj);
             edgegraph.addEdge(edgeobj1);
         }
