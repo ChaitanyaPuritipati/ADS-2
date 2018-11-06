@@ -1,9 +1,20 @@
 import java.util.Scanner;
 import java.util.ArrayList;
+/**
+ * { Solution }.
+ */
 final class Solution {
+	/**
+	 * Constructs the object.
+	 */
 	private Solution() {
 		//unused.
 	}
+	/**
+	 * { main function }.
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		ArrayList<String> stationlist = new ArrayList<>();
