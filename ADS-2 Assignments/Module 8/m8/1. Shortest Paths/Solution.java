@@ -44,8 +44,12 @@ final class Solution {
         int querynum = Integer.parseInt(scan.nextLine());
         for (int k = 0; k < querynum; k++) {
             String[] querydetails = scan.nextLine().split(" ");
-            DijkstraSP dijkobj = new DijkstraSP(edgegraph, stationlist.indexOf(querydetails[0]));
-            System.out.println((long) dijkobj.distTo(stationlist.indexOf(querydetails[1])));
+            DijkstraSP dijkobj = new DijkstraSP(
+                edgegraph, stationlist.indexOf(
+                    querydetails[0]));
+            System.out.println((long) dijkobj.distTo(
+                                   stationlist.indexOf(
+                                       querydetails[1])));
         }
     }
 }
