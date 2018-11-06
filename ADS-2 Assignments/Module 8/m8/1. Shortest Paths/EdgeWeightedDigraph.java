@@ -17,8 +17,11 @@ public class EdgeWeightedDigraph {
     /**
      * { Bag variable }.
      */// number of edges in this digraph
-    private Bag<DirectedEdge>[] adj;    // adj[v] = adjacency list for vertex v
-    private int[] indegree;             // indegree[v] = indegree of vertex v
+    private Bag<DirectedEdge>[] adj;
+    /**
+     * { indegree variable }.
+     */
+    private int[] indegree;
 
     /**
      * Initializes an empty edge-weighted digraph with {@code V} vertices and 0 edges.
