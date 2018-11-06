@@ -36,8 +36,9 @@ public class EdgeWeightedDigraph {
         this.edges = 0;
         this.indegree = new int[vertices];
         adj = (Bag<DirectedEdge>[]) new Bag[vertices];
-        for (int v = 0; v < vertices; v++)
+        for (int v = 0; v < vertices; v++) {
             adj[v] = new Bag<DirectedEdge>();
+        }
     }
 
     // /**
