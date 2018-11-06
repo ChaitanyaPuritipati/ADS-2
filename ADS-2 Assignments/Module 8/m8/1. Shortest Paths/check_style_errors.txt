@@ -227,9 +227,10 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\Solution.java:18: Line is longer than 80 characters (found 165). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\Solution.java:19: Line is longer than 80 characters (found 166). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\Solution.java:26: Line is longer than 80 characters (found 109). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\Solution.java:27: Line is longer than 80 characters (found 97). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\Solution.java:27: Line is longer than 80 characters (found 103). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2\ADS-2 Assignments\Module 8\m8\1. Shortest Paths\Solution.java:27:50: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 Audit done.
-Checkstyle ends with 11 errors.
+Checkstyle ends with 12 errors.
 Starting audit...
 Audit done.
 Starting audit...

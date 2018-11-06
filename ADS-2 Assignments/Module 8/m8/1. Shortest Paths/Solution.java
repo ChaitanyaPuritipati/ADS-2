@@ -24,7 +24,7 @@ final class Solution {
 		for (int k = 0; k < querynum; k++) {
 			String[] querydetails = scan.nextLine().split(" ");
 			DijkstraSP dijkobj = new DijkstraSP(edgegraph, stationlist.indexOf(querydetails[0]));
-			System.out.println(dijkobj.distTo(stationlist.indexOf(querydetails[1])));
+			System.out.println((long)dijkobj.distTo(stationlist.indexOf(querydetails[1])));
 		}
 	}
 }
