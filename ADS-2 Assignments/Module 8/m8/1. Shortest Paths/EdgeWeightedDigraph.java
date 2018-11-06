@@ -100,7 +100,9 @@ public class EdgeWeightedDigraph {
     // }
 
     // /**
-    //  * Initializes a new edge-weighted digraph that is a deep copy of {@code G}.
+    //  * Initializes a new
+    //    edge-weighted digraph
+    //    that is a deep copy of {@code G}.
     //  *
     //  * @param  G the edge-weighted digraph to copy
     //  */
