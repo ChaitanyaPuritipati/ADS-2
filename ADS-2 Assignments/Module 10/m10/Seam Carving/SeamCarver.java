@@ -9,7 +9,7 @@ public class SeamCarver {
 			throw new Exception("picture is null");
 		}
 		this.inputpic = picture;
-		this.energyarray = new double[inputpic.width()][inputpic.height()];
+		this.energyarray = new double[inputpic.height()][inputpic.width()];
 	}
 	// current picture
 	public Picture picture() {
