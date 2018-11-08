@@ -28,7 +28,14 @@ public class SeamCarver {
 		this.energyarray[y][x] = energyval;
 	}
 	public String getEnergyarray() {
-		return Arrays.toString(energyarray);
+		String str = "";
+		for (int i = 0; i < height(); i++) {
+			for (int j = 0; j < width(); j++) {
+				str = str + energyarray[i][j] + " ";
+			}
+			str = str + "\n";
+		}
+		return str;
 	}
 	// energy of pixel at column x and row y
 	public double energy(int x, int y) {
