@@ -1,12 +1,15 @@
 import java.awt.Color;
+import java.util.Arrays;
 public class SeamCarver {
 	private Picture inputpic;
+	private double[][] energyarray;
 	// create a seam carver object based on the given picture
 	public SeamCarver(Picture picture) throws Exception {
 		if (picture == null) {
 			throw new Exception("picture is null");
 		}
 		this.inputpic = picture;
+		this.energyarray = new double[inputpic.width()][inputpic.height()];
 	}
 	// current picture
 	public Picture picture() {
@@ -21,7 +24,12 @@ public class SeamCarver {
 	public int height() {
 		return this.inputpic.height();
 	}
-
+	public void setenergyarray(int x, int y, double energyval) {
+		this.energyarray[y][x] = energyval;
+	}
+	public String getEnergyarray() {
+		return Arrays.toString(energyarray);
+	}
 	// energy of pixel at column x and row y
 	public double energy(int x, int y) {
 		if (x == 0 || x == width() - 1 || y == 0 || y == height() - 1) {
