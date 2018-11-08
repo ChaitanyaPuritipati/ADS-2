@@ -1,4 +1,4 @@
-
+import java.awt.Color;
 public class SeamCarver {
 	private Picture inputpic;
 	// create a seam carver object based on the given picture
@@ -21,7 +21,23 @@ public class SeamCarver {
 
 	// energy of pixel at column x and row y
 	public double energy(int x, int y) {
-		return 0;
+		if (x == 0 || x == width() - 1 || y == 0 || y == height() - 1) {
+			return 1000;
+		}
+		Color pixelnextcol = this.inputpic.get(x + 1 , y);
+		Color pixelprevcol = this.inputpic.get(x - 1 , y);
+		Color pixeltopcol = this.inputpic.get(x, y - 1);
+		Color pixelbottomcol = this.inputpic.get(x, y + 1);
+		double rxval = Math.pow(pixelnextcol.getRed() - pixelprevcol.getRed(), 2);
+		double bxval = Math.pow(pixelnextcol.getBlue() - pixelprevcol.getBlue(), 2);
+		double gxval = Math.pow(pixelnextcol.getGreen() - pixelprevcol.getGreen(), 2);
+		double totalxval = rxval + bxval + gxval;
+		double ryval = Math.pow(pixelbottomcol.getRed() - pixeltopcol.getRed(), 2);
+		double byval = Math.pow(pixelbottomcol.getBlue() - pixeltopcol.getBlue(), 2);
+		double gyval = Math.pow(pixelbottomcol.getGreen() - pixeltopcol.getGreen(), 2);
+		double totalyval = ryval + byval + gyval;
+		return Math.sqrt(totalxval + totalyval);
+
 	}
 
 	// sequence of indices for horizontal seam
