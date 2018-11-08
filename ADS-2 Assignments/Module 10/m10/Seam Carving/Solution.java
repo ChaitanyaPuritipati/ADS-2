@@ -19,7 +19,6 @@ public class Solution {
 			}
 			StdOut.println();
 		}
-		System.out.println(sc.getEnergyarray());
 	}
 
 	public static void printSeam(SeamCarver carver, int[] seam, boolean direction) {
