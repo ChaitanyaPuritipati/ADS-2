@@ -25,7 +25,7 @@ public class SeamCarver {
 		return this.inputpic.height();
 	}
 	public void setenergyarray(int x, int y, double energyval) {
-		this.energyarray[x][y] = energyval;
+		this.energyarray[y][x] = energyval;
 	}
 	public String getEnergyarray() {
 		return Arrays.toString(energyarray);
