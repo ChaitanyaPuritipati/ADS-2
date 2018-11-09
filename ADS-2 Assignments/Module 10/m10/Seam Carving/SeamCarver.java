@@ -10,6 +10,7 @@ public class SeamCarver {
 		}
 		this.inputpic = picture;
 		this.energyarray = new double[inputpic.height()][inputpic.width()];
+		setenergyarray();
 	}
 	// current picture
 	public Picture picture() {
@@ -24,8 +25,12 @@ public class SeamCarver {
 	public int height() {
 		return this.inputpic.height();
 	}
-	public void setenergyarray(int x, int y, double energyval) {
-		this.energyarray[y][x] = energyval;
+	public void setenergyarray() {
+		for (int row = 0; row < height(); row++) {
+			for (int col = 0; col < width(); col++) {
+				energyarray[col][row] = energy(col, row);
+			}
+		}
 	}
 	public String getEnergyarray() {
 		String str = "";
@@ -65,7 +70,8 @@ public class SeamCarver {
 
 	// sequence of indices for vertical seam
 	public int[] findVerticalSeam() {
-		System.out.println(Arrays.toString(energyarray[0]) + "energyarray");
+		// System.out.println(Arrays.toString(energyarray[0]) + "energyarray");
+		System.out.println(getEnergyarray());
 		return new int[0];
 	}
 

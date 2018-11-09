@@ -14,13 +14,11 @@ public class Solution {
 		for (int row = 0; row < sc.height(); row++) {
 			for (int col = 0; col < sc.width(); col++) {
 				energyval = sc.energy(col, row);
-				sc.setenergyarray(col, row, energyval);
 				StdOut.printf("%9.0f ", energyval);
 			}
 			StdOut.println();
 		}
 	}
-
 	public static void printSeam(SeamCarver carver, int[] seam, boolean direction) {
 		double totalSeamEnergy = 0.0;
 
@@ -75,7 +73,6 @@ public class Solution {
 			case "findVerticalSeam":
 				while (scan.hasNextLine()) {
 					String file = scan.nextLine();
-					printEnergies("/Files/" + file);
 					seamCarver = new SeamCarver(new Picture("/Files/" + file));
 					System.out.println(Arrays.toString(seamCarver.findVerticalSeam()));
 				}
@@ -84,7 +81,6 @@ public class Solution {
 			case "findHorizontalSeam":
 				while (scan.hasNextLine()) {
 					String file = scan.nextLine();
-					printEnergies("/Files/" + file);
 					seamCarver = new SeamCarver(new Picture("/Files/" + file));
 					System.out.println(Arrays.toString(seamCarver.findHorizontalSeam()));
 				}
