@@ -28,7 +28,7 @@ public class SeamCarver {
 	public void setenergyarray() {
 		for (int row = 0; row < height(); row++) {
 			for (int col = 0; col < width(); col++) {
-				energyarray[col][row] = energy(col, row);
+				energyarray[row][col] = energy(col, row);
 			}
 		}
 	}
