@@ -79,7 +79,7 @@ public class SeamCarver {
 			DijkstraSP eachspobj = new DijkstraSP(graph, i);
 			for(int j = 0; j < height(); j++) {
 				double testval = eachspobj.distTo(j);
-				// System.out.println(testval + "everyval");
+				System.out.println(testval + "everyval");
 				if(testval < min) {
 					min = testval;
 					mindspobj = eachspobj;
