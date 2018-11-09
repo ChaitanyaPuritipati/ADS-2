@@ -75,6 +75,7 @@ public class Solution {
 			case "findVerticalSeam":
 				while (scan.hasNextLine()) {
 					String file = scan.nextLine();
+					printEnergies("/Files/" + file);
 					seamCarver = new SeamCarver(new Picture("/Files/" + file));
 					System.out.println(Arrays.toString(seamCarver.findVerticalSeam()));
 				}
@@ -83,6 +84,7 @@ public class Solution {
 			case "findHorizontalSeam":
 				while (scan.hasNextLine()) {
 					String file = scan.nextLine();
+					printEnergies("/Files/" + file);
 					seamCarver = new SeamCarver(new Picture("/Files/" + file));
 					System.out.println(Arrays.toString(seamCarver.findHorizontalSeam()));
 				}
