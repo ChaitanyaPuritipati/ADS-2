@@ -71,7 +71,7 @@ public class SeamCarver {
 	// sequence of indices for vertical seam
 	public int[] findVerticalSeam() {
 		// System.out.println(Arrays.toString(energyarray[0]) + "energyarray");
-		System.out.println(getEnergyarray());
+		// System.out.println(getEnergyarray());
 		return new int[0];
 	}
 
