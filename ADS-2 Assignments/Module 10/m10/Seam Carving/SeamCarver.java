@@ -3,6 +3,7 @@ import java.util.Arrays;
 public class SeamCarver {
 	private Picture inputpic;
 	private double[][] energyarray;
+	private EdgeWeightedDigraph graph;
 	// create a seam carver object based on the given picture
 	public SeamCarver(Picture picture) throws Exception {
 		if (picture == null) {
@@ -10,6 +11,7 @@ public class SeamCarver {
 		}
 		this.inputpic = picture;
 		this.energyarray = new double[inputpic.height()][inputpic.width()];
+		this.graph = new EdgeWeightedDigraph(inputpic.height() * inputpic.width());
 		setenergyarray();
 	}
 	// current picture
@@ -70,8 +72,21 @@ public class SeamCarver {
 
 	// sequence of indices for vertical seam
 	public int[] findVerticalSeam() {
-		// System.out.println(Arrays.toString(energyarray[0]) + "energyarray");
-		// System.out.println(getEnergyarray());
+		double min = Double.POSITIVE_INFINITY;
+		DijkstraSP mindspobj = new DijkstraSP(graph, 0);
+		int dest = -1;
+		for (int i = 0; i < width() - 1; i++) {
+			DijkstraSP eachspobj = new DijkstraSP(graph, i);
+			for(int j = 0; j < height(); j++) {
+				double testval = eachspobj.distTo(j);
+				if(testval < min) {
+					mindspobj = eachspobj;
+					dest = j;
+				}
+			}
+		}
+		System.out.println(mindspobj.distTo(dest) + "mindist");
+		System.out.println(dest + "val");
 		return new int[0];
 	}
 
@@ -84,4 +99,32 @@ public class SeamCarver {
 	public void removeVerticalSeam(int[] seam) {
 
 	}
+
+	public void buildgraph() {
+		for (int i = 0; i < height() - 1; i++) {
+			for (int j = 0; j < width(); j++) {
+				int ver1 = i * width() + j;
+				if (j == 0) {
+					int ver2 = ((i + 1) * width()) + j;
+					int ver3 = ((i + 1) * width()) + j + 1;
+					graph.addEdge(new DirectedEdge(ver1, ver2, energyarray[i + 1][j]));
+					graph.addEdge(new DirectedEdge(ver1, ver3, energyarray[i + 1][j + 1]));
+				} else if (j == width() - 1) {
+					int ver2 = ((i + 1) * width()) + j;
+					int ver3 = ((i + 1) * width()) + j - 1;
+					graph.addEdge(new DirectedEdge(ver1, ver2, energyarray[i + 1][j]));
+					graph.addEdge(new DirectedEdge(ver1, ver3, energyarray[i + 1][j - 1]));
+				} else {
+					int ver2 = ((i + 1) * width()) + j;
+					int ver3 = ((i + 1) * width()) + j - 1;
+					int ver4 = ((i + 1) * width()) + j + 1;
+					graph.addEdge(new DirectedEdge(ver1, ver2, energyarray[i + 1][j]));
+					graph.addEdge(new DirectedEdge(ver1, ver3, energyarray[i + 1][j - 1]));
+					graph.addEdge(new DirectedEdge(ver1, ver4, energyarray[i + 1][j + 1]));
+				}
+
+			}
+		}
+	}
+
 }
