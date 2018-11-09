@@ -127,6 +127,7 @@ public class SeamCarver {
 
 			}
 		}
+		System.out.println(graph);
 	}
 
 }
