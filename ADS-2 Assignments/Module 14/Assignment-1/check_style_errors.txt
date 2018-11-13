@@ -1,5 +1,4 @@
 Starting audit...
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 14\Assignment-1\In.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 14\Assignment-1\In.java:28: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 14\Assignment-1\In.java:33: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 14\Assignment-1\In.java:35: Line has trailing spaces. [RegexpSingleline]
@@ -141,7 +140,7 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 14\Assignment-1\In.java:617: Line is longer than 80 characters (found 82). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 14\Assignment-1\In.java:620:40: Parameter filename should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 141 errors.
+Checkstyle ends with 140 errors.
 Starting audit...
 Audit done.
 Starting audit...
