@@ -4,7 +4,7 @@ public class Solution {
 	public static void main(String[] args) {
 		String[] words = loadWords();
 		//Your code goes here...
-		TST<Integer> tstobj = new TST<>();
+		Tst<Integer> tstobj = new Tst<>();
 		for (int i = 0; i < words.length; i++) {
 			String eachword = words[i];
 			for (int j = 0; j < eachword.length(); j++) {
