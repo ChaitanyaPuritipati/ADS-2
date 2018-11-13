@@ -7,8 +7,8 @@ public class Solution {
 		TST<Integer> tstobj = new TST<>();
 		for (int i = 0; i < words.length; i++) {
 			String eachword = words[i];
-			for (int j = 1; j < eachword.length(); j++) {
-				String subword = eachword.substring(0, j);
+			for (int j = 0; j < eachword.length(); j++) {
+				String subword = eachword.substring(j, eachword.length());
 				tstobj.put(subword, i);
 			}
 		}
