@@ -6,7 +6,11 @@ public class Solution {
 		//Your code goes here...
 		TST<Integer> tstobj = new TST<>();
 		for (int i = 0; i < words.length; i++) {
-			tstobj.put(words[i], i);
+			String eachword = words[i];
+			for (int j = 1; j < eachword.length(); j++) {
+				String subword = eachword.substring(0, j);
+				tstobj.put(subword, i);
+			}
 		}
 		In testin = new In();
 		String prefix = testin.readLine();
