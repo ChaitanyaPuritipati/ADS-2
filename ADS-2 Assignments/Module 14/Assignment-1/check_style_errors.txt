@@ -145,9 +145,8 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 14\Assignment-1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 14\Assignment-1\Solution.java:5:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 14\Assignment-1\Tst.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
