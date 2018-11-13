@@ -20,7 +20,9 @@ final class Solution {
 		for (int i = 0; i < words.length; i++) {
 			String eachword = words[i];
 			for (int j = 0; j < eachword.length(); j++) {
-				String subword = eachword.substring(j, eachword.length());
+				String subword
+				    = eachword.substring(
+				          j, eachword.length());
 				tstobj.put(subword, i);
 			}
 		}
