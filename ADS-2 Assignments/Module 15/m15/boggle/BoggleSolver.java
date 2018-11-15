@@ -24,6 +24,7 @@ public class BoggleSolver {
 	}
 	public void dfs(BoggleBoard board, boolean[][] visited, int row, int col, String str) {
 		// System.out.println(visited[row][col] + "boolean");
+		System.out.println(row  + " rowval "  + col + " col val");
 		if(visited[row][col]) {
 			return;
 		}
