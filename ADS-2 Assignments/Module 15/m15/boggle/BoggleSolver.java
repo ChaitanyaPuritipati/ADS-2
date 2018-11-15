@@ -39,7 +39,7 @@ public class BoggleSolver {
 		}
 		for(int l = -1; l < 1; l++) {
 			for(int k = -1; k < 1; k++) {
-				if((k == 0 && l == 0) || row < 0 || col < 0) {
+				if((k == 0 && l == 0) || row < 0 || col < 0 || row >= board.rows() || col >= board.cols()) {
 					continue;
 				}
 				dfs(board, visited, row + l, col + k, str);
