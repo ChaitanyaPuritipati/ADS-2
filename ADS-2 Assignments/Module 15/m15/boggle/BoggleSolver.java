@@ -15,15 +15,15 @@ public class BoggleSolver {
 	public Iterable<String> getAllValidWords(BoggleBoard board) {
 		for (int i = 0; i < board.rows(); i++) {
 			for (int j = 0; j < board.cols(); j++) {
-				Boolean[][] marked = new Boolean[board.rows()][board.cols()];
+				boolean[][] marked = new boolean[board.rows()][board.cols()];
 				String word = "";
 				dfs(board, marked, i, j, word);
 			}
 		}
 		return validwords;
 	}
-	public void dfs(BoggleBoard board, Boolean[][] visited, int row, int col, String str) {
-		System.out.println(visited[row][col] + "boolean");
+	public void dfs(BoggleBoard board, boolean[][] visited, int row, int col, String str) {
+		// System.out.println(visited[row][col] + "boolean");
 		if(visited[row][col]) {
 			return;
 		}
