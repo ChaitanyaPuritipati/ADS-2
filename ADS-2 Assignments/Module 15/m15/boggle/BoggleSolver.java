@@ -36,6 +36,7 @@ public class BoggleSolver {
 			str = str + letter;
 		}
 		if(str.length() > 2 && inputdict.contains(str)) {
+			System.out.println(str + "word");
 			validwords.add(str);
 		}
 		for(int l = -1; l < 1; l++) {

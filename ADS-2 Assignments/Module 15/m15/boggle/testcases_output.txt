@@ -3,6 +3,8 @@ Expected Output:
 Score = 33
 
 Your Output: 
+UNITword
+SITword
 Score = 2
 ----------------------------------------
 
@@ -11,6 +13,9 @@ Expected Output:
 Score = 84
 
 Your Output: 
+TINword
+TENword
+TENSword
 Score = 3
 ----------------------------------------
 
@@ -43,6 +48,17 @@ Expected Output:
 Score = 1000
 
 Your Output: 
+EMSword
+SONword
+EONword
+EREword
+PENword
+PENTword
+PROword
+PROSword
+LESword
+AEONword
+ALPword
 Score = 11
 ----------------------------------------
 
@@ -51,6 +67,15 @@ Expected Output:
 Score = 400
 
 Your Output: 
+CASEword
+ATEword
+HAGword
+RATword
+RATEword
+RATSword
+RACAword
+RAGword
+RISEword
 Score = 9
 ----------------------------------------
 
@@ -59,6 +84,18 @@ Expected Output:
 Score = 7
 
 Your Output: 
+DODword
+DODword
+DODOword
+DODword
+DODword
+DODword
+DODword
+DODOword
+DODword
+DODOword
+DODword
+DODOword
 Score = 12
 ----------------------------------------
 
@@ -67,6 +104,11 @@ Expected Output:
 Score = 155
 
 Your Output: 
+TISword
+TINword
+TENword
+TENSword
+ATEword
 Score = 5
 ----------------------------------------
 
@@ -75,6 +117,13 @@ Expected Output:
 Score = 172
 
 Your Output: 
+DITword
+BATword
+BATSword
+RATword
+AIRword
+NAIRAword
+SINword
 Score = 8
 ----------------------------------------
 
@@ -83,6 +132,29 @@ Expected Output:
 Score = 68
 
 Your Output: 
+ANEword
+ANESword
+HANword
+THANword
+THANEword
+THANESword
+ETHword
+ETHANEword
+ETHANESword
+ROEword
+LORword
+ICHword
+RICHword
+HENword
+PHENYLword
+DIPword
+DIPHENYLword
+RODword
+LORword
+ICHword
+DICHword
+DICHLORODIPHENYLTRICHLOROETHANEword
+DICHLORODIPHENYLTRICHLOROETHANESword
 Score = 64
 ----------------------------------------
 
@@ -99,6 +171,16 @@ Expected Output:
 Score = 687
 
 Your Output: 
+NANword
+TAIword
+TANword
+TICword
+SINword
+SICword
+SIALword
+ELLword
+ETAword
+ETICword
 Score = 10
 ----------------------------------------
 
@@ -115,6 +197,13 @@ Expected Output:
 Score = 172
 
 Your Output: 
+DITword
+BATword
+BATSword
+RATword
+AIRword
+NAIRAword
+SINword
 Score = 8
 ----------------------------------------
 
@@ -123,6 +212,25 @@ Expected Output:
 Score = 129
 
 Your Output: 
+NOMword
+LUXword
+LUXword
+MICword
+MICROword
+AMIword
+RAMword
+RAMIword
+TRAMword
+OXOword
+LISword
+XISword
+CANword
+VOLword
+COXword
+OXOword
+OXOword
+ISOword
+SISword
 Score = 20
 ----------------------------------------
 
@@ -131,6 +239,10 @@ Expected Output:
 Score = 2
 
 Your Output: 
+DODOword
+DODOword
+DODOword
+DODOword
 Score = 4
 ----------------------------------------
 
@@ -139,6 +251,11 @@ Expected Output:
 Score = 1
 
 Your Output: 
+NOONword
+NOONword
+NOONword
+NOONword
+NOONword
 Score = 5
 ----------------------------------------
 
@@ -147,6 +264,8 @@ Expected Output:
 Score = 14
 
 Your Output: 
+SOUword
+SOUword
 Score = 2
 ----------------------------------------
 
@@ -155,6 +274,61 @@ Expected Output:
 Score = 11
 
 Your Output: 
+TORword
+VATword
+ROTword
+TORword
+TOOword
+VATword
+VATword
+TORword
+TORword
+TOOword
+TORword
+TOOword
+TOOword
+VATword
+VATword
+VATword
+TOOword
+TOTword
+TOOword
+TOTword
+TORword
+VATword
+VATword
+VATword
+VATword
+VATword
+VATword
+VATword
+VATword
+VATword
+VATword
+VATword
+VATword
+VATword
+VATword
+VATword
+VATword
+VATword
+VATword
+TOOword
+VATword
+VATword
+ROTword
+TOTword
+TOTword
+TOOword
+TORword
+VATword
+VATword
+VATword
+ROTword
+ROTword
+ROTword
+ROTword
+ROTword
 Score = 55
 ----------------------------------------
 
@@ -163,6 +337,37 @@ Expected Output:
 Score = 33
 
 Your Output: 
+ARTword
+ARTword
+ARTword
+ARTword
+ARTword
+ARTword
+EGGword
+ARTword
+ARTword
+EGGword
+ARTword
+ARTword
+ARTword
+ARTword
+ARTword
+ARTword
+ARTword
+ARTword
+ARTword
+EGGword
+EGGword
+EGGword
+EGGword
+EGGword
+EGGword
+EGGword
+EGGword
+EGGword
+EGGword
+EGGword
+EGGword
 Score = 31
 ----------------------------------------
 
@@ -171,6 +376,10 @@ Expected Output:
 Score = 23
 
 Your Output: 
+BATword
+RATword
+AIRword
+SINword
 Score = 4
 ----------------------------------------
 
@@ -179,6 +388,15 @@ Expected Output:
 Score = 24
 
 Your Output: 
+THANword
+ETHANEword
+ROEword
+RICHword
+TRICHLOROETHANEword
+HENword
+PHENYLword
+DIPword
+RODword
 Score = 23
 ----------------------------------------
 
@@ -187,6 +405,15 @@ Expected Output:
 Score = 30
 
 Your Output: 
+LUXword
+LUXword
+MICROword
+AMIword
+RAMword
+TRAMword
+CANword
+COXword
+SISword
 Score = 10
 ----------------------------------------
 
@@ -203,6 +430,48 @@ Expected Output:
 Score = 26539
 
 Your Output: 
+ORSword
+DORword
+DORSword
+METword
+ERSword
+EMEword
+NORword
+SEDword
+SETword
+SARword
+TEMEword
+TISword
+ONEword
+GAEword
+GAESword
+NATword
+NAEword
+TSARword
+TIEword
+RIMword
+RIMSword
+RIMEword
+POSword
+INSword
+ANAword
+SRIword
+SRISword
+SEAword
+SEGword
+LIGword
+LINword
+LINSword
+LIEword
+LIERword
+LATword
+LATIword
+PANword
+PANSword
+PANGword
+PATword
+PERword
+PERTword
 Score = 42
 ----------------------------------------
 
@@ -211,6 +480,42 @@ Expected Output:
 Score = 19797
 
 Your Output: 
+ORSword
+DORword
+DORSword
+METword
+ERSword
+EMEword
+NORword
+SETword
+TISword
+ONEword
+GAEword
+GAESword
+NAEword
+TSARword
+TIEword
+RIMword
+RIMSword
+RIMEword
+INSword
+ANAword
+SRIword
+SRISword
+SEAword
+SEGword
+LINword
+LINSword
+LIEword
+LIERword
+LATword
+LATIword
+PANword
+PANSword
+PANGword
+PATword
+PERword
+PERTword
 Score = 36
 ----------------------------------------
 
@@ -219,6 +524,49 @@ Expected Output:
 Score = 27325
 
 Your Output: 
+ORSword
+DORword
+DORSword
+METword
+ERSword
+EMEword
+NORword
+SEDword
+SETword
+SARword
+TEMEword
+TISword
+ONOword
+ONEword
+GAEword
+GAESword
+NATword
+NAEword
+TSARword
+TIEword
+RIMword
+RIMSword
+RIMEword
+POSword
+INSword
+ANAword
+SRIword
+SRISword
+SEAword
+SEGword
+LIGword
+LINword
+LINSword
+LIEword
+LIERword
+LATword
+LATIword
+PANword
+PANSword
+PANGword
+PATword
+PERword
+PERTword
 Score = 43
 ----------------------------------------
 
@@ -227,6 +575,32 @@ Expected Output:
 Score = 32175
 
 Your Output: 
+EMEword
+SDOword
+SEDword
+SETword
+IMEword
+TERword
+TEMEword
+TSARword
+TIEword
+RIMEword
+RIEword
+RISAword
+POSword
+ANAword
+ATIword
+AIEword
+SEGAword
+CINword
+LIGAword
+LIEword
+LATIword
+PANword
+PANAword
+PATIword
+PERword
+DEAword
 Score = 26
 ----------------------------------------
 
