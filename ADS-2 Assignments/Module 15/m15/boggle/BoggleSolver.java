@@ -23,6 +23,7 @@ public class BoggleSolver {
 		return validwords;
 	}
 	public void dfs(BoggleBoard board, Boolean[][] visited, int row, int col, String str) {
+		System.out.println(visited[row][col] + "boolean");
 		if(visited[row][col]) {
 			return;
 		}
