@@ -595,17 +595,18 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\BoggleSolver.java:54:9: Class 'BoggleSolver' looks like designed for extension (can be subclassed), but the method 'scoreOf' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BoggleSolver' final or making the method 'scoreOf' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\BoggleSolver.java:54:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\BoggleSolver.java:54:28: Parameter word should be final. [FinalParameters]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\BoggleSolver.java:56:23: 'switch' is not followed by whitespace. [WhitespaceAround]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\BoggleSolver.java:60:30: '3' is a magic number. [MagicNumber]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\BoggleSolver.java:61:30: '4' is a magic number. [MagicNumber]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\BoggleSolver.java:62:30: '5' is a magic number. [MagicNumber]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\BoggleSolver.java:63:30: '6' is a magic number. [MagicNumber]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\BoggleSolver.java:63:40: '3' is a magic number. [MagicNumber]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\BoggleSolver.java:64:30: '7' is a magic number. [MagicNumber]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\BoggleSolver.java:64:40: '5' is a magic number. [MagicNumber]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\BoggleSolver.java:65:41: '11' is a magic number. [MagicNumber]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\BoggleSolver.java:55:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\BoggleSolver.java:59:23: 'switch' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\BoggleSolver.java:63:30: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\BoggleSolver.java:64:30: '4' is a magic number. [MagicNumber]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\BoggleSolver.java:65:30: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\BoggleSolver.java:66:30: '6' is a magic number. [MagicNumber]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\BoggleSolver.java:66:40: '3' is a magic number. [MagicNumber]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\BoggleSolver.java:67:30: '7' is a magic number. [MagicNumber]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\BoggleSolver.java:67:40: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\BoggleSolver.java:68:41: '11' is a magic number. [MagicNumber]
 Audit done.
-Checkstyle ends with 44 errors.
+Checkstyle ends with 45 errors.
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\In.java:28: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\In.java:33: Line has trailing spaces. [RegexpSingleline]
