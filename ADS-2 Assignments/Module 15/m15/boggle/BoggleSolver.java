@@ -1,11 +1,21 @@
 import java.util.HashSet;
-// import edu.princeton.cs.algs4.In;
-// import edu.princeton.cs.algs4.StdRandom;
-// import edu.princeton.cs.algs4.Queue;
+/**
+ * Class for boggle solver.
+ */
 public class BoggleSolver {
+	/**
+	 * { Input dictionay }.
+	 */
 	private TrieST inputdict;
+
 	// Initializes the data structure using the given array of strings as the dictionary.
 	// (You can assume each word in the dictionary contains only the uppercase letters A through Z.)
+
+	/**
+	 * Constructs the object.
+	 *
+	 * @param      dictionary  The dictionary
+	 */
 	public BoggleSolver(String[] dictionary) {
 		inputdict = new TrieST();
 		for (int i = 0; i < dictionary.length; i++) {
@@ -14,6 +24,14 @@ public class BoggleSolver {
 		// validwords = new HashSet<>();
 	}
 	// Returns the set of all valid words in the given Boggle board, as an Iterable.
+
+	/**
+	 * Gets all valid words.
+	 *
+	 * @param      board  The board
+	 *
+	 * @return     All valid words.
+	 */
 	public Iterable<String> getAllValidWords(BoggleBoard board) {
 		HashSet<String> validwords = new HashSet<>();
 		for (int i = 0; i < board.rows(); i++) {
@@ -25,7 +43,21 @@ public class BoggleSolver {
 		}
 		return validwords;
 	}
-	private void dfs(BoggleBoard board, boolean[][] visited, int row, int col, String str, HashSet<String> words) {
+	/**
+	 * { dfs function }.
+	 *
+	 * @param      board    The board
+	 * @param      visited  The visited
+	 * @param      row      The row
+	 * @param      col      The col
+	 * @param      str      The string
+	 * @param      words    The words
+	 */
+	private void dfs(final BoggleBoard board,
+	                 final boolean[][] visited,
+	                 final int row, final int col,
+	                 String str,
+	                 final HashSet<String> words) {
 		if (visited[row][col]) {
 			return;
 		}
@@ -45,10 +77,16 @@ public class BoggleSolver {
 		visited[row][col] = true;
 		for (int rownew = -1; rownew <= 1; rownew++) {
 			for (int k = -1; k <= 1; k++) {
-				if ((k == 0 && rownew == 0) || row + rownew < 0 || col + k < 0 || row + rownew >= board.rows() || col + k >= board.cols()) {
+				if ((k == 0 && rownew == 0)
+				        || row + rownew < 0
+				        || col + k < 0 || row + rownew >= board.rows()
+				        || col + k >= board.cols()) {
 					continue;
 				}
-				dfs(board, visited, row + rownew, col + k, str, words);
+				dfs(board, visited,
+				    row + rownew,
+				    col + k, str,
+				    words);
 			}
 		}
 		visited[row][col] = false;
@@ -56,8 +94,15 @@ public class BoggleSolver {
 
 	// Returns the score of the given word if it is in the dictionary, zero otherwise.
 	// (You can assume the word contains only the uppercase letters A through Z.)
-	public int scoreOf(String word) {
-		// System.out.println(word + " each word ");
+
+	/**
+	 * { scoreof }.
+	 *
+	 * @param      word  The word
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
+	public int scoreOf(final String word) {
 		if (!inputdict.contains(word)) {
 			return 0;
 		}
