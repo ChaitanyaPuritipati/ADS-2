@@ -777,13 +777,8 @@ Audit done.
 Checkstyle ends with 33 errors.
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\Solution.java:1:8: Unused import - java.util.Arrays. [UnusedImports]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\Solution.java:6: Class Solution should be declared as final. [FinalClass]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\Solution.java:8:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\Solution.java:30: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\Solution.java:46: Line is longer than 80 characters (found 84). [LineLength]
 Audit done.
-Checkstyle ends with 6 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\StdIn.java:27: Line is longer than 80 characters (found 84). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 15\m15\boggle\StdIn.java:38: Line is longer than 80 characters (found 84). [LineLength]
