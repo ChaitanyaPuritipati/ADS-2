@@ -56,23 +56,24 @@ public class BoggleSolver {
     private void dfs(final BoggleBoard board,
                      final boolean[][] visited,
                      final int row, final int col,
-                     String str,
+                     final String str,
                      final HashSet<String> words) {
+        String teststr = str;
         if (visited[row][col]) {
             return;
         }
         // Iterable<String> results = inputdict.keysWithPrefix(str);
-        if (!inputdict.hasPrefix(str)) {
+        if (!inputdict.hasPrefix(teststr)) {
             return;
         }
         char letter = board.getLetter(row, col);
         if (letter == 'Q') {
-            str = str + "QU";
+            teststr = teststr + "QU";
         } else {
-            str = str + letter;
+            teststr = teststr + letter;
         }
-        if (str.length() > 2 && inputdict.contains(str)) {
-            words.add(str);
+        if (teststr.length() > 2 && inputdict.contains(teststr)) {
+            words.add(teststr);
         }
         visited[row][col] = true;
         for (int rownew = -1; rownew <= 1; rownew++) {
@@ -85,7 +86,7 @@ public class BoggleSolver {
                 }
                 dfs(board, visited,
                     row + rownew,
-                    col + k, str,
+                    col + k, teststr,
                     words);
             }
         }
