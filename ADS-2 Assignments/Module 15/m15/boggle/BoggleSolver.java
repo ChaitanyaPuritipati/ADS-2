@@ -104,6 +104,12 @@ public class BoggleSolver {
      * @return     { description_of_the_return_value }
      */
     public int scoreOf(final String word) {
+        final int three = 3;
+        final int four = 4;
+        final int five = 5;
+        final int six = 6;
+        final int seven = 7;
+        final int eleven = 11;
         if (!inputdict.contains(word)) {
             return 0;
         }
@@ -112,12 +118,12 @@ public class BoggleSolver {
         case 0:
         case 1:
         case 2: return 0;
-        case 3:
-        case 4: return 1;
-        case 5: return 2;
-        case 6: return 3;
-        case 7: return 5;
-        default: return 11;
+        case three:
+        case four: return 1;
+        case five: return 2;
+        case six: return three;
+        case seven: return five;
+        default: return eleven;
         }
     }
 }
