@@ -93,8 +93,12 @@ public class BoggleSolver {
         visited[row][col] = false;
     }
 
-    // Returns the score of the given word if it is in the dictionary, zero otherwise.
-    // (You can assume the word contains only the uppercase letters A through Z.)
+    // Returns the score of the given word
+    // if it is in the dictionary,
+    // zero otherwise.
+    // (You can assume the word contains
+    //  only the uppercase letters A
+    //  through Z.)
 
     /**
      * { scoreof }.
