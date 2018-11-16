@@ -27,7 +27,9 @@ public class BoggleSolver {
         }
         // validwords = new HashSet<>();
     }
-    // Returns the set of all valid words in the given Boggle board, as an Iterable.
+    // Returns the set of all valid
+    //words in the given Boggle board,
+    // as an Iterable.
 
     /**
      * Gets all valid words.
