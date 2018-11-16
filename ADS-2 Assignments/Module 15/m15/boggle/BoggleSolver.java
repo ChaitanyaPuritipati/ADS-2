@@ -8,8 +8,12 @@ public class BoggleSolver {
      */
     private TrieST inputdict;
 
-    // Initializes the data structure using the given array of strings as the dictionary.
-    // (You can assume each word in the dictionary contains only the uppercase letters A through Z.)
+    // Initializes the data structure
+    // using the given array of strings
+    // as the dictionary.
+    // (You can assume each word in the
+    // dictionary contains only the uppercase
+    // letters A through Z.)
 
     /**
      * Constructs the object.
