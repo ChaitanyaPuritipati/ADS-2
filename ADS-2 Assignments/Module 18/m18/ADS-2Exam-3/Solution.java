@@ -92,6 +92,7 @@ public class Solution {
 		for(String line : lines) {
 			String[] words = line.split(" ");
 			for(String word : words) {
+				word = word.toLowerCase();
 				if(st.contains(word)) {
 					int value = st.get(word);
 					value = value + 1;
