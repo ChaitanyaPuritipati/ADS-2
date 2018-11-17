@@ -199,6 +199,7 @@ class T9 {
 				matchmap.put(pattern, presentwords);
 			} else {
 				Bag<String> presentwords = new Bag<>();
+				presentwords.add(key);
 				matchmap.put(pattern, presentwords);
 			}
 		}

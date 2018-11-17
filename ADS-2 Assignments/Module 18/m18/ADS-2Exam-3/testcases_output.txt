@@ -157,17 +157,34 @@ fine
 seeking
 
 Your Output: 
+hello
+pizza
+what
+sunday
 call
+ball
+involve
+finish
 home
 good
+gone
+battery
+friends
+watches
+morning
+tonight
+shop
+phne
 coz
 boy
 box
 bmw
+any
 lay
 law
 kay
 jaz
+jay
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:38)
 ----------------------------------------
@@ -237,10 +254,11 @@ paper
 keep
 
 Your Output: 
+5
 Exception in thread "main" java.util.NoSuchElementException: Priority queue underflow
 	at MaxPQ.delMax(MaxPQ.java:174)
-	at T9.getSuggestions(Solution.java:216)
-	at T9.t9(Solution.java:224)
+	at T9.getSuggestions(Solution.java:217)
+	at T9.t9(Solution.java:225)
 	at Solution.main(Solution.java:70)
 ----------------------------------------
 
