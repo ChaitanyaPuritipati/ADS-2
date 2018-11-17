@@ -215,7 +215,7 @@ class T9 {
 		// your code goes here
 		// MaxPQ<Integer> pqobj = new MaxPQ<>();
 		for(String word : words) {
-			System.out.println(tstobj.get(word) + "word");
+			System.out.println(tstobj.get(word) + word);
 		}
 		// for(int i = 0; i < k; i++) {
 		// 	System.out.println(pqobj.delMax());

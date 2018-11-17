@@ -228,12 +228,12 @@ right
 words
 
 Your Output: 
-704word
-6word
-22word
-2word
-87word
-42word
+704is
+6within
+22words
+2rights
+87right
+42hello
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:58)
 ----------------------------------------
@@ -287,7 +287,7 @@ paper
 keep
 
 Your Output: 
-5word
+5update
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:71)
 ----------------------------------------
