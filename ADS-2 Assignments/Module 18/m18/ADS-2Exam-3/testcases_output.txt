@@ -157,6 +157,17 @@ fine
 seeking
 
 Your Output: 
+call
+home
+good
+coz
+boy
+box
+bmw
+lay
+law
+kay
+jaz
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:38)
 ----------------------------------------
@@ -169,6 +180,10 @@ right
 words
 
 Your Output: 
+704
+87
+42
+22
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:57)
 ----------------------------------------
@@ -222,7 +237,10 @@ paper
 keep
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
+Exception in thread "main" java.util.NoSuchElementException: Priority queue underflow
+	at MaxPQ.delMax(MaxPQ.java:174)
+	at T9.getSuggestions(Solution.java:216)
+	at T9.t9(Solution.java:224)
 	at Solution.main(Solution.java:70)
 ----------------------------------------
 

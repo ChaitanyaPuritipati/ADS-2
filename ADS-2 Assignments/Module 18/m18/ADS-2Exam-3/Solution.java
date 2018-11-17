@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+import java.util.HashMap;
 
 public class Solution {
 
@@ -109,11 +109,72 @@ public class Solution {
 
 class T9 {
 	private TST<Integer> tstobj;
+	private HashMap<String, Integer> mapobj; 
 	public T9(BinarySearchST<String, Integer> st) {
 		// your code goes here
 		 tstobj = new TST<>();
+		 mapobj = new HashMap<>();
 		for(String word : st.keys()) {
 			tstobj.put(word, st.get(word));
+		}
+		String aplhabets = "abcdefghijklmnopqrstuvwxyz";
+		String[] letters = aplhabets.split("");
+		for(String letter : letters) {
+			switch(letter) {
+				case "a":mapobj.put(letter , 2);
+				break;
+				case "b":mapobj.put(letter , 2);
+				break;
+				case "c": mapobj.put(letter , 2);
+				break;
+				case "d":mapobj.put(letter , 3);
+				break;
+				case "e":mapobj.put(letter , 3);
+				break;
+				case "f": mapobj.put(letter , 3);
+				break;
+				case "g":mapobj.put(letter , 4);
+				break;
+				case "h":mapobj.put(letter , 4);
+				break;
+				case "i": mapobj.put(letter , 4);
+				break;
+				case "j":mapobj.put(letter , 5);
+				break;
+				case "k":mapobj.put(letter , 5);
+				break;
+				case "l": mapobj.put(letter , 5);
+				break;
+				case "m":mapobj.put(letter , 6);
+				break;
+				case "n":mapobj.put(letter , 6);
+				break;
+				case "o": mapobj.put(letter , 6);
+				break;
+				case "p":mapobj.put(letter , 7);
+				break;
+				case "q":mapobj.put(letter , 7);
+				break;
+				case "r": mapobj.put(letter , 7);
+				break;
+				case "s":mapobj.put(letter , 7);
+				break;
+				case "t":mapobj.put(letter , 8);
+				break;
+				case "u": mapobj.put(letter , 8);
+				break;
+				case "v":mapobj.put(letter , 8);
+				break;
+				case "w":mapobj.put(letter , 9);
+				break;
+				case "x": mapobj.put(letter , 9);
+				break;
+				case "y":mapobj.put(letter , 9);
+				break;
+				case "z":mapobj.put(letter , 9);
+				break;
+				default:
+			}
 		}
 	}
 
@@ -125,12 +186,35 @@ class T9 {
 
 	public Iterable<String> potentialWords(String t9Signature) {
 		// your code goes here
-		return null;
+		HashMap<String, Bag<String>> matchmap = new HashMap<>();
+		for(String key : tstobj.keys()) {
+			String[] keyletters = key.split("");
+			String pattern = "";
+			for(String keyletter : keyletters) {
+				pattern = pattern + mapobj.get(keyletter);
+			}
+			if(matchmap.containsKey(pattern)) {
+				Bag presentwords = matchmap.get(pattern);
+				presentwords.add(key);
+				matchmap.put(pattern, presentwords);
+			} else {
+				Bag<String> presentwords = new Bag<>();
+				matchmap.put(pattern, presentwords);
+			}
+		}
+		return matchmap.get(t9Signature);
 	}
 
 	// return all possibilities(words), find top k with highest frequency.
 	public Iterable<String> getSuggestions(Iterable<String> words, int k) {
 		// your code goes here
+		MaxPQ<Integer> pqobj = new MaxPQ<>();
+		for(String word : words) {
+			pqobj.insert(tstobj.get(word));
+		}
+		for(int i = 0; i < k; i++) {
+			System.out.println(pqobj.delMax());
+		}
 		return null;
 	}
 
