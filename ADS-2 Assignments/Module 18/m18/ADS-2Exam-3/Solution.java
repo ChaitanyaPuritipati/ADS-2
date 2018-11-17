@@ -4,7 +4,7 @@ import java.util.TreeSet;
 /**
  * Class for solution.
  */
-public class Solution {
+final class Solution {
 
     // Don't modify this method.
 
@@ -13,7 +13,7 @@ public class Solution {
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         String cases = scan.nextLine();
 
@@ -97,7 +97,7 @@ public class Solution {
      *
      * @return     { description_of_the_return_value }
      */
-    public static String[] toReadFile(String file) {
+    public static String[] toReadFile(final String file) {
         In in = new In(file);
         return in.readAllStrings();
     }
@@ -109,7 +109,7 @@ public class Solution {
      *
      * @return     { description_of_the_return_value }
      */
-    public static BinarySearchST<String, Integer> loadDictionary(String file) {
+    public static BinarySearchST<String, Integer> loadDictionary(final String file) {
         BinarySearchST<String, Integer>  st = new BinarySearchST<String, Integer>();
         // your code goes here
         String[] lines = toReadFile(file);
@@ -147,7 +147,7 @@ class T9 {
      *
      * @param      st    { parameter_description }
      */
-    public T9(BinarySearchST<String, Integer> st) {
+    public T9(final BinarySearchST<String, Integer> st) {
         // your code goes here
         tstobj = new TST<>();
         mapobj = new HashMap<>();
@@ -216,7 +216,7 @@ class T9 {
     }
 
     // get all the prefixes that match with given prefix.
-    public Iterable<String> getAllWords(String prefix) {
+    public Iterable<String> getAllWords(final String prefix) {
         // your code goes here
         return tstobj.keysWithPrefix(prefix);
     }
@@ -228,7 +228,7 @@ class T9 {
      *
      * @return     { description_of_the_return_value }
      */
-    public Iterable<String> potentialWords(String t9Signature) {
+    public Iterable<String> potentialWords(final String t9Signature) {
         // your code goes here
         HashMap<String, TreeSet<String>> matchmap = new HashMap<>();
         for (String key : tstobj.keys()) {
@@ -264,7 +264,7 @@ class T9 {
      *
      * @return     The suggestions.
      */
-    public Iterable<String> getSuggestions(Iterable<String> words, int k) {
+    public Iterable<String> getSuggestions(final Iterable<String> words, final int k) {
         // your code goes here
         MaxPQ<Integer> pqobj = new MaxPQ<>();
         HashMap<Integer, TreeSet<String>> suggestwords = new HashMap<>();
@@ -313,7 +313,7 @@ class T9 {
      *
      * @return     { description_of_the_return_value }
      */
-    public Iterable<String> t9(String t9Signature, int k) {
+    public Iterable<String> t9(final String t9Signature, final int k) {
         return getSuggestions(potentialWords(t9Signature), k);
     }
 }
