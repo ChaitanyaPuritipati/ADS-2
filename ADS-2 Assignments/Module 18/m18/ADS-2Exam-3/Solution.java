@@ -163,7 +163,7 @@ class T9 {
      *
      * @param      st    { parameter_description }
      */
-    public T9(final BinarySearchST<String, Integer> st) {
+    protected T9(final BinarySearchST<String, Integer> st) {
         // your code goes here
         tstobj = new TST<>();
         mapobj = new HashMap<>();
@@ -232,6 +232,14 @@ class T9 {
     }
 
     // get all the prefixes that match with given prefix.
+
+    /**
+     * Gets all words.
+     *
+     * @param      prefix  The prefix
+     *
+     * @return     All words.
+     */
     public Iterable<String> getAllWords(final String prefix) {
         // your code goes here
         return tstobj.keysWithPrefix(prefix);
@@ -280,7 +288,9 @@ class T9 {
      *
      * @return     The suggestions.
      */
-    public Iterable<String> getSuggestions(final Iterable<String> words, final int k) {
+    public Iterable<String> getSuggestions(
+        final Iterable<String> words,
+        final int k) {
         // your code goes here
         MaxPQ<Integer> pqobj = new MaxPQ<>();
         HashMap<Integer, TreeSet<String>> suggestwords = new HashMap<>();

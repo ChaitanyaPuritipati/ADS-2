@@ -10,11 +10,8 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 18\m18\ADS-2Exam-3\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 18\m18\ADS-2Exam-3\Solution.java:166:5: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 18\m18\ADS-2Exam-3\Solution.java:235:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 18\m18\ADS-2Exam-3\Solution.java:283: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 18\m18\ADS-2Exam-3\Solution.java:289: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 18\m18\ADS-2Exam-3\Solution.java:299: Line is longer than 80 characters (found 83). [LineLength]
 Audit done.
-Checkstyle ends with 5 errors.
+Checkstyle ends with 2 errors.
 Starting audit...
 Audit done.
