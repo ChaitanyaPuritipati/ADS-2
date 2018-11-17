@@ -89,11 +89,26 @@ public class Solution {
 	}
 
 	// Don't modify this method.
+
+	/**
+	 * { function_description }.
+	 *
+	 * @param      file  The file
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public static String[] toReadFile(String file) {
 		In in = new In(file);
 		return in.readAllStrings();
 	}
 
+	/**
+	 * Loads a dictionary.
+	 *
+	 * @param      file  The file
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public static BinarySearchST<String, Integer> loadDictionary(String file) {
 		BinarySearchST<String, Integer>  st = new BinarySearchST<String, Integer>();
 		// your code goes here
@@ -115,7 +130,9 @@ public class Solution {
 	}
 
 }
-
+/**
+ * Class for t 9.
+ */
 class T9 {
 	private TST<Integer> tstobj;
 	private HashMap<String, Integer> mapobj; 
@@ -193,6 +210,13 @@ class T9 {
 		return tstobj.keysWithPrefix(prefix);
 	}
 
+	/**
+	 * { function_description }.
+	 *
+	 * @param      t9Signature  The t 9 signature
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public Iterable<String> potentialWords(String t9Signature) {
 		// your code goes here
 		HashMap<String, TreeSet<String>> matchmap = new HashMap<>();
@@ -220,6 +244,15 @@ class T9 {
 	}
 
 	// return all possibilities(words), find top k with highest frequency.
+
+	/**
+	 * Gets the suggestions.
+	 *
+	 * @param      words  The words
+	 * @param      k      { parameter_description }
+	 *
+	 * @return     The suggestions.
+	 */
 	public Iterable<String> getSuggestions(Iterable<String> words, int k) {
 		// your code goes here
 		MaxPQ<Integer> pqobj = new MaxPQ<>();
@@ -260,6 +293,15 @@ class T9 {
 
 	// final output
 	// Don't modify this method.
+	
+	/**
+	 * { function_description }.
+	 *
+	 * @param      t9Signature  The t 9 signature
+	 * @param      k            { parameter_description }
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public Iterable<String> t9(String t9Signature, int k) {
 		return getSuggestions(potentialWords(t9Signature), k);
 	}
