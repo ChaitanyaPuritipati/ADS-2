@@ -1,10 +1,18 @@
 import java.util.Scanner;
 import java.util.HashMap;
 import java.util.TreeSet;
-
+/**
+ * Class for solution.
+ */
 public class Solution {
 
 	// Don't modify this method.
+
+	/**
+	 * { Main method }.
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		String cases = scan.nextLine();
@@ -205,11 +213,6 @@ class T9 {
 				matchmap.put(pattern, presentwords);
 			}
 		}
-		// System.out.println(t9Signature + "val");
-		// System.out.println("--------------------------------");
-		// for(String vals : matchmap.get(t9Signature)) {
-		// 	System.out.println(vals);
-		// }
 		if(matchmap.get(t9Signature) != null) {
 			return matchmap.get(t9Signature);
 		}
