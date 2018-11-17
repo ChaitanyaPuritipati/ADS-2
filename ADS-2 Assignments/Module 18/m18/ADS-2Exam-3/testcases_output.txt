@@ -220,7 +220,7 @@ fine
 seeking
 ----------------------------------------
 
-########## Testcase 3: Passed ##########
+########## Testcase 3: Failed ##########
 Expected Output: 
 hello
 is
@@ -228,6 +228,10 @@ right
 words
 
 Your Output: 
+704
+87
+42
+22
 hello
 is
 right
@@ -283,24 +287,72 @@ paper
 keep
 
 Your Output: 
+5
+3
+4
+2
+226
+1
+1
+31
+1
+1
+13
+3
+13
+101
+30
+15
 any
 boy
 coz
+82
+28
+21
 pay
 saw
 say
+1
+1
 goods
 inner
+3
+1
+7
+2
+58
+13
+10
 card
 care
 case
+104
+1
+209
+2
+2
+1
+24
+1
+1
+1
+4
+1
 adds
 beer
 bffs
+2
+2
 jane
 lane
+1
+2
+1
 ages
 aids
 bids
+11
+1
+59
 ----------------------------------------
 

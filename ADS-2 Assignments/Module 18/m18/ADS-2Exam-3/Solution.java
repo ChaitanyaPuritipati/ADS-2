@@ -235,6 +235,7 @@ class T9 {
 				return new TreeSet<String>();
 			}
 			int val = pqobj.delMax();
+			System.out.println(val);
 			for(String result : suggestwords.get(val)) {
 				if(count == k) {
 					return resultwords;
