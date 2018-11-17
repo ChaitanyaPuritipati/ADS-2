@@ -203,7 +203,10 @@ class T9 {
 				matchmap.put(pattern, presentwords);
 			}
 		}
-		return matchmap.get(t9Signature);
+		if(matchmap.get(t9Signature) != null) {
+			return matchmap.get(t9Signature);
+		}
+		return null;
 	}
 
 	// return all possibilities(words), find top k with highest frequency.
