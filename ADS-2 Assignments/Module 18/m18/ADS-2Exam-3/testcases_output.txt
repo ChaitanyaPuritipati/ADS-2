@@ -92,7 +92,7 @@ messagesome
 going
 ----------------------------------------
 
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 hello
 pizza
@@ -157,70 +157,104 @@ fine
 seeking
 
 Your Output: 
+43556val
+--------------------------------
 hello
+hello
+74992val
+--------------------------------
 pizza
+pizza
+9428val
+--------------------------------
 what
+what
+786329val
+--------------------------------
 sunday
+sunday
+2255val
+--------------------------------
 ball
 call
+ball
+call
+4686583val
+--------------------------------
 involve
+involve
+346474val
+--------------------------------
 finish
+finish
+4663val
+--------------------------------
 gone
 good
 home
+gone
+good
+home
+2288379val
+--------------------------------
 battery
+battery
+3743637val
+--------------------------------
 friends
+friends
+9282437val
+--------------------------------
 watches
+watches
+6676464val
+--------------------------------
 morning
+morning
+8664448val
+--------------------------------
 tonight
+tonight
+7467val
+--------------------------------
 shop
+shop
+7463val
+--------------------------------
 phne
+phne
+269val
+--------------------------------
 any
 bmw
 box
 boy
 coz
+any
+bmw
+box
+boy
+coz
+529val
+--------------------------------
 jay
 jaz
 kay
 law
 lay
-ammo
-das
-ear
-far
-send
-pocked
-pest
-rest
-woo
-paying
-saying
-james
-lands
-hates
-casting
-packing
-peeps
-bam
-bao
-cam
-can
-abt
-act
-bat
-cat
-mines
-liver
-lives
-dime
-dine
-find
-fine
-seeking
+jay
+jaz
+kay
+law
+lay
+74337val
+--------------------------------
+Exception in thread "main" java.lang.NullPointerException
+	at T9.potentialWords(Solution.java:210)
+	at Solution.main(Solution.java:39)
 ----------------------------------------
 
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 hello
 is
@@ -228,12 +262,6 @@ right
 words
 
 Your Output: 
-is 704 frequencies 
-within 6 frequencies 
-words 22 frequencies 
-rights 2 frequencies 
-right 87 frequencies 
-hello 42 frequencies 
 hello
 is
 right
@@ -289,111 +317,108 @@ paper
 keep
 
 Your Output: 
-update 5 frequencies 
+873283val
+--------------------------------
 update
-record 3 frequencies 
+update
+732673val
+--------------------------------
 record
-immediately 4 frequencies 
+record
+46633428359val
+--------------------------------
 immediately
-bristol 2 frequencies 
+immediately
+2747865val
+--------------------------------
 bristol
-ball 1 frequencies 
-call 226 frequencies 
+bristol
+2255val
+--------------------------------
 ball
 call
-spoil 1 frequencies 
+ball
+call
+77645val
+--------------------------------
 spoil
-kiss 31 frequencies 
-lips 1 frequencies 
+spoil
+5477val
+--------------------------------
 kiss
 lips
-pints 1 frequencies 
+kiss
+lips
+74687val
+--------------------------------
 pints
-alone 13 frequencies 
-blood 3 frequencies 
+pints
+25663val
+--------------------------------
 alone
 blood
-shop 13 frequencies 
+alone
+blood
+7467val
+--------------------------------
 shop
-any 101 frequencies 
-bmw 3 frequencies 
-box 5 frequencies 
-boy 30 frequencies 
-coz 15 frequencies 
+shop
+269val
+--------------------------------
+any
+bmw
+box
+boy
+coz
 any
 boy
 coz
-pax 1 frequencies 
-pay 28 frequencies 
-saw 21 frequencies 
-say 82 frequencies 
+729val
+--------------------------------
+pax
 pay
 saw
 say
-goods 1 frequencies 
-inner 1 frequencies 
+pay
+saw
+say
+46637val
+--------------------------------
 goods
 inner
-cards 1 frequencies 
-cares 3 frequencies 
+goods
+inner
+22737val
+--------------------------------
 cards
 cares
-rate 2 frequencies 
-save 7 frequencies 
+cards
+cares
+7283val
+--------------------------------
 rate
 save
-bare 1 frequencies 
-base 2 frequencies 
-card 10 frequencies 
-care 58 frequencies 
-case 13 frequencies 
+rate
+save
+2273val
+--------------------------------
+bare
+base
 card
 care
 case
-happy 104 frequencies 
+card
+care
+case
+42779val
+--------------------------------
 happy
-sales 1 frequencies 
-sales
-bone 2 frequencies 
-come 209 frequencies 
-bone
-come
-poker 2 frequencies 
-roles 1 frequencies 
-poker
-roles
-real 24 frequencies 
-real
-maps 1 frequencies 
-maps
-itor 1 frequencies 
-itor
-paces 1 frequencies 
-paces
-adds 1 frequencies 
-beer 4 frequencies 
-bffs 1 frequencies 
-adds
-beer
-bffs
-jane 2 frequencies 
-kane 1 frequencies 
-lane 2 frequencies 
-jane
-lane
-chef 1 frequencies 
-chef
-ages 2 frequencies 
-aids 1 frequencies 
-bids 1 frequencies 
-ages
-aids
-bids
-paper 11 frequencies 
-pases 1 frequencies 
-paper
-pases
-keep 59 frequencies 
-keep
+happy
+73257val
+--------------------------------
+Exception in thread "main" java.lang.NullPointerException
+	at T9.potentialWords(Solution.java:210)
+	at T9.t9(Solution.java:261)
+	at Solution.main(Solution.java:71)
 ----------------------------------------
 
