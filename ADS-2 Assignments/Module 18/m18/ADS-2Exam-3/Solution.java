@@ -206,7 +206,7 @@ class T9 {
 		if(matchmap.get(t9Signature) != null) {
 			return matchmap.get(t9Signature);
 		}
-		return null;
+		return new Bag<String>();
 	}
 
 	// return all possibilities(words), find top k with highest frequency.

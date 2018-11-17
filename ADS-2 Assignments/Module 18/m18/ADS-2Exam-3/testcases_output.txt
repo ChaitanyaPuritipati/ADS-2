@@ -185,8 +185,39 @@ law
 kay
 jaz
 jay
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:38)
+ammo
+far
+ear
+das
+send
+pocked
+rest
+pest
+woo
+saying
+paying
+lands
+james
+hates
+casting
+packing
+peeps
+can
+cam
+bao
+bam
+cat
+bat
+act
+abt
+mines
+lives
+liver
+fine
+find
+dine
+dime
+seeking
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
