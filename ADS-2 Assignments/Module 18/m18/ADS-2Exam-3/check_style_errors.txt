@@ -469,9 +469,9 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 18\m18\ADS-2Exam-3\Solution.java:233:22: 'while' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 18\m18\ADS-2Exam-3\Solution.java:235:28: 'for' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 18\m18\ADS-2Exam-3\Solution.java:236:35: 'if' is not followed by whitespace. [WhitespaceAround]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 18\m18\ADS-2Exam-3\Solution.java:247:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 18\m18\ADS-2Exam-3\Solution.java:247:36: Parameter t9Signature should be final. [FinalParameters]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 18\m18\ADS-2Exam-3\Solution.java:247:56: Parameter k should be final. [FinalParameters]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 18\m18\ADS-2Exam-3\Solution.java:248:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 18\m18\ADS-2Exam-3\Solution.java:248:36: Parameter t9Signature should be final. [FinalParameters]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-2\ADS-2_Updated\ADS-2\ADS-2 Assignments\Module 18\m18\ADS-2Exam-3\Solution.java:248:56: Parameter k should be final. [FinalParameters]
 Audit done.
 Checkstyle ends with 97 errors.
 Starting audit...

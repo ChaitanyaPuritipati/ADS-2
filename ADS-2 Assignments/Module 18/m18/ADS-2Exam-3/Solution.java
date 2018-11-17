@@ -237,6 +237,7 @@ class T9 {
 					return resultwords;
 				}
 				resultwords.add(result);
+				count++;
 			}
 		}
 		return resultwords;

@@ -228,10 +228,10 @@ right
 words
 
 Your Output: 
-Exception in thread "main" java.util.NoSuchElementException: Priority queue underflow
-	at MaxPQ.delMax(MaxPQ.java:174)
-	at T9.getSuggestions(Solution.java:234)
-	at Solution.main(Solution.java:58)
+words
+hello
+right
+is
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -286,7 +286,7 @@ Your Output:
 Exception in thread "main" java.util.NoSuchElementException: Priority queue underflow
 	at MaxPQ.delMax(MaxPQ.java:174)
 	at T9.getSuggestions(Solution.java:234)
-	at T9.t9(Solution.java:248)
+	at T9.t9(Solution.java:249)
 	at Solution.main(Solution.java:71)
 ----------------------------------------
 
