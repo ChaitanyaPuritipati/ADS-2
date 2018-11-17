@@ -92,7 +92,7 @@ messagesome
 going
 ----------------------------------------
 
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 hello
 pizza
@@ -161,13 +161,13 @@ hello
 pizza
 what
 sunday
-call
 ball
+call
 involve
 finish
-home
-good
 gone
+good
+home
 battery
 friends
 watches
@@ -175,48 +175,48 @@ morning
 tonight
 shop
 phne
-coz
-boy
-box
-bmw
 any
-lay
-law
-kay
-jaz
+bmw
+box
+boy
+coz
 jay
+jaz
+kay
+law
+lay
 ammo
-far
-ear
 das
+ear
+far
 send
 pocked
-rest
 pest
+rest
 woo
-saying
 paying
-lands
+saying
 james
+lands
 hates
 casting
 packing
 peeps
-can
-cam
-bao
 bam
-cat
-bat
-act
+bao
+cam
+can
 abt
+act
+bat
+cat
 mines
-lives
 liver
-fine
-find
-dine
+lives
 dime
+dine
+find
+fine
 seeking
 ----------------------------------------
 
@@ -233,7 +233,7 @@ Your Output:
 42
 22
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:57)
+	at Solution.main(Solution.java:58)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -288,8 +288,8 @@ Your Output:
 5
 Exception in thread "main" java.util.NoSuchElementException: Priority queue underflow
 	at MaxPQ.delMax(MaxPQ.java:174)
-	at T9.getSuggestions(Solution.java:220)
-	at T9.t9(Solution.java:228)
-	at Solution.main(Solution.java:70)
+	at T9.getSuggestions(Solution.java:221)
+	at T9.t9(Solution.java:229)
+	at Solution.main(Solution.java:71)
 ----------------------------------------
 

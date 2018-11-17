@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.HashMap;
+import java.util.TreeSet;
 
 public class Solution {
 
@@ -186,7 +187,7 @@ class T9 {
 
 	public Iterable<String> potentialWords(String t9Signature) {
 		// your code goes here
-		HashMap<String, Bag<String>> matchmap = new HashMap<>();
+		HashMap<String, TreeSet<String>> matchmap = new HashMap<>();
 		for(String key : tstobj.keys()) {
 			String[] keyletters = key.split("");
 			String pattern = "";
@@ -194,11 +195,11 @@ class T9 {
 				pattern = pattern + mapobj.get(keyletter);
 			}
 			if(matchmap.containsKey(pattern)) {
-				Bag presentwords = matchmap.get(pattern);
+				TreeSet presentwords = matchmap.get(pattern);
 				presentwords.add(key);
 				matchmap.put(pattern, presentwords);
 			} else {
-				Bag<String> presentwords = new Bag<>();
+				TreeSet<String> presentwords = new TreeSet<>();
 				presentwords.add(key);
 				matchmap.put(pattern, presentwords);
 			}
