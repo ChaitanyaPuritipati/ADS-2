@@ -228,10 +228,12 @@ right
 words
 
 Your Output: 
-704
-87
-42
-22
+704word
+6word
+22word
+2word
+87word
+42word
 Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:58)
 ----------------------------------------
@@ -285,11 +287,8 @@ paper
 keep
 
 Your Output: 
-5
-Exception in thread "main" java.util.NoSuchElementException: Priority queue underflow
-	at MaxPQ.delMax(MaxPQ.java:174)
-	at T9.getSuggestions(Solution.java:221)
-	at T9.t9(Solution.java:229)
+5word
+Exception in thread "main" java.lang.NullPointerException
 	at Solution.main(Solution.java:71)
 ----------------------------------------
 
