@@ -228,12 +228,12 @@ right
 words
 
 Your Output: 
-704frequencies
-6frequencies
-22frequencies
-2frequencies
-87frequencies
-42frequencies
+is 704 frequencies 
+within 6 frequencies 
+words 22 frequencies 
+rights 2 frequencies 
+right 87 frequencies 
+hello 42 frequencies 
 hello
 is
 right
@@ -289,111 +289,111 @@ paper
 keep
 
 Your Output: 
-5frequencies
+update 5 frequencies 
 update
-3frequencies
+record 3 frequencies 
 record
-4frequencies
+immediately 4 frequencies 
 immediately
-2frequencies
+bristol 2 frequencies 
 bristol
-1frequencies
-226frequencies
+ball 1 frequencies 
+call 226 frequencies 
 ball
 call
-1frequencies
+spoil 1 frequencies 
 spoil
-31frequencies
-1frequencies
+kiss 31 frequencies 
+lips 1 frequencies 
 kiss
 lips
-1frequencies
+pints 1 frequencies 
 pints
-13frequencies
-3frequencies
+alone 13 frequencies 
+blood 3 frequencies 
 alone
 blood
-13frequencies
+shop 13 frequencies 
 shop
-101frequencies
-3frequencies
-5frequencies
-30frequencies
-15frequencies
+any 101 frequencies 
+bmw 3 frequencies 
+box 5 frequencies 
+boy 30 frequencies 
+coz 15 frequencies 
 any
 boy
 coz
-1frequencies
-28frequencies
-21frequencies
-82frequencies
+pax 1 frequencies 
+pay 28 frequencies 
+saw 21 frequencies 
+say 82 frequencies 
 pay
 saw
 say
-1frequencies
-1frequencies
+goods 1 frequencies 
+inner 1 frequencies 
 goods
 inner
-1frequencies
-3frequencies
+cards 1 frequencies 
+cares 3 frequencies 
 cards
 cares
-2frequencies
-7frequencies
+rate 2 frequencies 
+save 7 frequencies 
 rate
 save
-1frequencies
-2frequencies
-10frequencies
-58frequencies
-13frequencies
+bare 1 frequencies 
+base 2 frequencies 
+card 10 frequencies 
+care 58 frequencies 
+case 13 frequencies 
 card
 care
 case
-104frequencies
+happy 104 frequencies 
 happy
-1frequencies
+sales 1 frequencies 
 sales
-2frequencies
-209frequencies
+bone 2 frequencies 
+come 209 frequencies 
 bone
 come
-2frequencies
-1frequencies
+poker 2 frequencies 
+roles 1 frequencies 
 poker
 roles
-24frequencies
+real 24 frequencies 
 real
-1frequencies
+maps 1 frequencies 
 maps
-1frequencies
+itor 1 frequencies 
 itor
-1frequencies
+paces 1 frequencies 
 paces
-1frequencies
-4frequencies
-1frequencies
+adds 1 frequencies 
+beer 4 frequencies 
+bffs 1 frequencies 
 adds
 beer
 bffs
-2frequencies
-1frequencies
-2frequencies
+jane 2 frequencies 
+kane 1 frequencies 
+lane 2 frequencies 
 jane
 lane
-1frequencies
+chef 1 frequencies 
 chef
-2frequencies
-1frequencies
-1frequencies
+ages 2 frequencies 
+aids 1 frequencies 
+bids 1 frequencies 
 ages
 aids
 bids
-11frequencies
-1frequencies
+paper 11 frequencies 
+pases 1 frequencies 
 paper
 pases
-59frequencies
+keep 59 frequencies 
 keep
 ----------------------------------------
 
