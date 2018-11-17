@@ -90,11 +90,11 @@ public class Solution {
 		BinarySearchST<String, Integer>  st = new BinarySearchST<String, Integer>();
 		// your code goes here
 		String[] lines = toReadFile(file);
-		for (String line : lines) {
+		for(String line : lines) {
 			String[] words = line.split(" ");
-			for (String word : words) {
+			for(String word : words) {
 				word = word.toLowerCase();
-				if (st.contains(word)) {
+				if(st.contains(word)) {
 					int value = st.get(word);
 					value = value + 1;
 					st.put(word, value);
@@ -110,71 +110,71 @@ public class Solution {
 
 class T9 {
 	private TST<Integer> tstobj;
-	private HashMap<String, Integer> mapobj;
+	private HashMap<String, Integer> mapobj; 
 	public T9(BinarySearchST<String, Integer> st) {
 		// your code goes here
-		tstobj = new TST<>();
-		mapobj = new HashMap<>();
-		for (String word : st.keys()) {
+		 tstobj = new TST<>();
+		 mapobj = new HashMap<>();
+		for(String word : st.keys()) {
 			tstobj.put(word, st.get(word));
 		}
 		String aplhabets = "abcdefghijklmnopqrstuvwxyz";
 		String[] letters = aplhabets.split("");
-		for (String letter : letters) {
-			switch (letter) {
-			case "a": mapobj.put(letter , 2);
+		for(String letter : letters) {
+			switch(letter) {
+				case "a":mapobj.put(letter , 2);
 				break;
-			case "b": mapobj.put(letter , 2);
+				case "b":mapobj.put(letter , 2);
 				break;
-			case "c": mapobj.put(letter , 2);
+				case "c": mapobj.put(letter , 2);
 				break;
-			case "d": mapobj.put(letter , 3);
+				case "d":mapobj.put(letter , 3);
 				break;
-			case "e": mapobj.put(letter , 3);
+				case "e":mapobj.put(letter , 3);
 				break;
-			case "f": mapobj.put(letter , 3);
+				case "f": mapobj.put(letter , 3);
 				break;
-			case "g": mapobj.put(letter , 4);
+				case "g":mapobj.put(letter , 4);
 				break;
-			case "h": mapobj.put(letter , 4);
+				case "h":mapobj.put(letter , 4);
 				break;
-			case "i": mapobj.put(letter , 4);
+				case "i": mapobj.put(letter , 4);
 				break;
-			case "j": mapobj.put(letter , 5);
+				case "j":mapobj.put(letter , 5);
 				break;
-			case "k": mapobj.put(letter , 5);
+				case "k":mapobj.put(letter , 5);
 				break;
-			case "l": mapobj.put(letter , 5);
+				case "l": mapobj.put(letter , 5);
 				break;
-			case "m": mapobj.put(letter , 6);
+				case "m":mapobj.put(letter , 6);
 				break;
-			case "n": mapobj.put(letter , 6);
+				case "n":mapobj.put(letter , 6);
 				break;
-			case "o": mapobj.put(letter , 6);
+				case "o": mapobj.put(letter , 6);
 				break;
-			case "p": mapobj.put(letter , 7);
+				case "p":mapobj.put(letter , 7);
 				break;
-			case "q": mapobj.put(letter , 7);
+				case "q":mapobj.put(letter , 7);
 				break;
-			case "r": mapobj.put(letter , 7);
+				case "r": mapobj.put(letter , 7);
 				break;
-			case "s": mapobj.put(letter , 7);
+				case "s":mapobj.put(letter , 7);
 				break;
-			case "t": mapobj.put(letter , 8);
+				case "t":mapobj.put(letter , 8);
 				break;
-			case "u": mapobj.put(letter , 8);
+				case "u": mapobj.put(letter , 8);
 				break;
-			case "v": mapobj.put(letter , 8);
+				case "v":mapobj.put(letter , 8);
 				break;
-			case "w": mapobj.put(letter , 9);
+				case "w":mapobj.put(letter , 9);
 				break;
-			case "x": mapobj.put(letter , 9);
+				case "x": mapobj.put(letter , 9);
 				break;
-			case "y": mapobj.put(letter , 9);
+				case "y":mapobj.put(letter , 9);
 				break;
-			case "z": mapobj.put(letter , 9);
+				case "z":mapobj.put(letter , 9);
 				break;
-			default:
+				default:
 			}
 		}
 	}
@@ -188,13 +188,13 @@ class T9 {
 	public Iterable<String> potentialWords(String t9Signature) {
 		// your code goes here
 		HashMap<String, TreeSet<String>> matchmap = new HashMap<>();
-		for (String key : tstobj.keys()) {
+		for(String key : tstobj.keys()) {
 			String[] keyletters = key.split("");
 			String pattern = "";
-			for (String keyletter : keyletters) {
+			for(String keyletter : keyletters) {
 				pattern = pattern + mapobj.get(keyletter);
 			}
-			if (matchmap.containsKey(pattern)) {
+			if(matchmap.containsKey(pattern)) {
 				TreeSet presentwords = matchmap.get(pattern);
 				presentwords.add(key);
 				matchmap.put(pattern, presentwords);
@@ -204,7 +204,7 @@ class T9 {
 				matchmap.put(pattern, presentwords);
 			}
 		}
-		if (matchmap.get(t9Signature) != null) {
+		if(matchmap.get(t9Signature) != null) {
 			return matchmap.get(t9Signature);
 		}
 		return new Bag<String>();
@@ -216,9 +216,9 @@ class T9 {
 		MaxPQ<Integer> pqobj = new MaxPQ<>();
 		HashMap<Integer, TreeSet<String>> suggestwords = new HashMap<>();
 		String[] topwords = new String[k];
-		for (String word : words) {
+		for(String word : words) {
 			pqobj.insert(tstobj.get(word));
-			if (suggestwords.containsKey(tstobj.get(word))) {
+			if(suggestwords.containsKey(tstobj.get(word))) {
 				TreeSet getwords = suggestwords.get(tstobj.get(word));
 				getwords.add(word);
 				suggestwords.put(tstobj.get(word), getwords);
@@ -230,18 +230,18 @@ class T9 {
 		}
 		TreeSet<String> resultwords = new TreeSet<String>();
 		int count = 0;
-		while (count != k) {
-			if (!pqobj.isEmpty()) {
-				int val = pqobj.delMax();
-				for (String result : suggestwords.get(val)) {
-					if (count == k) {
-						return resultwords;
-					}
-					resultwords.add(result);
-					count++;
-				}
+		while(count != k) {
+			if(pqobj.isEmpty()) {
+				return new TreeSet<String>();
 			}
-
+			int val = pqobj.delMax();
+			for(String result : suggestwords.get(val)) {
+				if(count == k) {
+					return resultwords;
+				}
+				resultwords.add(result);
+				count++;
+			}
 		}
 		return resultwords;
 	}
