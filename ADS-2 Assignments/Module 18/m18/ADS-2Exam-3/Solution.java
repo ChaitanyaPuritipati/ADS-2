@@ -229,19 +229,19 @@ class T9 {
 				suggestwords.put(tstobj.get(word), getwords);
 			}
 		}
-		TreeSet<String> resultwords = new TreeSet<String>();
+		Bag<String> resultwords = new Bag<String>();
 		int count = 0;
 		while(count != k) {
 			if(pqobj.isEmpty()) {
-				return new TreeSet<String>();
+				return resultwords;
 			}
 			int val = pqobj.delMax();
-			System.out.println(val);
+			// System.out.println(val);
 			for(String result : suggestwords.get(val)) {
 				if(count == k) {
 					return resultwords;
 				}
-				System.out.println(result);
+				// System.out.println(result);
 				resultwords.add(result);
 				count++;
 			}
