@@ -228,13 +228,9 @@ right
 words
 
 Your Output: 
-704is
-6within
-22words
-2rights
-87right
-42hello
-Exception in thread "main" java.lang.NullPointerException
+Exception in thread "main" java.util.NoSuchElementException: Priority queue underflow
+	at MaxPQ.delMax(MaxPQ.java:174)
+	at T9.getSuggestions(Solution.java:234)
 	at Solution.main(Solution.java:58)
 ----------------------------------------
 
@@ -287,8 +283,10 @@ paper
 keep
 
 Your Output: 
-5update
-Exception in thread "main" java.lang.NullPointerException
+Exception in thread "main" java.util.NoSuchElementException: Priority queue underflow
+	at MaxPQ.delMax(MaxPQ.java:174)
+	at T9.getSuggestions(Solution.java:234)
+	at T9.t9(Solution.java:248)
 	at Solution.main(Solution.java:71)
 ----------------------------------------
 

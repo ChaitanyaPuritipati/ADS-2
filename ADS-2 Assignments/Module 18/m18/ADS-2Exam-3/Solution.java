@@ -213,14 +213,33 @@ class T9 {
 	// return all possibilities(words), find top k with highest frequency.
 	public Iterable<String> getSuggestions(Iterable<String> words, int k) {
 		// your code goes here
-		// MaxPQ<Integer> pqobj = new MaxPQ<>();
+		MaxPQ<Integer> pqobj = new MaxPQ<>();
+		HashMap<Integer, TreeSet<String>> suggestwords = new HashMap<>();
+		String[] topwords = new String[k];
 		for(String word : words) {
-			System.out.println(tstobj.get(word) + word);
+			pqobj.insert(tstobj.get(word));
+			if(suggestwords.containsKey(tstobj.get(word))) {
+				TreeSet getwords = suggestwords.get(tstobj.get(word));
+				getwords.add(word);
+				suggestwords.put(tstobj.get(word), getwords);
+			} else {
+				TreeSet<String> getwords = new TreeSet<>();
+				getwords.add(word);
+				suggestwords.put(tstobj.get(word), getwords);
+			}
 		}
-		// for(int i = 0; i < k; i++) {
-		// 	System.out.println(pqobj.delMax());
-		// }
-		return null;
+		Bag<String> resultwords = new Bag<String>();
+		int count = 0;
+		while(count != k) {
+			int val = pqobj.delMax();
+			for(String result : suggestwords.get(val)) {
+				if(count == k) {
+					return resultwords;
+				}
+				resultwords.add(result);
+			}
+		}
+		return resultwords;
 	}
 
 	// final output
