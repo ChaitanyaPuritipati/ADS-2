@@ -236,12 +236,12 @@ class T9 {
 				return resultwords;
 			}
 			int val = pqobj.delMax();
-			// System.out.println(val);
+			System.out.println(val);
 			for(String result : suggestwords.get(val)) {
 				if(count == k) {
 					return resultwords;
 				}
-				// System.out.println(result);
+				System.out.println(result);
 				resultwords.add(result);
 				count++;
 			}
