@@ -217,7 +217,7 @@ class T9 {
 		HashMap<Integer, TreeSet<String>> suggestwords = new HashMap<>();
 		String[] topwords = new String[k];
 		for(String word : words) {
-			System.out.println(tstobj.get(word) + "frequencies");
+			// System.out.println(tstobj.get(word) + "frequencies");
 			pqobj.insert(tstobj.get(word));
 			if(suggestwords.containsKey(tstobj.get(word))) {
 				TreeSet getwords = suggestwords.get(tstobj.get(word));
@@ -241,6 +241,7 @@ class T9 {
 				if(count == k) {
 					return resultwords;
 				}
+				System.out.println(result);
 				resultwords.add(result);
 				count++;
 			}
