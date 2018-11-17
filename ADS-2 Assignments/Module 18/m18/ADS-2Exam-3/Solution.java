@@ -229,7 +229,7 @@ class T9 {
 				suggestwords.put(tstobj.get(word), getwords);
 			}
 		}
-		Bag<String> resultwords = new Bag<String>();
+		TreeSet<String> resultwords = new TreeSet<String>();
 		int count = 0;
 		while(count != k) {
 			if(pqobj.isEmpty()) {
